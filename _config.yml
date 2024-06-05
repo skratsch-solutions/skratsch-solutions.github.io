@@ -1,4 +1,6 @@
 baseurl: '/'
+domain: skratsch-solutions.github.io
+url: https://skratsch-solutions.github.io
 permalink: pretty
 title: 'Jekyll Serif'
 
