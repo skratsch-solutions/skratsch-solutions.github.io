@@ -2,7 +2,7 @@ baseurl: '/'
 domain: skratsch-solutions.github.io
 url: https://skratsch-solutions.github.io
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Skratsch Solutions'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
