@@ -2,6 +2,7 @@
     {
       "title": "Free Consultation",
       "description": "New clients receive an obligation-free consultation to discuss your needs.",
+      "url": "/contact",
       "image": {
         "url": "images/features/noun_branding_1885335.svg",
         "width": 80,
@@ -11,6 +12,7 @@
     {
       "title": "Managed IT Support",
       "description": "Focus on your core business while we handle the technology side of things",
+      "url": "/it-services",
       "image": {
         "url": "images/features/noun_3d modeling_1885342.svg",
         "width": 80,
@@ -20,6 +22,7 @@
     {
       "title": "Custom Software Solutions",
       "description": "Designed to elevate your business efficiency and drive growth.",
+      "url": "/software-services",
       "image": {
         "url": "images/features/noun_The Process_1885341.svg",
         "width": 80,

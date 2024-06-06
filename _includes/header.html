@@ -1,13 +1,19 @@
-<div class='header'>
+<!-- <div class='header'>
   <div class="container mx-auto sm:px-4">
     <div class="logo">
       <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" 
           alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
     </div>
-    <div class="logo-mobile">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}"
-          alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
     {% include main-menu.html %}
   </div>
-</div>
+</div> -->
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
+      <a href="{{ site.baseurl }}" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="{{ site.logo.desktop | relative_url }}" width="{{ site.logo.desktop_width }}" alt="{{ site.title }} Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+      </a>
+      {% include main-menu.html %}
+  </div>
+</nav>

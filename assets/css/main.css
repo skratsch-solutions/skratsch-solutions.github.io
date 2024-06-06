@@ -41,7 +41,7 @@
 }
 }
 
-/* @layer components {
+@layer components {
   .call {
     @apply relative flex-row flex-wrap overflow-hidden border-4 bg-white-offset w-full text-center z-2;
   }
@@ -67,7 +67,8 @@
   }
   .page-home {
   }
-  .page-services {
+  .page-service {
+    @apply text-[1.6rem] leading-[1.4] mb-[40px] font-[regular] text-[rgb(104,_104,_104)]
   }
   .page-post {
   }
@@ -353,4 +354,4 @@
 }
 
 @layer utilities {
-} */
+} 
