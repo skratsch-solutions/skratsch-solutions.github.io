@@ -4,13 +4,13 @@ bodyClass: "page-services"
 ---
 
 <div class="intro">
-    <div class="container">
-        <div class="row justify-content-start">
-            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+    <div class="container mx-auto sm:px-4">
+        <div class="flex flex-wrap justify-start">
+            <div class="order-2 w-full pl-4 pr-4 md:w-3/5 lg:w-1/2 md:order-1">
                 {{ content }}
             </div>
             {% if page.intro_image %}
-            <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+            <div class="relative order-1 w-full pl-4 pr-4 md:w-2/5 lg:w-1/2 md:order-2">
                 <img alt={{ page.title }}
                     class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
                     src="{{ page.intro_image | relative_url }}" />
@@ -20,10 +20,10 @@ bodyClass: "page-services"
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
-    <div class="row">
+<div class="container pt-6 pb-6 mx-auto sm:px-4">
+    <div class="flex flex-wrap ">
         {% for service in site.it-services %}
-        <div class="col-12 col-md-6 mb-3">
+        <div class="w-full pl-4 pr-4 mb-3 md:w-1/2">
             <div class="service service-summary">
                 <div class="service-content">
                     <h2 class="service-title">
@@ -37,10 +37,10 @@ bodyClass: "page-services"
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
-    <div class="row">
+<div class="container pt-6 pb-6 mx-auto sm:px-4">
+    <div class="flex flex-wrap ">
         {% for service in site.software-services %}
-        <div class="col-12 col-md-6 mb-3">
+        <div class="w-full pl-4 pr-4 mb-3 md:w-1/2">
             <div class="service service-summary">
                 <div class="service-content">
                     <h2 class="service-title">

@@ -4,13 +4,13 @@ layout: default
 bodyClass: "page-contact"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
+<div class="container pt-6 pb-6 mx-auto sm:px-4 pt-md-10 pb-md-10">
+    <div class="flex flex-wrap justify-start">
+        <div class="w-full pl-4 pr-4 md:w-2/3">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
                 {% include call.html show_button=false %}
-                <div class="content mt-4">{{content}}</div>
+                <div class="mt-4 content">{{content}}</div>
             </div>
         </div>
     </div>

@@ -50,9 +50,6 @@ defaults:
     values:
       layout: "team"
 
-sass:
-  style: compressed # possible values: nested expanded compact compressed
-
 plugins:
   - jekyll-environment-variables
 

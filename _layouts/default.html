@@ -10,9 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Self host font -->
-    <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
-    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet">
 
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />{% endif %}
@@ -35,7 +33,7 @@
 
 <body class='page {{layout.bodyClass}}'>
     {% include main-menu-mobile.html %}
-    <div id="wrapper" class="wrapper">
+    <div id="wrapper" class="container mx-auto sm:px-4">
         {% include header.html headerClass='header-extra' %}
         {{content}}
     </div>
