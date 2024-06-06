@@ -1,6 +1,6 @@
 ---
 title: "IT Staff Augmentation"
-image: ""
+image: "/images/icons/color/reshot-icon-programmer-9HXN25LZVG.svg"
 date: 2018-11-18T12:33:46+10:00
 weight: 5
 ---

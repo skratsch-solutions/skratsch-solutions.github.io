@@ -1,6 +1,6 @@
 ---
 title: "Network Management"
-image: ""
+image: "/images/icons/filled/reshot-icon-network-CTW4Z352FQ.svg"
 date: 2018-11-18T12:33:46+10:00
 weight: 8
 ---

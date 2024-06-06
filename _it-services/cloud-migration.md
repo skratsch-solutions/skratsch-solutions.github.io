@@ -1,6 +1,6 @@
 ---
 title: "Cloud Migration"
-image: ""
+image: "/images/icons/color/reshot-icon-workflow-H39DU5SNZP.svg"
 date: 2018-11-18T12:33:46+10:00
 weight: 3
 ---

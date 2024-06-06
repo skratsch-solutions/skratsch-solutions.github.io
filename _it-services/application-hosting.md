@@ -1,6 +1,6 @@
 ---
 title: "Application Hosting"
-image: ""
+image: "/images/icons/color/reshot-icon-web-server-6ZUDMV5Y4J.svg"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
