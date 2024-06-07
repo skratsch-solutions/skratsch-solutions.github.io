@@ -1,13 +1,13 @@
-<div class="sub-footer">
+<div class="bg-primary-dark text-white-offset pt-[15px] pb-[15px];">
     <div class="container mx-auto sm:px-4">
       <div class="flex flex-wrap ">
         <div class="w-full">
-          <div class="sub-footer-inner">
+          <div class="flex flex-col justify-between">
             {% if site.data.social %}
               {% include social.html %}
             {% endif %}
             {% if site.data.seo.copyright_text %}
-            <div class="copyright">{{ site.data.seo.copyright_text }}</div>
+            <div class="mt-[10px] text-[14px]">{{ site.data.seo.copyright_text }}</div>
             {% endif %}
           </div>
         </div>

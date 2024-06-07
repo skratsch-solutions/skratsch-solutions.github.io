@@ -9,7 +9,7 @@ module.exports = {
     './*.html',
     './*.md'
   ],
-  darkMode: false,
+  darkMode: true,
   theme: {
     colors: {
       'primary': '#e5261f',
@@ -29,6 +29,7 @@ module.exports = {
   variants: {},
   plugins: [
     require('@tailwindcss/typography'),
+    require('flowbite-typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/container-queries'),

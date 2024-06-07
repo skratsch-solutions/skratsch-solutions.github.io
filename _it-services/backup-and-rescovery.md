@@ -1,6 +1,6 @@
 ---
 title: "Backup and Recovery Services"
-image: ""
+image: "/images/icons/outline/backup-and-recovery-services.png"
 date: 2018-11-18T12:33:46+10:00
 weight: 2
 ---

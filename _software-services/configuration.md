@@ -1,6 +1,7 @@
 ---
 title: "Software Optimization and Configuration"
 date: 2018-11-18T12:33:46+10:00
+image: "/images/icons/outline/software-optimization-services.png"
 weight: 100
 ---
 

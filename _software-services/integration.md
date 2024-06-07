@@ -1,6 +1,7 @@
 ---
 title: "Seamless Software Integration"
 date: 2018-12-28T15:14:39+10:00
+image: "/images/icons/outline/software-integration-services.png"
 weight: 400
 ---
 

@@ -41,7 +41,7 @@
 }
 }
 
-@layer components {
+@layer components { 
   .call {
     @apply relative flex-row flex-wrap overflow-hidden border-4 bg-white-offset w-full text-center z-2;
   }

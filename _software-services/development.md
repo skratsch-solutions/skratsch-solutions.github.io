@@ -1,6 +1,7 @@
 ---
 title: "Custom Software Development"
 date: 2019-05-18T12:33:46+10:00
+image: "/images/icons/outline/software-development-services.png"
 weight: 700
 ---
 
