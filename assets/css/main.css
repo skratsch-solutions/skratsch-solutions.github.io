@@ -1,19 +1,19 @@
+:root {
+    --color-primary: "#3A64B2";
+    --color-primary-dark: #C59B4D;
+    --color-secondary: #6098FF;
+    --color-black: "#2f2f41";
+    --color-white': '#ffffff';
+    --color-white-offset': "#fff6f8";
+    --color-steel': '#5c5a5a';
+    --font-family-base': "Open Sans", sans-serif;
+  }
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@layer base {
-  :root {
-    --color-primary: "#e5261f";
-    --color-primary-dark: #a01b16;
-    --color-secondary: #f88379;
-    --color-black: "#2f2f41";
-    --color-white': '#ffffff';
-        --color-white-offset': "#fff6f8";
-    --color-steel': '#5c5a5a';
-        --font-family-base': "Open Sans",
-      sans-serif;
-  
+/* @layer base
   h1 {
     @apply text-[42px] font-bold leading-[1.2];
   }
@@ -39,9 +39,8 @@
     @apply darken(bg-color-primary, 10%) text-color-white;
   }
 }
-}
 
-@layer components { 
+@layer components {
   .call {
     @apply relative flex-row flex-wrap overflow-hidden border-4 bg-white-offset w-full text-center z-2;
   }
@@ -354,4 +353,4 @@
 }
 
 @layer utilities {
-} 
+} */

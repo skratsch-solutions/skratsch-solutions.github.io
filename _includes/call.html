@@ -1,10 +1,10 @@
-<div class="relative flex-row flex-wrap w-11/12 overflow-hidden border-4 border-steel bg-primary">
-  <div class="border flex-[1 0 auto] p-4 ">
+<div class="relative mt-4 flex-row flex-wrap w-11/12 overflow-hidden border-4 rounded-2xl border-primary bg-gradient-to-b from-secondary to-primary">
+  <div class="flex-[1 0 auto] p-4  text-white">
     {% if site.data.contact.phone %}
-    <div class="mb-1 border"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+    <div class="mb-1 text-black"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
     {% if site.data.contact.email %}
-    <div class="border text-color-black"><strong>Email: </strong>
+    <div class="text-black"><strong>Email: </strong>
       <a href="mailto:{{ .site.data.contact.email }}">
         {{ site.data.contact.email }}
       </a>
@@ -12,9 +12,9 @@
     {% endif %}
   </div>
   {% if include.show_button %}
-  <div class="flex flex-wrap justify-start p-4 mx-auto border">
+  <div class="flex flex-wrap justify-start p-4 mx-auto">
     <a href="{{ site.data.contact.contact_button_link }}"
-      class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary hover:border-secondary border border-primary focus:ring-4 focus:outline-none focus:ring-secondary">
       Contact Us
     </a>
   </div>

@@ -1,5 +1,7 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-  purge: [
+  content: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
@@ -7,17 +9,17 @@ module.exports = {
     './_software-services/*.md',
     './team/*.md',
     './*.html',
-    './*.md'
+    './*.md',
   ],
   darkMode: true,
   theme: {
     colors: {
-      'primary': '#e5261f',
-      'primary-dark': '#a01b16',
-      'secondary': '#f88379',
-      'black': '#2f2f41',
-      'white': '#ffffff',
-      'white-offset': '#fff6f8',
+      'primary': '#3A64B2',
+      'primary-dark': '#C59B4D',
+      'secondary': '#6098FF',
+      // // 'black': '#2f2f41',
+      // // 'white': '#ffffff',
+      'white-offset': '#e8e8e8',
       'steel': '#5c5a5a',
     },
     fontFamily: {
