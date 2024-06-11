@@ -36,22 +36,14 @@
 
                 <div class="col-span-3">
                     <p class="font-medium text-primary">Company</p>
+                    {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
                     <ul class="mt-6 space-y-4 text-sm">
+                        {% for item in footermenu %}
                         <li>
-                            <a href="/about" class="text-gray-700 transition hover:opacity-75"> About </a>
+                            <a href="{{ item.url }}" class="text-gray-700 transition hover:opacity-75"> {{ item.name }}
+                            </a>
                         </li>
-                        <li>
-                            <a href="/posts" class="text-gray-700 transition hover:opacity-75"> Blog </a>
-                        </li>
-                        <li>
-                            <a href="/contact" class="text-gray-700 transition hover:opacity-75"> Contact </a>
-                        </li>
-                        <li>
-                            <a href="/faqs" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
-                        </li>
-                        <li>
-                            <a href="/chat" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
 
@@ -78,38 +70,6 @@
                         {% endfor %}
                     </ul>
                 </div>
-
-                <!-- <div class="col-span-1 sm:col-span-1">
-                    <p class="font-medium text-gray-900">Helpful Links</p>
-
-                    <ul class="mt-6 space-y-4 text-sm">
-                        <li>
-                            <a href="#" class="text-gray-700 transition hover:opacity-75"> Contact </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-span-1 sm:col-span-1">
-                    <p class="font-medium text-gray-900">Downloads</p>
-
-                    <ul class="mt-6 space-y-4 text-sm">
-                        <li>
-                            <a href="#" class="text-gray-700 transition hover:opacity-75"> Marketing Calendar </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="text-gray-700 transition hover:opacity-75"> SEO Infographics </a>
-                        </li>
-                    </ul>
-                </div> -->
                 <div class="col-span-1 sm:col-span-1"></div>
 
                 <ul class="flex justify-start col-span-10 gap-6 lg:col-span-5 lg:justify-end">
