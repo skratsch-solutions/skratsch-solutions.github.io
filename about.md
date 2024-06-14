@@ -3,14 +3,9 @@ title: About Skratsch Solutions
 layout: page
 description: About
 bodyClass: page-about
+image: "/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg"
+excerpt: "Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec."
 ---
-
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
-
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
-
 ## Our Promise
 
 Like a doctor or an attorney, our job is to look out for your best interests. Sure, we have our favorite brands, but we don't have vendor quotas to meet.

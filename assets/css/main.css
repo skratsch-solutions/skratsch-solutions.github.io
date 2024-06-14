@@ -15,43 +15,24 @@
 
 @layer base {
   h1 {
-    font-size: 64px;
-    font-weight: 700;
+    @apply text-2xl font-semibold dark:text-white-offset;
   }
   h2 {
-    font-size: 48px;
-    font-weight: 700;
+    @apply text-xl font-semibold dark:text-white-offset;
   }
   h3 {
-    font-size: 32px;
-    font-weight: 700;
+    @apply text-lg font-semibold dark:text-white-offset;
   }
   h4 {
-    font-size: 28px;
-    font-weight: 700;
+    @apply text-base font-semibold dark:text-white-offset;
   }
   h5 {
-    font-size: 24px;
-    font-weight: 700;
+    @apply text-sm font-semibold dark:text-white-offset;
   }
   h6 {
-    font-size: 20px;
-    font-weight: 700;
+    @apply text-xs font-semibold dark:text-white-offset;
   }
-  /* your custom styles here */
-  /* prose {
-    @apply text-base text-steel dark:text-white-offset;
-    prose-thead {
-      @apply border dark:border-white-offset bg-primary dark:bg-secondary text-white-offset dark:text-white-offset;
-    }
-    prose-tr {
-      @apply border-b border-steel dark:border-white-offset;
-    }
-  } */
 
-  /* table {
-    @apply: table-auto m-auto border-4;
-  } */
   .prose {
     & thead {
       & tr {
@@ -70,6 +51,9 @@
       }
     }
     & p {
+      @apply text-base text-steel dark:text-white-offset;
+    }
+    & li {
       @apply text-base text-steel dark:text-white-offset;
     }
   }

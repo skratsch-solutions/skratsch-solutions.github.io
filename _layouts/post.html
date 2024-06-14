@@ -4,9 +4,8 @@ bodyClass: "page-post"
 ---
 
 <article class="mt-10 prose prose-lg prose-slate max-w-none">
-
     <div class="mb-4 md:mb-0 w-full mx-auto relative">
-        <div class="px-4 lg:px-0">
+        <div class="px-0">
             <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
                 {{ page.title}}
             </h2>
@@ -19,9 +18,8 @@ bodyClass: "page-post"
         <!-- {{content}} -->
         <div class="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-3/4">
             <p class="pb-6">{{content}}</p>
-            <p class="pb-6 border-top border-bottom border-steel">Tags: {{ page.tags }}</p>
+            <p class="pb-6 border-top border-bottom border-steel">Tags: {{ page.categories }}</p>
         </div>
         {% include blog-author.html %}
     </div>
 </article>
-<!-- main ends here -->
