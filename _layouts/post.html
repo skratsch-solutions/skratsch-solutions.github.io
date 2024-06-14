@@ -1,15 +1,27 @@
 ---
-layout: blog
+layout: default
 bodyClass: "page-post"
 ---
 
-<div class="container pt-6 pb-6 mx-auto sm:px-4 pt-md-10 pb-md-10">
-    <div class="flex flex-wrap justify-start">
-        <div class="w-full pl-4 pr-4 md:w-2/3">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
-            </div>
+<article class="mt-10 prose prose-lg prose-slate max-w-none">
+
+    <div class="mb-4 md:mb-0 w-full mx-auto relative">
+        <div class="px-4 lg:px-0">
+            <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
+                {{ page.title}}
+            </h2>
         </div>
+        <img src="{{ page.image }}" alt="{{ page.title }} Hero" loading="lazy" width="1000" height="667"
+            class="w-full object-cover lg:rounded" style="height: 28em;" />
     </div>
-</div>
+
+    <div class="flex flex-ro space-x-12">
+        <!-- {{content}} -->
+        <div class="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-3/4">
+            <p class="pb-6">{{content}}</p>
+            <p class="pb-6 border-top border-bottom border-steel">Tags: {{ page.tags }}</p>
+        </div>
+        {% include blog-author.html %}
+    </div>
+</article>
+<!-- main ends here -->

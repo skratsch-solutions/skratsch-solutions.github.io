@@ -12,11 +12,12 @@
     {
         "name": "Facebook",
         "link": "https://www.facebook.com/skratschsolutions",
-        "image": "/images/social/facebook.svg"
+        "image": "/images/social/facebook2.svg",
+        "hoverClass": "absolute top-full left-0 w-full h-full rounded-full bg-blue-500 z-0 transition-all duration-500 group-hover:top-0"
     },
     {
         "name": "Email",
-        "link": "mailto:info@skratsch.com ",
+        "link": "mailto:info@skratsch.com",
         "image": "/images/social/email.svg"
     }  
   ]

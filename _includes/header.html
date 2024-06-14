@@ -1,20 +1,10 @@
-<!-- <div class='header'>
-  <div class="container mx-auto sm:px-4">
-    <div class="logo">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" 
-          alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
-    </div>
-    {% include main-menu.html %}
-  </div>
-</div> -->
-
-<div class="bg-white dark:bg-gray-900">
+<div class="dark:bg-black">
   <header>
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
       <a href="{{ site.baseurl }}" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="{{ site.logo.desktop | relative_url }}" width="{{ site.logo.desktop_width }}"
-          alt="{{ site.title }} Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+        <svg  class="w-32 m-auto fill-steel dark:fill-white" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 796 305" fill="currentColor">
+          {{ site.logo.desktop-code }}
+        </svg>  
       </a>
       {% include main-menu.html %}
     </div>

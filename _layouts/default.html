@@ -12,7 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />{% endif %}
     {% if page.meta_title %}
@@ -29,10 +32,10 @@
     <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />{% endif %}
     {% if site.data.seo.meta_twitter_creator %}
     <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />{% endif %}
-
+    <script type="text/javascript" src="{{ '/assets/js/toggleDark.js' | relative_url }}"></script>
 </head>
 
-<body class='page {{layout.bodyClass}}'>
+<body class='page {{layout.bodyClass}} dark:bg-black dark:text-white-offset' onload="checkTheme();">
     <div id="wrapper" class="container mx-auto sm:px-4">
         {% include header.html headerClass='header-extra' %}
         {{content}}

@@ -1,4 +1,4 @@
-<div id="mega-menu" class="items-center justify-between w-auto flex order-2">
+<div id="mega-menu" class="items-center justify-between w-auto flex order-2 align-middle">
   {% assign mainmenu = site.data.menus.main | sort: 'weight' %}
   <ul class="flex flex-row mt-4 font-medium space-x-8">
     {% for item in mainmenu %}
@@ -8,4 +8,5 @@
     </li>
     {% endfor %}
   </ul>
+  <button id="toggle" onclick="toggleDark();" class="fa -mb-4 ml-8 cursor-pointer align-middle text-steel"></button>
 </div>

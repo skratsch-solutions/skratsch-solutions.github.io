@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Self host font -->
-    <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
-    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-
+    <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />{% endif %}
     {% if page.meta_title %}
@@ -34,13 +36,12 @@
 </head>
 
 <body class='page {{layout.bodyClass}}'>
-    {% include main-menu-mobile.html %}
     <div id="wrapper" class="container mx-auto sm:px-4">
         {% include header.html headerClass='header-extra' %}
         {{content}}
     </div>
     {% include footer.html %}
-    {% include sub-footer.html %}
+    <!-- {% include sub-footer.html %} -->
     <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
     {% include google-analytics.html %}
 </body>

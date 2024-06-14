@@ -1,6 +1,8 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  experimental: {
+  },
   content: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
@@ -10,15 +12,16 @@ module.exports = {
     './team/*.md',
     './*.html',
     './*.md',
+    './*.svg',
   ],
-  darkMode: true,
+  darkMode: ['selector', '[data-theme="dark"]'],
   theme: {
     colors: {
       'primary': '#3A64B2',
       'primary-dark': '#C59B4D',
       'secondary': '#6098FF',
-      // // 'black': '#2f2f41',
-      // // 'white': '#ffffff',
+      'black': '#2f2f41',
+      'white': '#ffffff',
       'white-offset': '#e8e8e8',
       'steel': '#5c5a5a',
     },
