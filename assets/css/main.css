@@ -1,14 +1,95 @@
 :root {
-    --color-primary: "#3A64B2";
-    --color-primary-dark: #C59B4D;
-    --color-secondary: #6098FF;
-    --color-black: "#2f2f41";
-    --color-white': '#ffffff';
+  --color-primary: "#3A64B2";
+  --color-primary-dark: #c59b4d;
+  --color-secondary: #6098ff;
+  --color-black: "#2f2f41";
+  --color-white': '#ffffff';
     --color-white-offset': "#fff6f8";
-    --color-steel': '#5c5a5a';
+  --color-steel': '#5c5a5a';
     --font-family-base': "Open Sans", sans-serif;
-  }
+}
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer base {
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  /* your custom styles here */
+  /* prose {
+    @apply text-base text-steel dark:text-white-offset;
+    prose-thead {
+      @apply border dark:border-white-offset bg-primary dark:bg-secondary text-white-offset dark:text-white-offset;
+    }
+    prose-tr {
+      @apply border-b border-steel dark:border-white-offset;
+    }
+  } */
+
+  /* table {
+    @apply: table-auto m-auto border-4;
+  } */
+  .prose {
+    & thead {
+      & tr {
+        @apply p-2  bg-primary border-b text-left dark:bg-secondary;
+        & th {
+          @apply p-2 text-white-offset dark:text-white;
+        }
+      }
+    }
+    & tbody {
+      & tr {
+        @apply pl-2 odd:bg-white-offset odd:dark:bg-white-offset even:bg-steel even:dark:bg-primary odd:text-steel odd:dark:text-steel even:text-white-offset even:dark:text-white-offset;
+        & td {
+          @apply p-2;
+        }
+      }
+    }
+    & p {
+      @apply text-base text-steel dark:text-white-offset;
+    }
+  }
+}
+/* thead {
+    th {
+      @apply p-2  text-base font-bold;
+    }
+  } */
+/* tbody {
+    tr {
+      @apply odd:bg-white-offset odd:text-steel dark:odd:bg-steel dark:odd:text-white-offset even:bg-white even:text-steel dark:even:bg-white-offset dark:even:text-steel;
+    }
+  } */
+/*}*/
+
+@layer utilities {
+  /* your utility classes here */
+}
+
+@layer components {
+  /* your components classes here */
+}

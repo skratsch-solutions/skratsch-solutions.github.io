@@ -29,7 +29,9 @@ module.exports = {
       sans: ['Helvetica', 'Arial', 'sans-serif', '-apple-system'],
       serif: ['Merriweather', 'serif'],
     },
-    extend: {},
+    extend: {
+
+    },
   },
   variants: {},
   plugins: [

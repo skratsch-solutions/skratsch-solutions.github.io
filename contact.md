@@ -4,7 +4,7 @@ layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+At Skrtasch Solutions, we like to be available when you need us. Our hours can be found below. After hours or emergency work is available. Contact us for rates
 
 | Day       | Opening Hours   |
 | --------- | --------------- |

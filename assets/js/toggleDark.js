@@ -35,13 +35,14 @@ function checkTheme() {
     if (currentTheme === 'dark') {
         //document.body.classList.add('dark');
         localStorage.setItem('theme',currentTheme)
+        document.body.classList.add('dark');
         toggle.classList.remove('fa-moon');
         toggle.classList.add('fa-sun');
     } else {
         //document.body.classList.remove('dark');
         localStorage.setItem('theme',currentTheme)
+        document.body.classList.remove('dark');
         toggle.classList.remove('fa-sun');
         toggle.classList.add('fa-moon');
-        //console.log("light");
     }
 }
