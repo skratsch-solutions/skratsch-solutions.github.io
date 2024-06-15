@@ -2,11 +2,11 @@
 title: IT Services
 layout: services
 description: IT Services
-intro_image: "images/illustrations/reading.svg"
+intro_image: "/images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+## Trust Skratsch For Your IT Needs
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+At Skratsch Solutions, we specialize in providing comprehensive IT solutions tailored to meet your business needs. Whether you're looking for network management, cloud migration, or technology assessment services, we've got you covered. Our commitment to excellence ensures that your IT infrastructure remains robust, secure, and future-ready. Explore our offerings and let us empower your business through cutting-edge technology.

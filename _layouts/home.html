@@ -10,7 +10,7 @@ bodyClass: "page-home"
             </h1>
             <h2 class="mt-6 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{ page.excerpt}}
             </h2>
-            <div class="mt-6 text-lg leading-8 text-steel dark:text-white-offset">
+            <div class="prose mt-6 text-lg leading-8 text-steel dark:text-white-offset">
                 {{ content }}
                 {% if page.show_call_box %}
                 {% include call.html show_button=true %}
@@ -83,7 +83,7 @@ bodyClass: "page-home"
                 {% endfor %}
             </div>
             <div class="flex flex-wrap justify-center m-auto">
-                <a href="{{ " it-services" | relative_url }}"
+                <a href="{{ "it-services" | relative_url }}"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-secondary dark:focus:ring-primary">
                     View All IT Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ bodyClass: "page-home"
                 {% endfor %}
             </div>
             <div class="flex flex-wrap justify-center m-auto">
-                <a href="{{ " software-services" | relative_url }}"
+                <a href="{{ "software-services" | relative_url }}"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-secondary dark:focus:ring-primary">
                     View All Software Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"

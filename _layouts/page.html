@@ -2,30 +2,34 @@
 layout: default
 bodyClass: "page-basic"
 ---
-<article class="mt-10 prose max-w-none">
-    <div class="mb-4 md:mb-0 w-full mx-auto relative">
-        <div class="px-6">
-            <h1 class=" text-steel dark:text-white-offset">
-                {{ page.title }}
-            </h1>
-            {% if page.excerpt %}
-            <h3 class=" text-steel dark:text-white-offset">
-                {{ page.excerpt }}
-            </h3>
-            {% endif %}
-        </div>
-        {% if page.image %}
-        <img src="{{ page.image }}" alt="{{ page.title }} Hero" loading="lazy"
-            class="px-6 w-full object-cover lg:rounded h-[28em]" />
-        {% endif %}
-    </div>
+<div class="relative w-full pt-8 px-28 isolate">
+    <div class="grid grid-cols-5 w-auto pt-3">
+        <article class="mt-10 prose max-w-none col-span-5">
+            <div class="mb-4 md:mb-0 w-full mx-auto relative">
+                <div class="px-6">
+                    <h1 class=" text-steel dark:text-white-offset">
+                        {{ page.title }}
+                    </h1>
+                    {% if page.excerpt %}
+                    <h3 class=" text-steel dark:text-white-offset">
+                        {{ page.excerpt }}
+                    </h3>
+                    {% endif %}
+                </div>
+                {% if page.image %}
+                <img src="{{ page.image }}" alt="{{ page.title }} Hero" loading="lazy"
+                    class="px-6 w-full object-cover lg:rounded h-[28em]" />
+                {% endif %}
+            </div>
 
-    <div class="flex flex-row space-x-12">
-        <div class="px-6 text-steel w-full">
-            <p>{{content}}</p>
-            {% if page.show_contact_info %}
-            {% include contact-info.html %}
-            {% endif %}
-        </div>
+            <div class="flex flex-row space-x-12">
+                <div class="px-6 text-steel w-full">
+                    <p>{{content}}</p>
+                    {% if page.show_contact_info %}
+                    {% include contact-info.html %}
+                    {% endif %}
+                </div>
+            </div>
+        </article>
     </div>
-</article>
+</div>

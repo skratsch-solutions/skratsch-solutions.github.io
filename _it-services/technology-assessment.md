@@ -1,6 +1,6 @@
 ---
 title: "Technology Assessment"
-image: ""
+image: "/images/icons/outline/technology-assessment.png"
 date: 2018-11-18T12:33:46+10:00
 weight: 9
 ---
