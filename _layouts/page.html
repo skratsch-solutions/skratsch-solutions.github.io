@@ -2,24 +2,25 @@
 layout: default
 bodyClass: "page-basic"
 ---
+
 <div class="relative w-full pt-8 px-28 isolate">
     <div class="grid grid-cols-5 w-auto pt-3">
         <article class="mt-10 prose max-w-none col-span-5">
-            <div class="mb-4 md:mb-0 w-full mx-auto relative">
-                <div class="px-6">
-                    <h1 class=" text-steel dark:text-white-offset">
-                        {{ page.title }}
-                    </h1>
-                    {% if page.excerpt %}
-                    <h3 class=" text-steel dark:text-white-offset">
-                        {{ page.excerpt }}
-                    </h3>
-                    {% endif %}
+            <div
+                class="mb-4 md:mb-0 w-full h-[28em] mx-auto relative {{page.hero-class}} bg-cover bg-center flex justify-center items-center">
+                <div
+                    class="flex flex-col h-full w-full justify-center items-center backdrop-blur-sm backdrop-filter backdrop-opacity-90">
+                    <div class="flex flex-col w-full h-auto align-middle bg-[#ffffff] dark:bg-steel">
+                        <h1 class="text-center py-4 align-middle">
+                            {{ page.title }}
+                        </h1>
+                        {% if page.excerpt %}
+                        <h3 class="text-center align-middle pb-4 -mt-4">
+                            {{ page.excerpt }}
+                        </h3>
+                        {% endif %}
+                    </div>
                 </div>
-                {% if page.image %}
-                <img src="{{ page.image }}" alt="{{ page.title }} Hero" loading="lazy"
-                    class="px-6 w-full object-cover lg:rounded h-[28em]" />
-                {% endif %}
             </div>
 
             <div class="flex flex-row space-x-12">
@@ -30,6 +31,16 @@ bodyClass: "page-basic"
                     {% endif %}
                 </div>
             </div>
+            {% if page.date %}
+            <td>
+                <p>Last updated: {{ page.date | date: "%B %-d, %Y" }}</p>
+            </td>
+            {% endif %}
+            {% if page.attribution %}
+            <td class="hidden">
+                <p class="hidden">{{ page.attribution }}</p>
+            </td>
+            {% endif %}
         </article>
     </div>
 </div>

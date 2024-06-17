@@ -1,20 +1,22 @@
 ---
-title: "Email Management"
+attribution:
+date: 2024-06-17T11:36:00-05:00
+excerpt: "Need email for your business? Or do you need help managing it? We can help!"
+hero-class: "hero-it-email-management"
 image: "/images/icons/outline/email-management-services.png"
-date: 2018-11-18T12:33:46+10:00
+layout: page
+parent-name: "IT Services"
+parent-url: "/it-services"
+title: "Email Management"
 weight: 4
 ---
-
-Need email for your business? Or do you need help managing it? We can help!
-
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
 ## Business Email Setup and Email Management
 
 We will help you:
 
-* Pick the right email system
-* Properly configure the security settings
-* Migrate emails from your existing systems
-* Create distribution groups
-* Provide resources and support to get email setup on employee computers and devices
+- Pick the right email system
+- Properly configure the security settings
+- Migrate emails from your existing systems
+- Create distribution groups
+- Provide resources and support to get email setup on employee computers and devices

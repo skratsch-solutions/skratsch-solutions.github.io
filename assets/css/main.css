@@ -15,22 +15,22 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-semibold tracking-tight text-steel dark:text-white;
+    @apply text-3xl font-semibold tracking-tight text-primary dark:text-white;
   }
   h2 {
-    @apply text-xl font-semibold text-steel dark:text-white tracking-light;
+    @apply text-xl font-semibold text-primary dark:text-white-offset tracking-tight;
   }
   h3 {
-    @apply text-lg font-semibold text-steel dark:text-white tracking-light;
+    @apply text-lg font-semibold text-primary dark:text-white-offset tracking-tight;
   }
   h4 {
-    @apply text-base font-semibold text-steel dark:text-white tracking-light;
+    @apply text-base font-semibold text-primary dark:text-white-offset tracking-tight;
   }
   h5 {
-    @apply text-sm font-semibold text-steel dark:text-white tracking-light;
+    @apply text-sm font-semibold text-primary dark:text-white-offset tracking-tight;
   }
   h6 {
-    @apply text-xs font-semibold text-steel dark:text-white tracking-light;
+    @apply text-xs font-semibold text-primary dark:text-white-offset tracking-tight;
   }
 
   .prose {
@@ -56,19 +56,90 @@
     & li {
       @apply text-base text-steel dark:text-white-offset;
     }
+    & h1{
+      @apply text-3xl font-semibold tracking-tight text-primary dark:text-white;
+    }
+    & h2{
+      @apply text-xl font-semibold text-primary dark:text-white tracking-tight;
+    }
+    & h3{
+      @apply text-lg font-semibold text-primary dark:text-white tracking-tight;
+    }
+    & h4{
+      @apply text-base font-semibold text-primary dark:text-white tracking-tight;
+    }
+    & h5{
+      @apply text-sm font-semibold text-primary dark:text-white tracking-tight;
+    }
+    & h6{
+      @apply text-xs font-semibold text-primary dark:text-white tracking-tight;
+    }
+    & a{
+      @apply text-primary dark:text-white no-underline;
+    }
+    & b,strong{
+      @apply font-semibold text-steel  dark:text-white;
+    
+    }
+  }
+  .hero-it-application-hosting{
+    @apply bg-[url('/images/hero/application-hosting-hero.png')];
+  }
+  .hero-it-backup-recovery{
+    @apply bg-[url('/images/hero/backup-and-recovery-services-hero.png')];
+  }
+  .hero-it-cloud-migration{
+    @apply bg-[url('/images/hero/cloud-migration-hero.png')];
+  }
+  .hero-it-email-management{
+    @apply bg-[url('/images/hero/email-management-services-hero.png')];
+  }
+  .hero-it-staff-augmentation{
+    @apply bg-[url('/images/hero/it-staff-augmentation-hero.png')];
+  }
+  .hero-it-support{
+    @apply bg-[url('/images/hero/it-support-services-hero.png')];
+  }
+  .hero-it-microsoft-365{
+    @apply bg-[url('/images/hero/microsoft-365-services-hero.png')];
+  }
+  .hero-it-network-management{
+    @apply bg-[url('/images/hero/network-management-services-hero.png')];
+  }
+  .hero-it-technology-assessment{
+    @apply bg-[url('/images/hero/technology-assessment-services-hero.png')];
+  }
+  .hero-software-configuration{
+    @apply bg-[url('/images/hero/software-configuration-services-hero.png')];
+  }
+  .hero-software-customization{
+    @apply bg-[url('/images/hero/software-customization-services-hero.png')];
+  }
+  .hero-software-development{
+    @apply bg-[url('/images/hero/software-development-services-hero.png')];
+  }
+  .hero-software-integration{
+    @apply bg-[url('/images/hero/software-integration-services-hero.png')];
+  }
+  .hero-cookie-policy{
+    @apply bg-[url('/images/hero/cookie-policy-hero.png')];
+  }
+  .hero-privacy-policy{
+    @apply bg-[url('/images/hero/privacy-policy-hero.png')];
+  }
+  .hero-terms-conditions{
+    @apply bg-[url('/images/hero/terms-conditions-hero.png')];
+  }
+  .hero-contact-us{
+    @apply bg-[url('/images/hero/contact-us-hero.png')];
+  }
+  .hero-about-us{
+    @apply bg-[url('/images/hero/about-us-hero.png')];
+  }
+  .hero-blog{
+    @apply bg-[url('/images/hero/blog-hero.png')];
   }
 }
-/* thead {
-    th {
-      @apply p-2  text-base font-bold;
-    }
-  } */
-/* tbody {
-    tr {
-      @apply odd:bg-white-offset odd:text-steel dark:odd:bg-steel dark:odd:text-white-offset even:bg-white even:text-steel dark:even:bg-white-offset dark:even:text-steel;
-    }
-  } */
-/*}*/
 
 @layer utilities {
   /* your utility classes here */

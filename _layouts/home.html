@@ -6,7 +6,7 @@ bodyClass: "page-home"
 <div class="relative w-screen px-6 pt-8 isolate lg:px-8">
     <div class="grid grid-cols-5 w-auto pt-3 ml-28 mr-28">
         <div class="col-span-3">
-            <h1 class="text-4xl font-bold tracking-tight text-steel dark:text-white">Welcome to {{ site.title }}
+            <h1 class="text-4xl font-semibold tracking-tight text-steel dark:text-white">Welcome to {{ site.title }}
             </h1>
             <h2 class="mt-6 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{ page.excerpt}}
             </h2>
@@ -39,7 +39,7 @@ bodyClass: "page-home"
                             {{feature.image.code}}
                         </svg>
                     </svg>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">
                         {{feature.title}}
                     </h5>
                 </a>
@@ -73,7 +73,7 @@ bodyClass: "page-home"
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{
                             service.title }}
                         </h5>
                         <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
@@ -109,7 +109,7 @@ bodyClass: "page-home"
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{
                             service.title }}
                         </h5>
                         <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |

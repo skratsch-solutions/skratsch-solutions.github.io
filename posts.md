@@ -2,11 +2,8 @@
 title: Skratsch Happenings
 layout: posts
 description: Skratsch Blog
-intro_image: "images/illustrations/reading.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+permalink: "/posts/"
+hero-class: "hero-blog"
 ---
 
-# A blog that grows with your business
-
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+## A blog that grows with your business
