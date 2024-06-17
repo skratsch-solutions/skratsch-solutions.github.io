@@ -8,6 +8,8 @@ categories:
     - powerbi
 featured: false
 draft: true
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Azure DevOps is a powerful platform that allows teams to plan smarter, collaborate better, and ship faster. One of its many uses is in the deployment of PowerBI reports. This blog post will guide you through the process of using Azure DevOps to build and deploy PowerBI reports.

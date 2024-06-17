@@ -2927,6 +2927,10 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   height: 100%;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .w-1\/3 {
   width: 33.333333%;
 }
@@ -3233,6 +3237,11 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-white-offset {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 232 232 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -3892,6 +3901,11 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
 .dark\:bg-steel:where([data-theme="dark"], [data-theme="dark"] *) {
   --tw-bg-opacity: 1;
   background-color: rgb(92 90 90 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-primary:where([data-theme="dark"], [data-theme="dark"] *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 100 178 / var(--tw-bg-opacity));
 }
 
 .dark\:from-white-offset:where([data-theme="dark"], [data-theme="dark"] *) {

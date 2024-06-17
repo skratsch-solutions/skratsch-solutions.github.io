@@ -9,6 +9,8 @@ categories:
     - boards
 featured: false
 draft: true
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Welcome to the second post in our Azure DevOps series. Today, we'll be diving into Azure Boards, a powerful tool for Agile project management.

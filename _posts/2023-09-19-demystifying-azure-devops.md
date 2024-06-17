@@ -8,6 +8,8 @@ categories:
     - beginner
 featured: false
 draft: true
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Welcome to the world of Azure DevOps, a complete suite of development tools for software teams. In this era of rapid technological advancement, efficient software development practices are more crucial than ever. Azure DevOps is Microsoft's answer to this need, providing a set of services that support teams to plan work, collaborate on code development, and deploy applications.

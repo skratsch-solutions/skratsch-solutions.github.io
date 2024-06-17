@@ -9,6 +9,8 @@ categories:
     - beginner
 featured: false
 draft: false
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Trunk-Based Development (TBD) is a source-control branching model where developers work on a *single branch* called 'trunk', or 'main'. They integrate their changes as often as possible, **at least once a day** (committing changes *every few hours* is common practice).

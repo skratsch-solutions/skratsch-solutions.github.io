@@ -8,6 +8,8 @@ categories:
     - pipelines
 featured: false
 draft: true
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Welcome to the fourth post in our Azure DevOps series. Today, we'll be exploring Azure Pipelines, a powerful tool for building and testing your code.

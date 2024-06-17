@@ -9,6 +9,8 @@ categories:
     - automation
 featured: false
 draft: false
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Liquibase is a robust open-source solution designed to facilitate the management of database schema modifications. It empowers developers to oversee the revisions of their database schema scripts, which can be systematically applied to a database. This comprehensive guide aims to provide step-by-step instructions on how to set up Liquibase, optimize its usage, and leverage some useful tips and tricks to maximize its potential.

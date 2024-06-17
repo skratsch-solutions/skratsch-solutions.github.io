@@ -9,6 +9,8 @@ categories:
     - beginner
 featured: false
 draft: false
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 GitHub Flow is a simple, branch-based workflow that supports teams and projects where deployments are made regularly. This workflow was introduced by GitHub to accommodate the unique needs of its platform and users, emphasizing the importance of conversation and collaboration in software development.

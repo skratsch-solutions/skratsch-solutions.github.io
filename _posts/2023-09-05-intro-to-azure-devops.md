@@ -9,6 +9,8 @@ categories:
     - beginner
 featured: false
 draft: false
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 We're thrilled to kick off our series dedicated to mastering Azure DevOps. Whether you're just dipping your toes into the DevOps universe or seeking to enhance your software development workflows, you've come to the right spot. Throughout this series, we'll delve into Azure DevOps, an all-encompassing collection of tools from Microsoft designed to empower teams to strategize more effectively, foster superior collaboration, and expedite delivery.

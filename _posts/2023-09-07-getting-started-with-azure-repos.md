@@ -8,6 +8,8 @@ categories:
     - repos
 featured: false
 draft: true
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 Welcome to the third post in our Azure DevOps series. Today, we'll be exploring Azure Repos, a cloud-hosted version control system that lets you manage your code securely and collaboratively.

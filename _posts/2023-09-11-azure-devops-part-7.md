@@ -8,6 +8,8 @@ categories:
     - artifacts
 featured: false
 draft: true
+parent-name: "Building With Skratsch"
+parent-url: "/posts"
 ---
 
 ## Introduction
