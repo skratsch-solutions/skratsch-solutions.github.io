@@ -1,12 +1,4 @@
-// var body = document.querySelector('body')
-// var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
-// var menuContainer = document.querySelector('#main-menu-mobile');
 
-// menuTrigger.onclick = function() {
-//     menuContainer.classList.toggle('open');
-//     menuTrigger.classList.toggle('is-active')
-//     body.classList.toggle('lock-scroll')
-// }
 
 function toggleDark() {
     const element = document.body;
@@ -56,3 +48,24 @@ function setLight() {
     toggle.classList.remove('fa-sun');
     toggle.classList.add('fa-moon');
 }
+
+function sendEmail(email) {
+        const data = JSON.stringify({
+        "Messages": [{
+            "From": {"Email": "steve@skratsch.com", "Name": "Steve Kaschimer"},
+            "To": [{"Email": "steve@skratsch.com", "Name": "Steve Kaschimer"}],
+            "Subject": "New Subscriber",
+            "TextPart": "You have a new Skratsch subscriber: " + email
+        }]
+        });
+    
+        const config = {
+        method: 'post',
+        url: 'https://api.mailjet.com/v3.1/send',
+        data: data,
+        headers: {'Content-Type': 'application/json'},
+        auth: {username: '<API Key>', password: '<Secret Key>'},
+        };
+    
+        fetch(config.url, config);
+    }

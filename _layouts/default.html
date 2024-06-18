@@ -16,7 +16,7 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-    
+
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />{% endif %}
     {% if page.meta_title %}
@@ -39,8 +39,8 @@
 
 <body class="page {{layout.bodyClass}} dark:bg-black dark:text-white-offset">
     <div id=" wrapper" class="container mx-auto sm:px-4">
-    {% include header.html headerClass='header-extra' %}
-    {{content}}
+        {% include header.html headerClass='header-extra' %}
+        {{content}}
     </div>
     {% include footer.html %}
     {% include google-analytics.html %}
