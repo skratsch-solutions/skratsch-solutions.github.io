@@ -27,4 +27,15 @@ As a small business IT support provider in the Metro Detroit, Michigan area, eve
 
 Our regular business hours are M-F 9:00 a.m. to 5:00 p.m. ET, and we also provide after hours support for current customers.
 
-If you need support right now, please call the office at 1.313.284.5656 then visit our Get Support page to enter your 6-digit code.
+If you need support right now, please call the office at **1.313.284.5656** then visit our [Get Support page](/support) to enter your 6-digit code.
+
+## Why choose our business IT support services?
+
+Our IT support services is a fit for companies that don't have full-time professional IT staff, but need more than the consumer and solopreneur support available from GeekSquad or other similar computer repair shops.
+
+As your technology partner, we provide IT support, but also strategic [IT consulting services](/consulting), to help you:
+
+- Keep your team working productively and efficiently
+- Minimize frustration and the risk of making the situation worse with "do-it-yourself" fixes
+- Be a technology resource, providing help when you need it
+- Leverage technology for business growth

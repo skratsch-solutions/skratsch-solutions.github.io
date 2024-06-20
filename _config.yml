@@ -27,7 +27,10 @@ collections:
   it-services:
     output: true
     sort_by: weight
-  software-services:
+  software-development:
+    output: true
+    sort_by: weight
+  consulting:
     output: true
     sort_by: weight
   posts:
@@ -44,7 +47,12 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "software-services"
+      type: "software-development"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "cosulting"
     values:
       layout: "service"
   - scope:

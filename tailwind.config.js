@@ -8,7 +8,7 @@ module.exports = {
     './_layouts/**/*.html',
     './_posts/*.md',
     './_it-services/*.md',
-    './_software-services/*.md',
+    './_software-development/*.md',
     './team/*.md',
     './*.html',
     './*.md',

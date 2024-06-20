@@ -24,3 +24,7 @@ Keep your servers running smoothly with our remote monitoring services. By insta
 - Create workflows and alerts when anomalies are detected
 
 The biggest benefit of having experts handle the network management is that problems are caught while they are small, helping you stay ahead of problems that could cause downtime or disruption.
+
+### On-site or remote network management services
+
+Our team has the skills and experience to prevent, diagnose and solve network issues quickly. By benchmarking traffic and other network metrics, we can detect issues quickly before they become a major problem.

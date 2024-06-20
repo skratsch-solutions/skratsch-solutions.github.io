@@ -1,9 +1,12 @@
 main:
+  - name: "Consulting"
+    url: "/consulting/"
+    weight: 1
   - name: "IT Services"
     url: "/it-services/"
     weight: 2
-  - name: "Software Services"
-    url: "/software-services/"
+  - name: "Software Development"
+    url: "/software-development/"
     weight: 3
   - name: "Blog"
     url: "/posts/"

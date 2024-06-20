@@ -28,3 +28,27 @@ Microsoft 365 is the productivity platform once called Office 365. As a Microsof
   - Decide on anti-malware, backup and other data security needs.
 
 Let our technology experts support your business systems, troubleshoot problems, and help your team use technology to your advantage.
+
+## Why should you move to Microsoft 365?
+
+With the new Microsoft 365 (formerly known as Office 365 or O365) you can get more done with innovative features, such as:
+
+- Access content securely with Multi-Factor Authentication.
+- Reduce risk with built-in Data Loss Prevention.
+- Never miss a security release with Deferred Updates.
+- Log in just once with Windows 10 Hello and Single Sign On.
+- Co-author documents at the same time.
+- Always stay connected with Teams meetings.
+- Get files out of your inbox with Modern Attachments.
+- Save time with Microsoft Office Templates and Themes.
+- Connect the team with shared notebooks.
+- Take Office everywhere with mobile apps.
+- Find the right command, fast, with help from Tell Me.
+- Quickly find what you're looking for with Smart Lookup.
+- Access your most recently used documents from any device.
+- As your technology partner, we can offer full support your systems and troubleshoot problems at any time.
+
+
+[![Microsoft 365 Tips Ebook](/images/post/15-tips.png)](/docs/Office-365-Productivity-Guide.pdf)  
+[Download the Office 365 Tips & Tricks Ebook](/docs/Office-365-Productivity-Guide.pdf)  
+Explore how to work efficiently using lesser-known features in Microsoft 365.

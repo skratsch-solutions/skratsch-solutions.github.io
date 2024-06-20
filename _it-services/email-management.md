@@ -20,3 +20,17 @@ We will help you:
 - Migrate emails from your existing systems
 - Create distribution groups
 - Provide resources and support to get email setup on employee computers and devices
+
+## Which business email system: Microsoft 365 or G Suite?
+
+Email is still the number one tool for business communication.
+
+Getting onto a professional business email solution like Microsoft 365 or G Suite provides tremendous benefits including:
+
+- Better data security
+- Better integration with other business applications for document and spreadsheets
+- Global email policy administration
+- Ability to manage employee email accounts
+- Share calendars and resources
+- Collaborate on documents and via chat
+- 
