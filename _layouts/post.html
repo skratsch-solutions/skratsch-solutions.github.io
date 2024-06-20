@@ -6,9 +6,12 @@ bodyClass: "page-post"
 <article class="mt-10 prose prose-lg prose-slate max-w-none">
     <div class="mb-4 md:mb-0 w-full mx-auto relative">
         <div class="px-0">
-            <h1 class="text-4xl font-semibold text-steel dark:text-white-offset leading-tight">
+            <h1 class="text-4xl font-semibold text-steel dark:text-white-offset leading-tight mb-0">
                 {{ page.title}}
             </h1>
+            <h3 class="text-2xl font-semibold text-steel dark:text-white-offset leading-tight mt-0 small-caps">
+                {{ page.date | date: "%B %-d, %Y"}}
+            </h3>
         </div>
         <img src="{{ page.image }}" alt="{{ page.title }} Hero" loading="lazy" width="1000" height="667"
             class="w-full object-cover lg:rounded" style="height: 28em;" />

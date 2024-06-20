@@ -1,7 +1,7 @@
 ---
 title: "Scan Paper Documents For FREE With Office Lens"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/office-lens-document-scanner-1-1.webp"
+image: "/images/post/microsoft-lens.png"
 categories:
     - business
 featured: false

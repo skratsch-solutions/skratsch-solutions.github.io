@@ -40,6 +40,7 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/container-queries'),
+    require('tailwindcss-opentype'),
   ],
   safelist: [
     'hero-it-application-hosting',
