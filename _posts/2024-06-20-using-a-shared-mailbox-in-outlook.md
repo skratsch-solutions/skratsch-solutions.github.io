@@ -1,5 +1,6 @@
 ---
-title: "Using A Shared Mailbox In Outlook: 5 Best Practices"
+title: "Efficient Email Collaboration: Mastering Shared Mailboxes in Outlook"
+excerpt: "Best practices for using a shared mailbox in Outlook, highlighting the benefits of centralized email communication for business functions and offering tips to enhance collaboration and efficiency within a team."
 date: 2024-06-20T07:00:00Z
 image: "/images/post/Blog-headers-6.webp"
 categories:

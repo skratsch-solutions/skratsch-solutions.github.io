@@ -13,8 +13,13 @@ bodyClass: "page-post"
                 {{ page.date | date: "%B %-d, %Y"}}
             </h3>
         </div>
+        {% if page.image %}
         <img src="{{ page.image }}" alt="{{ page.title }} Hero" loading="lazy" width="1000" height="667"
             class="w-full object-cover lg:rounded" style="height: 28em;" />
+        {% else %}
+        <img src="https://placehold.co/400" alt="no image" loading="lazy" width="1000" height="667"
+            class="w-full object-cover lg:rounded" style="height: 28em;" />
+        {% endif %}
     </div>
 
     <div class="flex flex-ro space-x-12">

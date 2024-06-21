@@ -20,9 +20,15 @@ bodyClass: "page-post"
             <div
                 class="group p-6 sm:p-8 rounded-3xl bg-white-offset border border-steel dark:shadow-none dark:border-black dark:bg-steel bg-opacity-50 shadow-2xl shadow-steel">
                 <div class="relative overflow-hidden rounded-xl bg-white-offset dark:white-offset">
+                    {% if post.image %}
                     <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.title }} Hero"
                             loading="lazy" width="1000" height="667"
                             class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+                    {% else %}
+                    <a href="{{ post.url | relative_url }}"><img src="https://placehold.co/400" alt="no image"
+                            loading="lazy" width="1000" height="667"
+                            class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+                    {% endif %}
                 </div>
                 <div class="mt-6 relative">
                     <h3 class="text-2xl font-semibold tracking-tight text-steel dark:text-white-offset">

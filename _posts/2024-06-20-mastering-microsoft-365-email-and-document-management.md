@@ -1,5 +1,6 @@
 ---
-title: "Mastering Microsoft 365 Email And Document Management"
+title: "Efficient Email and Document Management with Microsoft 365"
+excerpt: "Introduces a series of articles aimed at helping clients optimize their use of Microsoft 365 to streamline business workflows."
 date: 2024-06-20T07:00:00Z
 image: "/images/post/blog-headers-2-2.webp"
 categories:

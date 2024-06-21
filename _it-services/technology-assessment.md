@@ -15,7 +15,7 @@ weight: 9
 
 We offer a [free online IT self-assessment](/it-quiz) for you to gauge the health of your business technology. And of course, you can always call us for a free consultation. But often, we find our clients THINK their systems are efficient and secure, but they're not. That's why it's worth it to book a business technology assessment to get an independent opinion from our IT professionals.
 
-A business technology assessment is an easy, affordable way to understand what's going on with your business technology. These technology assessments start as low as $500. An Eclipse Consulting IT professional will review your IT environment for risks and opportunities. We will look at:
+A business technology assessment is an easy, affordable way to understand what's going on with your business technology. These technology assessments start as low as $500. A Skratsch Solutions IT professional will review your IT environment for risks and opportunities. We will look at:
 
 - Your current technology and business challenges
 - Hardware: servers, desktops, laptops
@@ -69,6 +69,6 @@ This IT Assessment is perfect for you if you are considering purchasing new tech
     -  Answer any questions you may have.
     -  Schedule the on-site assessment.
     -  Give you a firm price quote. For businesses with up to 2 servers and 15 computers, the IT Assessment is $500. (Note, we'll will only look at a sampling of computers.) For larger businesses, we can give you a custom quote.
-2.  One of our seasoned Eclipse Consulting IT Professionals will come to your office at the appointed time. Expect the appointment will take between 90 minutes and two hours. We'll want to meet with the person/people in charge of the business and the IT environment.
+2.  One of our seasoned Skratsch Solutions IT Professionals will come to your office at the appointed time. Expect the appointment will take between 90 minutes and two hours. We'll want to meet with the person/people in charge of the business and the IT environment.
 3. Within 1-2 weeks of the on-site IT assessment, we'll deliver you a report with our findings.
 4. We'll then schedule a 30-minute online conference call to discuss the report.
