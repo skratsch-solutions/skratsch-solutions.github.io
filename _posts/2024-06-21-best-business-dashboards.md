@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Understanding Business Performance: The Power of Dashboards"
-excerpt: "Discusses the importance of business dashboards for data-driven decision-making, outlining their uses, benefits, and tips for effective dashboard design."
+excerpt: "Just like the dashboard of your car helps you navigate safely to your
+destination, your business dashboard puts your most valuable information
+at your fingertips."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - data
@@ -9,6 +11,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/business-dashboards.jpg"
 ---
 Just like the dashboard of your car helps you navigate safely to your
 destination, your business dashboard puts your most valuable information

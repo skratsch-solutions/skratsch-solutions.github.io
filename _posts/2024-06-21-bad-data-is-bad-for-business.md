@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "The Data Maze: Strategies for Cleansing Your Business Data"
-excerpt: "Discusses the significant impact of bad data on businesses, including its various forms, origins, and the financial costs associated with it, while also offering solutions for data cleanup through IT services"
+excerpt: "Bad data can come in the form
+of incomplete information, false information, duplicate records, and
+irrelevant information, but whatever form it takes, bad
+data can negatively impact business performance."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - data
@@ -9,10 +12,11 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/data-maze.jpg"
 ---
-*The cost of bad data is an astonishing 15% to 25% of revenue for most
-companies.\
-(sloanreview.mit.edu)*
+> The cost of bad data is an astonishing 15% to 25% of revenue for most
+companies.
+> (sloanreview.mit.edu)
 
 ## What is bad data?
 

@@ -1,5 +1,6 @@
 ---
-title: "Email Aliases, Shared Mailboxes, And Distribution Lists"
+title: "Mastering Email Aliases, Shared Mailboxes, And Distribution Lists"
+excerpt: "We believe every business should have a professional email address. In addition to having your own personal, private email address, you may want to have a centralized email address that gets sent to multiple people."
 date: 2024-06-20T07:00:00Z
 categories:
     - business
@@ -7,41 +8,23 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/email-aliases-distribution-lists.jpg"
 ---
 
-We believe every business should have a [professional email address](/business/google-workspace-vs-microsoft-365), ideally one using Microsoft 365 or Google Workspace. In additional to having your own personal, private email address, you may want to have a centralized email address that gets sent to multiple people.
+Setting up multiple email accounts (when a single one suffices) not only incurs unnecessary software costs but also leads to login credential complexities. Surprisingly, many business professionals remain unaware that shared mailboxes and distribution groups offer viable alternatives, each with distinct advantages. Our goal is to demystify these options
 
-## Email aliases, shared mailboxes, groups and lists
+## Email Aliases
 
-Creating multiple email accounts (when you only need one) not only wastes money on unnecessary software licenses, but it also creates "login credential" confusion. Many business professionals aren't aware that you can create shared mailboxes and distribution groups, and the tradeoffs of each type of setup. We aim to clear that up.
-
-## Using an email alias
-
-Your primary business email may look like this: [YourFullName@YourCompanyName.com](mailto:YourFullName@YourCompanyName.com).
-
-What if you want to have different email addresses?
-
-- [FirstName@YourCompanyName.com](mailto:FirstName@YourCompanyName.com)
-- [FirstInitial.LastName@YourCompanyName.com](mailto:FirstInitial.LastName@YourCompanyName.com)
-- [Info@YourCompanyName.com](mailto:Info@YourCompanyName.com)
-- [Info@YourProduct.com](mailto:Info@YourProduct.com)
-- (or .net, .org. alternatives)
-
-Do you need to pay for separate accounts and manage separate email inboxes?
-
-**NO!**
+Use aliases like FirstName@YourCompanyName.com to manage multiple email addresses under one Microsoft 365 license—no extra cost or separate inboxes needed.
 
 An email account is one entity. You need one [Microsoft 365 license](/it-services/microsoft-365).
 
-Just like if your name was Robert, people may call you Bob, Rob, Bobby, Robby – or even Buddy, but there's only one you. Your nicknames are called "aliases" in the IT world. They don't cost anything extra to setup or maintain.
+Just like if your name was Robert, people may call you John, Johnny, Jack, or even Jacky, but there's only one you. Your nicknames are called "aliases" in the IT world. They don't cost anything extra to setup or maintain.
 
-![email aliases ](/images/post/email-alias-495x345.png "Email Aliases, Shared Mailboxes, and Distribution Lists 2")
 
-## Shared mailboxes
+## Shared Mailboxes
 
-What if you want one email to go out to multiple people, like for sales, customer service or hiring? You can choose between having a shared mailbox or having a distribution group.
-
-With a shared mailbox, you'd setup an email address like [sales@yourcompanyname.com](mailto:sales@yourcompanyname.com).
+Ideal for team collaboration, shared mailboxes like sales@yourcompanyname.com allow multiple users to monitor and manage emails without additional logins.
 
 Just like email aliases, an Microsoft 365 shared mailbox is _FREE_, but everyone with access to the shared mailbox must be an Microsoft 365 licensed user.
 
@@ -49,20 +32,13 @@ Just like email aliases, an Microsoft 365 shared mailbox is _FREE_, but everyone
 - Incoming and outgoing messages can be read, stored and archived in the shared mailbox.
 - Shared mailboxes are lacking some of the privileges of a regular Microsoft 365 account, like Unified Messaging and software downloads.
 
-### Benefits of a shared mailbox
+## Distribution Lists
 
-- Multiple people can monitor email activity.
-- Emails, contacts, and calendars are centralized and visible amongst the group.
-- Emails look like they are coming from the group email, rather than from the individual user.
-- The company can easily monitor and track activities.
+Quickly send emails to multiple recipients, both internal and external, with distribution lists that ensure everyone gets their own copy. Unlike a shared mailbox, emails are not centrally stored and accessed. Each recipient receives their own copy of the email
 
-## Email distribution lists
+## Microsoft 365 Groups
 
-A distribution list allows an email to be distributed to multiple people at once. List members can be both internal or external contacts in your organization. Unlike a shared mailbox, emails are not centrally stored and accessed. Each recipient receives their own copy of the email.
-
-## Microsoft 365 groups
-
-Microsoft 365 groups are a newer feature, created to enhance what was possible with distribution lists.
+Enhance collaboration with shared calendars, document sharing, and integration with tools like Teams and Planner, all while maintaining individual participation. Microsoft 365 Groups are a newer feature, created to enhance what was possible with distribution lists.
 
 ### A Microsoft 365 group:
 

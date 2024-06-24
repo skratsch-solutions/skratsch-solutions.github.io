@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maximizing Remote Work Productivity: Essential Tools and Strategies"
-excerpt: "Provides work at home productivity tips, highlighting the use of collaborative tools like Microsoft Teams and Zoom, the benefits of Microsoft 365 and G-Suite, and strategies for managing remote teams effectively."
+excerpt: "Work at home productivity tips, highlighting the use of collaborative tools like Microsoft Teams and Zoom, the benefits of Microsoft 365 and G-Suite, and strategies for managing remote teams effectively."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - productivity
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/remote-work-productivity.jpg"
 ---
 
 The good news is that there are plenty of tools out there to help encourage employees, keep coworkers connected, and help increase the work at home productivity.  In our last post, we shared how to setup remote access to enable [employees to work from home](/business/setup-secure-remote-access-employees) . This time, we’d like to focus on how to manage people and technology in a remote environment.

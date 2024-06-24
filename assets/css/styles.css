@@ -2698,6 +2698,10 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   visibility: visible;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "API Access: The Key to Seamless Software Integration for Small Businesses"
-excerpt: "Emphasizes the importance of API access in small business software, explaining how it enables seamless integration and customization, and warns that the absence of an API should be a red flag when selecting software."
+excerpt: "An API acts almost
+like an extension cord you would use in your house. It can be used to
+connect two different programs together -- or even build a customized
+extension to the application."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - software
@@ -9,6 +12,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/seamless-software-integration-key.jpg"
 ---
 When companies buy [small business software](/business/small-business-software-work-efficiently/index.html), they usually think about the features and functions
 they need, but quite often forget how to ask:

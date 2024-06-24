@@ -1,6 +1,6 @@
 ---
 title: "Conquering Outlook: A Guide to Contacts, Lists, and Groups"
-excerpt: ""
+excerpt: "Tips & Tricks to keep your contacts, lists and groups organizaed and easier to use."
 date: 2024-06-20T07:00:00Z
 categories:
     - business
@@ -8,6 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/contacts-lists-groups.jpg"
 ---
 
 Outlook comes with simple features to keep track of all the people you communicate with. When you open Outlook Web Access (OWA), you'll see the People icon on the left side of your application.

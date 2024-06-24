@@ -1,5 +1,6 @@
 ---
-title: "Microsoft Word Styles, Themes And Templates"
+title: "Mastering Microsoft Word: Styles, Themes, and Templates"
+excerpt: "Learn how to use Microsoft Word styles, themes and templates to create consistency across your documents"
 date: 2024-06-20T07:00:00Z
 categories:
     - software
@@ -7,31 +8,22 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/ms-word-themes-styles.jpg"
 ---
-
-_Learn how to use Microsoft Word styles, themes and templates to create consistency across your documents._
 
 ## Microsoft Word features
 
-**Styles** keep your formatting consistent within a document.
-
-**Themes** keep your look and feel consistent across multiple documents.
-
-**Templates** allow you to re-use text, and keep your look and feel consistent across multiple documents.
+Unlock the full potential of your documents using Microsoft Word’s powerful features. Ensure consistent formatting with Styles, maintain a cohesive look across documents with Themes, and save time with Templates.
 
 ## 1\. Using Microsoft Word styles
 
-![Select a Microsoft Word Style](/images/post/Microsoft-Word-Styles-Themes-and-Templates_36c83554ae9a45e38ae44890b056d0c6.jpg)
-
-Styles are a way to keep your formatting consistent within a document.
-
-Rather than making headings "Bold" one at a time, the Style allows you to change all the Headings across the entire document in one central location.
+Styles in Microsoft Word make it easy to apply uniform formatting throughout your document. Instead of adjusting headings individually, apply a Style to update all headings instantly. Access Styles from the Home Tab, and modify them to suit your needs.
 
 For example in this document, when select the "Title" text then apply the Title Style, the document formatting will be updated.
 
 From the Home Tab
 
-![Word Style Example for Title and Headers](/images/post/Microsoft-Word-Styles-Themes-and-Templates_85d4534094e240a98237066c59bc8c8e.jpg)
+![Word Style Example for Title and Headers](/images/post/word-styles-sample-headers.jpg)
 
 Continue to Select Text and Apply the Heading Style
 
@@ -43,7 +35,7 @@ Header 3
 
 ### What if you want a different style?
 
-![Apply different styles in Microsoft Word](/images/post/Microsoft-Word-Styles-Themes-and-Templates_31944112c8944bc99bb828621cd12cc0.jpg)
+![Apply different styles in Microsoft Word](/images/post/word-styles-change-style.jpg)
 
 Go to the Design Tab
 
@@ -53,19 +45,19 @@ Clicking on the Style will change the formatting throughout your document.
 
 Still on the Design Tab
 
-![Choose Microsoft Word Colors and Fonts](/images/post/Microsoft-Word-Styles-Themes-and-Templates_5de776d9a9494885b4e201e95a947d2b.jpg)
+![Choose Microsoft Word Colors and Fonts](/images/post/word-styles-adjust-style.jpg)
 
 You can also choose your Document Colors, Fonts, and Other Items.
 
 You can even Customize Your Options
 
-![Customize Microsoft Word Fonts](/images/post/Microsoft-Word-Styles-Themes-and-Templates_8e2365b2deaa4a75a9f52ace34d04fbe.jpg)
+![Customize Microsoft Word Fonts](/images/post/word-styles-customize-fonts.jpg)
 
 Your Font and Color combinations are not restricted to Microsoft Word's pre-built options. At the bottom, you can create your own combination and give it a custom name that you'll remember.
 
 ### What if you can't find a style that works?
 
-![How to use Microsoft Word Styles](/images/post/Microsoft-Word-Styles-Themes-and-Templates_525b852908304339aeaecda57c86573d.jpg)
+![How to use Microsoft Word Styles](/images/post/word-styles-apply-new-style.jpg)
 
 Once you've selected the Styles, Fonts, and Colors you like best in the Design tab, head back to the Home tab.
 
@@ -73,25 +65,25 @@ You can further customize your Style options by "right-clicking" any Style.
 
 Select Modify
 
-![Modify style](/images/post/Microsoft-Word-Styles-Themes-and-Templates_951f51f5556c46248561710e70aa378f.jpg)
+![Modify style](/images/post/word-styles-modify.jpg)
 
 This will modify every Style Element across your document.
 
 Click on "Format" menu
 
-![Format style](/images/post/Microsoft-Word-Styles-Themes-and-Templates_3e0f5df6512e4fe0bb0e54d6dbbc233b.jpg)
+![Format style](/images/post/word-styles-format-style.jpg)
 
 See even more editing choices.
 
 Choose Between Saving Styles in the Document and Template
 
-![Choices on how to save Microsoft Word Styles](/images/post/Microsoft-Word-Styles-Themes-and-Templates_43b8664bb2b7426f9f73fba9c34887e8.jpg )
+![Choices on how to save Microsoft Word Styles](/images/post/word-styles-only-in-document.jpg)
 
 You can save these settings to be consistent across this document ONLY, or you can save it in the Template, so that all future documents will have this same "look and feel."
 
 ## 2\. Using Microsoft Word themes
 
-![Microsoft Word Themes](/images/post/Microsoft-Word-Styles-Themes-and-Templates_9b163ad0d9944d8cb5fa334f0ef79721.jpg)
+![Microsoft Word Themes](/images/post/word-themes-save-theme.jpg)
 
 If you want to use these set Styles again and again, you can save them as a Custom Theme.
 
@@ -101,7 +93,7 @@ A Template uses the Theme "look" but also adds text that you may want to use aga
 
 ### The next time you open a document…
 
-![MS Word Theme](/images/post/Microsoft-Word-Styles-Themes-and-Templates_58d247ab6c2444a08ec224fe576f4db6.jpg)
+![MS Word Theme](/images/post/word-themes-select-custom-theme.jpg)
 
 Under the Design Tab, you will now see the Custom "New Theme" you created.
 
@@ -109,19 +101,19 @@ Under the Design Tab, you will now see the Custom "New Theme" you created.
 
 ### Create your document
 
-![Microsoft Word Templates](/images/post/Microsoft-Word-Styles-Themes-and-Templates_2cadbacb76164bc5aa90a21410a82ef4.jpg)
+![Microsoft Word Templates](/images/post/word-templates-letterhead.jpg)
 
 You create a Template exactly the same way you create any document.  The only difference is how you Save.
 
 Save Your Template
 
-![Microsoft Word Styles Themes and Templates 71676b122d89448393e159091252a631](/images/post/Microsoft-Word-Styles-Themes-and-Templates_71676b122d89448393e159091252a631.jpg)
+![Microsoft Word Templates](/images/post/word-templates-save-templates.jpg)
 
 Save your document as a Template. Use the folder where Microsoft Word prompts you to save it.
 
 Using Templates
 
-![Microsoft Word Template](/images/post/Microsoft-Word-Styles-Themes-and-Templates_db0f90f4ba474354917a740227911fd9.jpg)
+![Microsoft Word Template](/images/post/word-templates-new-from-template.jpg)
 
 Use Templates when you want to save the document text, in addition to the Theme.
 

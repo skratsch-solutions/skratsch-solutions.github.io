@@ -8,6 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/efficient-document-management.jpg"
 ---
 
 Like millions of small businesses around the world, Skratsch Solutions extensively relies on Microsoft 365 email and document management solutions (Outlook, Word, PowerPoint, and Excel) for business productivity and business communications.

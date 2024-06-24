@@ -8,6 +8,7 @@ draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
 excerpt: "Implementing robust password security measures, including multi-factor authentication and regular password updates, is essential for safeguarding digital assets against cyber threats and data breaches."
+image: "/images/post/password-best-practices.jpg"
 ---
 
 ## Small business password security is a big deal

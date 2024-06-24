@@ -1,6 +1,6 @@
 ---
 title: "Modernizing Collaboration: The Shift from Email Attachments to Shared Links in Outlook"
-excerpt: "Discusses the benefits and challenges of sending links instead of email attachments in Outlook, highlighting improved collaboration and reduced storage needs, while also addressing potential issues with file access and user adaptation."
+excerpt: "Now that online file storage has become commonplace, it may be time to consider sending links instead of email attachments, at least in some cases."
 date: 2024-06-20T07:00:00Z
 categories:
     - business
@@ -8,6 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/no-more-attachments.jpg"
 ---
 
 If you're like most busy professionals, you send emails with attachments every day. That's the way business has always been done. But now that online file storage has become commonplace, it may be time to consider sending links instead of email attachments, at least in some cases.

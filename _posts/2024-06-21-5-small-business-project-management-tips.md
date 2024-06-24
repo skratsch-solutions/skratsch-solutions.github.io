@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/efficient-project-management.jpg"
 ---
 Small businesses don't have time to waste. Unfocused meetings and
 tedious follow up on projects can drain your energy and your bank
@@ -89,12 +90,7 @@ There's nothing more frustrating than needing "just one quick answer" to
 finalize a project.... Except maybe having someone commandeer 30 minutes
 of your time for "one quick question."
 
-Get your entire team committed to using an instant messaging tool like
-[Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software)
- to get answers quickly.  Instead of
-meeting face-to-face, schedule online conferences where you can share
-your screen, and even record the session for people who couldn't
-participate.
+Get your entire team committed to using an instant messaging tool like [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) to get answers quickly. Instead of meeting face-to-face, schedule online conferences where you can share your screen, and even record the session for people who couldn't participate.
 
 Popular online meeting software includes:
 

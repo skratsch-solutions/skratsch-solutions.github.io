@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding the Risks of Cloud Storage: A Guide to Protecting Your Business Data"
-excerpt: "Discusses the risks of using cloud-based file storage services like Dropbox, highlighting issues such as data loss, theft, lack of comprehensive backups, legal compliance, and untraceable data movement, and offers IT strategy consulting to mitigate these risks"
+excerpt: "Whether you use Dropbox, iCloud, OneDrive, Google Drive, Box – they are all great programs – and they all have some inherent issues."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - security
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/risks-of-cloud-storage.jpg"
 ---
 ## The Danger of Dropbox
 
