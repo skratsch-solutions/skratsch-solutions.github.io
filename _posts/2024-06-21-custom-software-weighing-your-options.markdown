@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/custom-software-solutions.jpg"
 ---
 At this point, you've looked for standard commercial off-the-shelf
 software (COTS) and you can't find software that does what you need. You

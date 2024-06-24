@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cloud vs. Desktop Software: A Guide for Small Businesses"
-excerpt: "Discusses the pros and cons of cloud-based and on-premise software solutions for small businesses."
+excerpt: "One of the most fundamental options you face today is whether to buy a cloud solution or a on-premise solution"
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/cloud-vs-desktop.jpg"
 ---
 Which small business software is right for you? One of the most
 fundamental options you face today is whether to buy a cloud solution or

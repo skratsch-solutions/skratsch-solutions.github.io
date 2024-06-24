@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Office 365 Business Apps"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/microsoft-office-365-1.png"
 categories:
     - business
 featured: false

@@ -1,7 +1,6 @@
 ---
 title: "Small Business Owners… Know Your Logins!"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/know-your-logins.jpg"
 categories:
     - security
 featured: false

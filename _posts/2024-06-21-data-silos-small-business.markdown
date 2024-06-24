@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Strategies for Effective System Integration to Reduce Data Silos"
+excerpt: "Sometimes it's not what we DO that hurts our business growth, but rather what we fail to do."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - data
@@ -8,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/data-silos.jpg"
 ---
 ## Small Business IT Strategy
 

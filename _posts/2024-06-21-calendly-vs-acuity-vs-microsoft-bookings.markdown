@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scheduling Simplified: A Comparative Guide to Calendly, Acuity, and Microsoft Bookings"
-excerpt: "Discusses the benefits of using software like Calendly, Acuity Scheduling, and Microsoft Bookings to schedule meetings and reduce email back-and-forth."
+excerpt: "Meeting scheduling software programs like Calendly, Acuity Scheduling, and Microsoft Bookings are designed to cut down on back-and-forth emails trying to find a time when everyone can meet"
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/scheduling-software.jpg"
 ---
 Meeting scheduling software programs are designed to cut down on
 back-and-forth emails trying to find a time when everyone can meet.

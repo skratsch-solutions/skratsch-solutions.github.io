@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Server Solutions for Growing Businesses: A Guide"
-excerpt: "Discusses the considerations for businesses contemplating purchasing a server, highlighting factors such as business goals, storage needs, application requirements, security, and cost, with an emphasis on the benefits and maintenance of physical versus cloud servers."
+excerpt: "Before computers became so powerful and remote work became so popular, most businesses had at least one physical server in their offices -- and sometimes even a dedicated server room."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/server-solutions.jpg"
 ---
 Considering buying a server for your business? Before computers became
 so powerful and remote work became so popular, most businesses had at

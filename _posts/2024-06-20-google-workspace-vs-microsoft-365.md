@@ -1,7 +1,6 @@
 ---
 title: "Google Workspace Vs Microsoft 365"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/header-google-microsoft.webp"
 categories:
     - business
 featured: false

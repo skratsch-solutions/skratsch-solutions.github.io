@@ -1,7 +1,6 @@
 ---
 title: "Small Business Password Security Best Practices"
 date: 2024-06-19T07:00:00Z
-image: "/images/post/RS-Data-management-2.png"
 categories:
     - security
 featured: false

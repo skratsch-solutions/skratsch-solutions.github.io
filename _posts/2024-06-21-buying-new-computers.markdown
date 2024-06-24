@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Tech Supply Chain Storm: Strategic Advice for Business Computer Purchases"
-excerpt: "Discusses the challenges businesses face when deciding to purchase new computers, especially with the current computer chip shortage and global supply chain issues affecting hardware components like video cards and monitors."
+excerpt: "Buying new computers for a business is always challenging -- but
+especially right now."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -9,6 +10,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/supply-chain-storm.jpg"
 ---
 This is the time of year where businesses are looking over their IT
 budgets and deciding on whether to buy new computers this year or next.

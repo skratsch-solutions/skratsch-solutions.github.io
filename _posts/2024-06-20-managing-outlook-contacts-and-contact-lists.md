@@ -2,7 +2,6 @@
 title: "Conquering Outlook: A Guide to Contacts, Lists, and Groups"
 excerpt: ""
 date: 2024-06-20T07:00:00Z
-image: "/images/post/Blog-headers-5.webp"
 categories:
     - business
 featured: false

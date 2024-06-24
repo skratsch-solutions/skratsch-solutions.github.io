@@ -1,7 +1,6 @@
 ---
 title: "MS Access Databases: Make The Move?"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/ms-access.webp"
 categories:
     - business
 featured: false

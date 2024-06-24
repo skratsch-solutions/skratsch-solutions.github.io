@@ -1,7 +1,6 @@
 ---
 title: "Data Breach Prevention Essentials"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/Blog-headers.webp"
 categories:
     - security
 featured: false

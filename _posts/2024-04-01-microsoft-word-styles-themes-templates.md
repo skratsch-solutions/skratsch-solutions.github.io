@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Word Styles, Themes And Templates"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/Blog-headers-3-1.png"
 categories:
     - software
 featured: false

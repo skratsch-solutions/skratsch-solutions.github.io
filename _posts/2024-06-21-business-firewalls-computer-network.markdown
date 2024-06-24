@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fortifying Business Networks: A Guide to Firewalls and Cybersecurity"
-excerpt: "Provides an in-depth look at business firewalls and their importance in protecting computer networks from cyber threats, with a focus on small business data security and the use of WatchGuard Firewalls for robust network defense."
+excerpt: "With all the news about data security breaches and malware attacks, businesses are finally starting to take network security more seriously... as they should!"
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - security
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/firewalls-and-cybersecurity.jpg"
 ---
 With all the news about [data security
 breaches](/security/prevent-data-security-breaches/index.html) and malware

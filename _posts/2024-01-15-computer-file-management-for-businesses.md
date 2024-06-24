@@ -1,7 +1,6 @@
 ---
 title: "Computer Files: 7 Steps To Stay Organized"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/blog-header-2fa.webpp"
 categories:
     - productivity
 featured: false

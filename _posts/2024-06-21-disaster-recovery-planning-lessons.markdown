@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Resilience in the Face of Disaster: Effective Recovery Planning for Businesses"
+excerpt: "Hurricanes. Floods. Fires. Tornados. Natural disasters remind us that we
+can't control everything. What we can control is how we prepare in
+advance and how we respond afterward."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -8,10 +11,8 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/disaster-recovery.jpg"
 ---
-Hurricanes. Floods. Fires. Tornados. Natural disasters remind us that we
-can't control everything. What we can control is how we prepare in
-advance and how we respond afterward.
 
 ## Disaster recovery planning is critical!
 

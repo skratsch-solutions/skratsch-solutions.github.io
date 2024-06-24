@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Teams Features: An All-In-One App For Microsoft 365"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/microsoft-teams-101-header-2.jpg"
 categories:
     - business
 featured: false

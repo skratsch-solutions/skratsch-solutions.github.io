@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/computer-purchases.jpg"
 ---
 Today, it's easy enough to go pick up a computer from Best Buy, Costco,
 Amazon or other tech retailer. The question is whether you get the RIGHT

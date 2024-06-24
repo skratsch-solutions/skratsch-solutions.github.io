@@ -1,7 +1,6 @@
 ---
 title: "Archiving Email With Microsoft 365"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/blog-archiving-email.webp"
 categories:
     - business
 featured: false

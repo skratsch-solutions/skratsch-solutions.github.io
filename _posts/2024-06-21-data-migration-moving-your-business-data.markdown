@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Data Migration Strategies: Tips For Your Your Business Transition"
+excerpt: "Whether buying a new server, new cloud storage, a new computer, or a new
+software program, you'll want to think carefully about what information
+will move over to the new system."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -8,6 +11,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/data-migration-header.jpg"
 ---
 Whether buying a new server, new cloud storage, a new computer, or a new
 software program, you'll want to think carefully about what information

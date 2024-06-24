@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Navigating the Software Development Landscape: A Guide to Selecting the Right Partner"
-excerpt: "Discusses the importance of selecting the right software development company, considering factors like trustworthiness, legal recourse, and support."
+excerpt: "You probably get solicitations all the time from offshore programmers offering to build whatever you need for almost nothing. If only it were that simple!"
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - software
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/navigating-development-partners.jpg"
 ---
 Now it's time to find a software development company. You probably get
 solicitations all the time from offshore programmers offering to build

@@ -1,7 +1,6 @@
 ---
 title: "Benefits Of Two Factor Authentication: Why Good Passwords Aren't Good Enough"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/blog-header-2fa.webpp"
 categories:
     - security
 featured: false

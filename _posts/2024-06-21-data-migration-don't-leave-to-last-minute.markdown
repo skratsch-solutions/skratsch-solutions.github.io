@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Data Migration Essentials: Planning and Execution Strategies"
+excerpt: "Software is useless without data. Good, accurate, useful data is critical to every business."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - data
@@ -8,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/data-migration-header-2.jpg"
 ---
 In a software development or software selection project, the software
 gets all the attention. Lots of effort goes into selecting, configuring,

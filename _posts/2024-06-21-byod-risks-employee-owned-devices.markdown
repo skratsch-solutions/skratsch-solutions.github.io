@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Navigating BYOD: Balancing Productivity and Security in the Hybrid Work Era"
-excerp: "discusses the widespread adoption of Bring Your Own Device (BYOD) policies, where employees use their personal devices for work-related tasks."
+excerpt: "Bring-Your-Own-Device is the practice of allowing employees to use their own technology for company-sanctioned work."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - security
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/bring-your-own-device.jpg"
 ---
 Are you concerned about BYOD risks? Bring your own device (BYOD) is the
 practice of allowing employees to use their own technology for

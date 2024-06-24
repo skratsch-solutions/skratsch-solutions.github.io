@@ -1,7 +1,6 @@
 ---
 title: "6 Ways To Handle Email Spam & Junk In Outlook"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/Blog-headers-4.webp"
 categories:
     - business
 featured: false

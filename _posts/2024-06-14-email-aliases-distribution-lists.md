@@ -1,7 +1,6 @@
 ---
 title: "Email Aliases, Shared Mailboxes, And Distribution Lists"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/email-distribution-groups.jpg"
 categories:
     - business
 featured: false

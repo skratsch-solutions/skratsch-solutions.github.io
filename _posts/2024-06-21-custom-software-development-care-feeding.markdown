@@ -9,10 +9,9 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/custom-software-maintenance.jpg"
 ---
 ### Effective care and feeding of custom software demand proactive maintenance, updates, and user support. Prioritizing ongoing attention ensures optimal performance and longevity of bespoke solutions.
-
-![custom software development care and feeding](/images/post/custom-software-development-care-and-feeding.png)
 
 ## Custom Software Development -- Post Implementation Tips 
 

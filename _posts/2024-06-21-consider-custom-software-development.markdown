@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Navigating Custom Software Development: A Comprehensive Guide for Businesses"
+title: "Navigating Custom Software Development: A Guide for Businesses"
 excerpt: "Have you been looking for software to run your business, but you can’t find it? Perhaps you’re not even sure where to look or what search terms to use."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
@@ -9,6 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/navigating-custom-software-development.jpg"
 ---
 Is it time to consider custom software? Have you been looking for
 software to run your business, but you can't find it? Perhaps you're not

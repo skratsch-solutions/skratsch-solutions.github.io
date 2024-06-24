@@ -1,7 +1,6 @@
 ---
 title: "SharePoint And OneDrive For Business: Are You Confused?"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/Blog-headers-3.webp"
 categories:
     - business
 featured: false

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Streamlining Tech: The Ultimate Guide to Digital Spring Cleaning"
+excerpt: "Prioritize efficiency, enhance security, cut costs and boost productivity with a digital spring cleaning. Skratsch Solutions offers free IT assessments and support for streamlined tech infrastructure."
 date: 2024-06-21T00:00:00.0000000-04:00
 categories:
     - business
@@ -8,12 +9,8 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
+image: "/images/post/digital-spring-cleaning.jpg"
 ---
-Prioritize efficiency, enhance security, cut costs and boost
-productivity with a digital spring cleaning. Skratsch Solutions offers
-free IT assessments and support for streamlined tech infrastructure.
-
-![digital spring cleaning](/imasges/post/digital-spring-cleaning.png)
 
 As our technology footprint grows, we all pick up digital clutter along
 the way. Most of us have computers cluttered with files and software

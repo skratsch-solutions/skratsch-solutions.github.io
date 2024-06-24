@@ -2,7 +2,6 @@
 title: "Modernizing Collaboration: The Shift from Email Attachments to Shared Links in Outlook"
 excerpt: "Discusses the benefits and challenges of sending links instead of email attachments in Outlook, highlighting improved collaboration and reduced storage needs, while also addressing potential issues with file access and user adaptation."
 date: 2024-06-20T07:00:00Z
-image: "/images/post/Blog-headers-4-1.webp"
 categories:
     - business
 featured: false
