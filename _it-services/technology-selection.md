@@ -11,72 +11,93 @@ title: "Technology Selection"
 weight: 10
 ---
 
-## We'll help you:
+## Our Services Include
 
-- Decide whether to use on-premise servers, cloud servers or a hybrid environment
-- Configure and optimize your servers
-- Setup a [VOIP telephone system](/it-services/voip-business-phones)
-- Develop a purchasing strategy for office servers, computers, tablets and mobile devices
-- Decide what software solutions you need and how to integrate these systems for maximum efficiency and business productivity
-- Plus, put [IT policies and procedures](/consulting/it-policies-procedures) in place to keep your IT environment running smoothly
+1. **Infrastructure Strategy**:
+   - We'll guide you in choosing between on-premise servers, cloud servers, or a hybrid environment.
+   - Configure and optimize your servers for peak performance.
 
-## Buying small business computer hardware can be tricky
+2. **Communication Solutions**:
+   - Set up a [VOIP telephone system](/it-services/voip-business-phones) to enhance communication efficiency.
 
-Today, it's easy enough to go out and buy computers from Best Buy and servers from Dell. What is harder is figuring out exactly what you need. That's why we ALWAYS recommend our clients call us before buying any new server, computer, laptop, storage device or mobile device. Take our specs and then buy the computer on your own if you want. We'll help you figure out:
+3. **Hardware Procurement**:
+   - Develop a purchasing strategy for office servers, computers, tablets, and mobile devices.
 
-- How much memory you need
-- How much processing speed you need
-- How much hard drive space you need
-- The operating system that makes the most sense based on the software programs you're running
-- PLUS we can strip out the "bloatware" that comes pre-installed with most hardware
+4. **Software Integration**:
+   - Determine the software solutions you need and seamlessly integrate them for maximum productivity.
 
-Don't overbuy or get stuck with lagging desktop and device performance.
+5. **IT Policies and Procedures**:
+   - Implement effective policies to maintain a smooth-running IT environment.
 
-## What small business software do you need? How do you decide?
+## Navigating Small Business Computer Hardware Purchases
 
-Software sales people can be very persuasive, and their demos appealing. As your [IT Services Provider](/it-services), we help you make a sound decision based on YOUR business needs. We think about things that business users often don't consider like:
+In today's market, buying computers from Best Buy or servers from Dell is straightforward. However, the real challenge lies in determining precisely what your business requires. That's why we **always recommend** that our clients reach out to us before making any new hardware purchases—whether it's a server, computer, laptop, storage device, or mobile device. Here's how we can assist:
 
-- Does this software offer [API access](/software/api-access-small-business-software)?
-- Will this company be around for the next 10-20 years?
-- How easy is it to configure the security settings?
-- Is it easy to integrate with the operating system and software you've already implemented?
-- What kind of support can you expect?
-- What other options exist?
-- Are you evaluating software using the right criteria?
+1. **Memory Assessment**: We'll help you determine the optimal amount of memory (RAM) needed for your specific tasks.
+2. **Processing Speed Considerations**: Based on your workload, we'll guide you on the appropriate processing speed.
+3. **Hard Drive Space**: Let's calculate the right amount of storage space to avoid overbuying or running out of room.
+4. **Operating System Selection**: We'll recommend an operating system that aligns with your software requirements.
+5. **Bloatware Cleanup**: We can remove unnecessary pre-installed software ("bloatware") to enhance performance.
 
-## Microsoft vs. Google vs. Apple
+Avoid costly mistakes—reach out to us and ensure your desktops and devices perform at their best.
 
-Pick a platform. These tech giants compete for your business by encouraging collaboration in some areas and building giant obstacles in others. Their business software partners often pick one main eco-system to support. For example, Insightly CRM has an amazingly tight integration with G-Suite. Other systems rely on [Microsoft 365](/business/google-workspace-vs-microsoft-365), SQL Server and Azure. Committing to one central platform for your business will guide many of your future decisions.
+## Choosing Small Business Software: A Strategic Approach
 
-## Business software essentials
+Navigating the world of software can be overwhelming. Sales pitches are persuasive, and flashy demos can sway even the most discerning business owner. But fear not! As your trusted **[IT Services Provider](/it-services)**, we're here to guide you toward informed decisions tailored to your unique needs. Here's what we consider (and what you should too):
 
-Some of the software solutions we help clients evaluate, implement and support on a regular basis include:
+1. **API Access**: Does the software offer [API access](/software/api-access-small-business-software)? This can enhance integration and automation.
+
+2. **Longevity**: Will the company be around for the next 10-20 years? Stability matters.
+
+3. **Security Configuration**: How straightforward is it to configure security settings? Protecting your data is paramount.
+
+4. **Integration**: Can it seamlessly integrate with your existing operating system and software? Avoid silos.
+
+5. **Support**: What level of support can you expect? Responsive assistance is crucial.
+
+6. **Exploring Alternatives**: Are you aware of other options? Let's explore them together.
+
+7. **Evaluation Criteria**: Ensure you're evaluating software using the right criteria. Let's make an informed choice!
+
+## Choosing Between Microsoft, Google, and Apple
+
+When it comes to tech giants like Microsoft, Google, and Apple, businesses face a critical decision. Each company encourages collaboration in certain areas while presenting challenges in others. Their business software partners often align with one primary ecosystem. For instance:
+
+- **Insightly CRM** integrates seamlessly with **G-Suite** (Google Workspace).
+- Other systems rely on **Microsoft 365**, **SQL Server**, and **Azure**.
+
+Committing to a central platform will significantly influence your future decisions, so choose wisely.
+
+## Essential Business Software Solutions
+
+As part of our services, we assist clients in evaluating, implementing, and supporting various software solutions. Here are some essentials:
 
 - [Microsoft 365](/it-services/microsoft-365)
 - Windows
 - G-Suite
 - Firewalls
-- Line of business systems
+- Line-of-business systems
 
-## Business productivity software
+Feel free to explore these options, and let us know if you need further guidance!
 
-Beyond the essentials, we can help you evaluate:
+## Expanding Your Business Productivity Toolkit
 
-- Accounting software packages
-- eCommerce solutions
-- Order processing and shipping solutions
-- Sales and marketing management software
-- Service and maintenance software
+In addition to the essentials, we're here to assist you in evaluating:
 
-## Software development
+- **Accounting Software Packages**
+- **eCommerce Solutions**
+- **Order Processing and Shipping Solutions**
+- **Sales and Marketing Management Software**
+- **Service and Maintenance Software**
 
-One of the advantages of working with us is that we don't just install software, we are also a [software development services](/software-development) company. That means that if we can't find the perfect software that meets your needs, we can help you make the right decision for what you need. We can help you decide between:
+Feel free to explore these options, and let us know how we can further support your business!
 
-- Building a custom software application
-- Modifying an off-the-shelf program
-- Integrating two-or-more systems to bring together the functionality you need
+## Empowering Your Business Through Software Development
 
-The one thing we hear repeatedly from new clients is "I wish we had called you before we bought this software…" One short consultation may save you endless hours and needless frustration down the road.
+At our company, we go beyond mere software installation—we're also a **[software development services](/software-development)** provider. If you can't find the perfect off-the-shelf software to meet your needs, worry not! We'll assist you in making informed decisions. Consider these options:
 
-If you're unsure where to get started, or got stuck along the way, connect with us and we will help guide you in the right direction.
+1. **Custom Software Application**: Tailor-made solutions designed specifically for your business.
+2. **Off-the-Shelf Modification**: Adapt existing programs to align with your requirements.
+3. **System Integration**: Combine multiple systems to achieve the functionality you need.
 
+New clients often tell us, "I wish we had consulted you before purchasing that software." A brief conversation can save you countless hours and frustration. Whether you're starting fresh or facing roadblocks, reach out—we'll steer you in the right direction!

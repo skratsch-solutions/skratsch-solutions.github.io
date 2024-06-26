@@ -11,31 +11,36 @@ title: "IT Support"
 weight: 6
 ---
 
-## Need IT support for your business?
+## Reliable IT Support for Your Business
 
-Let our team become your outsourced help desk providing as needed IT support for your users. Whatever your issue is, we’ll do everything in our power to get you back up and running quickly, keeping you informed every step of the way. 
+Let our team serve as your outsourced help desk, providing on-demand IT support for your users. No matter the issue, we're committed to swiftly getting you back on track while keeping you informed throughout the process.
 
-As a small business IT support provider in the Metro Detroit, Michigan area, every day we tackle issues like:
+As a trusted small business IT support provider in the Metro Detroit, Michigan area, we handle a wide range of daily challenges, including:
 
-- Troubleshooting email and computer problems
-- Resolving network & server connectivity issues
-- Resetting passwords
-- Diagnosing software and hardware problems
-- Running security patches and system updates
-- Restoring files from backup
-- Removing malware & ransomware
+- **Email and Computer Troubleshooting**
+- **Network and Server Connectivity Resolution**
+- **Password Resets**
+- **Software and Hardware Diagnostics**
+- **Security Patching and Updates**
+- **File Restoration from Backups**
+- **Malware and Ransomware Removal**
 
-Our regular business hours are M-F 9:00 a.m. to 5:00 p.m. ET, and we also provide after hours support for current customers.
+Our regular business hours are Monday to Friday, 9:00 a.m. to 5:00 p.m. ET. Additionally, we offer after-hours support for existing customers.
 
-If you need support right now, please call the office at **1.313.284.5656** then visit our [Get Support page](/support) to enter your 6-digit code.
+If you require immediate assistance, please call our office at **1.313.284.5656**.
 
-## Why choose our business IT support services?
+## Elevate Your Business with Our IT Support Services
 
-Our IT support services is a fit for companies that don't have full-time professional IT staff, but need more than the consumer and solopreneur support available from GeekSquad or other similar computer repair shops.
+Our IT support services cater to companies without full-time IT staff, bridging the gap between basic consumer support and professional solutions. Here's why you should choose us:
 
-As your technology partner, we provide IT support, but also strategic [IT consulting services](/consulting), to help you:
+1. **Comprehensive Assistance**: Beyond troubleshooting, we offer strategic [IT consulting services](/consulting). We're your technology partner, not just a repair shop.
 
-- Keep your team working productively and efficiently
-- Minimize frustration and the risk of making the situation worse with "do-it-yourself" fixes
-- Be a technology resource, providing help when you need it
-- Leverage technology for business growth
+2. **Productivity Enhancement**: Keep your team efficient and focused on core tasks. We handle the tech challenges.
+
+3. **Expert Guidance**: Avoid DIY pitfalls. Our expertise minimizes risks and frustration.
+
+4. **Resource Availability**: We're your go-to tech resource whenever you need assistance.
+
+5. **Business Growth**: Leverage technology strategically for your company's expansion.
+
+Let's empower your business through seamless IT support!
