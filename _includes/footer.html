@@ -37,9 +37,18 @@
                         </div>
                     </form>
                 </div>
-
                 <div class="col-span-2 mt-6">
-                    <ul class="space-y-4 text-sm">
+                    <p class="font-medium text-primary dark:text-secondary">Company</p>
+                    {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
+                    <ul class="mt-6 space-y-4 text-sm">
+                        {% for item in footermenu %}
+                        <li>
+                            <a href="{{ item.url }}"
+                                class="text-black dark:text-white-offset transition hover:opacity-75"> {{ item.name }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                        <hr class="border-steel mb-6" />
                         <li>
                             <span>
                                 <a href=" mailto:info@skratsch.com"
@@ -54,7 +63,6 @@
                                         class="fa fa-phone"></i> 313.284.5656</a>
                             </span>
                         </li>
-                        <hr />
                         <li>
                             <div class="items-start text-left justify-start  flex flex-row">
                                 <button onclick="window.open('https://facebook.com/skratschsolutions', '_blank')"
@@ -127,20 +135,6 @@
                         </li>
                     </ul>
                 </div>
-
-                <div class="col-span-2 mt-6">
-                    <p class="font-medium text-primary dark:text-secondary">Company</p>
-                    {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
-                    <ul class="mt-6 space-y-4 text-sm">
-                        {% for item in footermenu %}
-                        <li>
-                            <a href="{{ item.url }}"
-                                class="text-black dark:text-white-offset transition hover:opacity-75"> {{ item.name }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
                 <div class="col-span-2 mt-6">
                     <p class="font-medium text-primary dark:text-secondary">Consulting</p>
                     <ul class="mt-6 space-y-4 text-sm">
@@ -153,7 +147,6 @@
                         {% endfor %}
                     </ul>
                 </div>
-
                 <div class="col-span-2 mt-6">
                     <p class="font-medium text-primary dark:text-secondary">IT Services</p>
                     <ul class="mt-6 space-y-4 text-sm">
@@ -166,7 +159,6 @@
                         {% endfor %}
                     </ul>
                 </div>
-
                 <div class="col-span-2 mt-6">
                     <p class="font-medium text-primary dark:text-secondary">Software Services</p>
                     <ul class="mt-6 space-y-4 text-sm">
@@ -178,8 +170,19 @@
                         </li>
                         {% endfor %}
                     </ul>
+                </div>                
+                <div class="col-span-2 mt-6">
+                    <p class="font-medium text-primary dark:text-secondary">Data Services</p>
+                    <ul class="mt-6 space-y-4 text-sm">
+                        {% for service in site.data-services %}
+                        <li>
+                            <a href="{{ service.url | relative_url }}"
+                                class="text-black dark:text-white-offset transition hover:opacity-75"> {{ service.title
+                                }} </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <div class="col-span-1 sm:col-span-1"></div>
             </div>
         </div>
 

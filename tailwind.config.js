@@ -9,6 +9,8 @@ module.exports = {
     './_posts/*.md',
     './_it-services/*.md',
     './_software-development/*.md',
+    './_consulting/*.md',
+    './data-services/*.md',
     './team/*.md',
     './*.html',
     './*.md',
@@ -71,6 +73,12 @@ module.exports = {
     'hero-consulting-policy',
     'hero-consulting-remote',
     'hero-consulting-setup',
-    'hero-consulting-strategy'
+    'hero-consulting-strategy',
+    'hero-data-business-analytics',
+    'hero-data-data-management',
+    'hero-data-dba',
+    'hero-data-power-platform',
+    'hero-data-reporting',
+
   ],
 }

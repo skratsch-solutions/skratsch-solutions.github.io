@@ -175,6 +175,21 @@
   .hero-consulting-remote {
     @apply bg-[url('/images/hero/remote-working-hero.png')];
   }
+  .hero-data-business-analytics {
+    @apply bg-[url('/images/hero/business-analytics-hero.png')];
+  }
+  .hero-data-data-management {
+    @apply bg-[url('/images/hero/data-management-hero.png')];
+  }
+  .hero-data-dba {
+    @apply bg-[url('/images/hero/database-administration-hero.png')];
+  }
+  .hero-data-power-platform {
+    @apply bg-[url('/images/hero/microsoft-power-platform-hero.png')];
+  }
+  .hero-data-reporting {
+    @apply bg-[url('/images/hero/reporting-dashboards-hero.png')];
+  }
 }
 
 @layer utilities {

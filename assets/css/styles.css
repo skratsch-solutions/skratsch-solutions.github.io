@@ -1251,6 +1251,26 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   background-image: url('/images/hero/remote-working-hero.png');
 }
 
+.hero-data-business-analytics {
+  background-image: url('/images/hero/business-analytics-hero.png');
+}
+
+.hero-data-data-management {
+  background-image: url('/images/hero/data-management-hero.png');
+}
+
+.hero-data-dba {
+  background-image: url('/images/hero/database-administration-hero.png');
+}
+
+.hero-data-power-platform {
+  background-image: url('/images/hero/microsoft-power-platform-hero.png');
+}
+
+.hero-data-reporting {
+  background-image: url('/images/hero/reporting-dashboards-hero.png');
+}
+
 .container {
   width: 100%;
 }
@@ -2762,16 +2782,8 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   position: sticky;
 }
 
-.bottom-\[-60px\] {
-  bottom: -60px;
-}
-
 .left-0 {
   left: 0px;
-}
-
-.left-\[-60px\] {
-  left: -60px;
 }
 
 .top-full {
@@ -2830,22 +2842,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   margin: auto;
 }
 
-.m-12 {
-  margin: 3rem;
-}
-
-.m-8 {
-  margin: 2rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -2898,10 +2894,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   margin-bottom: 1rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -2930,6 +2922,10 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   margin-right: 7rem;
 }
 
+.mr-32 {
+  margin-right: 8rem;
+}
+
 .mr-4 {
   margin-right: 1rem;
 }
@@ -2954,10 +2950,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   margin-top: 0.75rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -2968,18 +2960,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-\[-40px\] {
-  margin-top: -40px;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.mr-32 {
-  margin-right: 8rem;
 }
 
 .block {
@@ -3107,10 +3087,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   width: 2rem;
 }
 
-.w-\[800px\] {
-  width: 800px;
-}
-
 .w-auto {
   width: auto;
 }
@@ -3126,14 +3102,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[640px\] {
-  width: 640px;
-}
-
-.w-\[auto\] {
-  width: auto;
 }
 
 .max-w-6xl {
@@ -3506,11 +3474,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   padding-bottom: 0.75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -3716,6 +3679,10 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .drop-shadow-lg {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -3899,11 +3866,6 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .sm\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 }
 

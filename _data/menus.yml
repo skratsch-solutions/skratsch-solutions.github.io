@@ -8,15 +8,18 @@ main:
   - name: "Software Development"
     url: "/software-development/"
     weight: 3
+  - name: "Data Services"
+    url: "/data-services/"
+    weight: 4
   - name: "Blog"
     url: "/posts/"
-    weight: 4
+    weight: 5
   - name: "About"
     url: "/about/"
-    weight: 5
+    weight: 6
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 7
 
 footer:
   - name: "About"
@@ -30,4 +33,4 @@ footer:
     weight: 3
   - name: "FAQs"
     url: "/faq"
-    weight: 2
+    weight: 4

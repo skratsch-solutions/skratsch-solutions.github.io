@@ -1,6 +1,6 @@
 baseurl: '/'
-domain: skratsch-solutions.github.io
-url: https://skratsch-solutions.github.io
+domain: skratsch.com
+url: https://skratsch.com
 permalink: pretty
 title: 'Skratsch Solutions'
 blog-title: 'Building With Skratsch'
@@ -33,6 +33,9 @@ collections:
   consulting:
     output: true
     sort_by: weight
+  data-services:
+    output: true
+    sort_by: weight
   posts:
     output: true
     sort_by: weight
@@ -52,7 +55,12 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "cosulting"
+      type: "consulting"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "data-services"
     values:
       layout: "service"
   - scope:
