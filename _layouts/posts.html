@@ -7,19 +7,19 @@ bodyClass: "page-post"
     <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6 ">
         <div class="mb-12 p-12 space-y-2 text-center {{ page.hero-class }} bg-cover bg-center h-[28em]">
             <div class="flex flex-col justify-center items-center p-12">
-                <h2 class="text-3xl font-bold text-steel md:text-4xl dark:text-whitem sr-only"></h2>
+                <h2 class="text-3xl font-bold text-eerie_black-600 md:text-4xl dark:text-whitem sr-only"></h2>
                 <p class="prose mx-auto w-6/12 text-gray-600 dark:text-gray-300 sr-only"></p>
             </div>
         </div>
         <div class="my-6">
-            <h2 class="text-2xl font-semibold tracking-tight text-primary md:text-4xl dark:text-white">Latest Posts</h2>
+            <h2 class="text-2xl font-semibold tracking-tight text-true_blue md:text-4xl dark:text-white">Latest Posts</h2>
         </div>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {% for post in site.posts %}
             {% if post.draft %} {% continue %} {% endif %}
             <div
-                class="group p-6 sm:p-8 rounded-3xl bg-white-offset border border-steel dark:shadow-none dark:border-black dark:bg-steel bg-opacity-50 shadow-2xl shadow-steel">
-                <div class="relative overflow-hidden rounded-xl bg-white-offset dark:white-offset">
+                class="group p-6 sm:p-8 rounded-3xl bg-seasalt-500 border border-eerie_black-600 dark:shadow-none dark:border-black dark:bg-eerie_black-600 bg-opacity-50 shadow-2xl shadow-eerie_black-600">
+                <div class="relative overflow-hidden rounded-xl bg-seasalt-500 dark:white-offset">
                     {% if post.image %}
                     <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.title }} Hero"
                             loading="lazy" width="1000" height="667"
@@ -31,18 +31,18 @@ bodyClass: "page-post"
                     {% endif %}
                 </div>
                 <div class="mt-6 relative">
-                    <h3 class="text-2xl font-semibold tracking-tight text-steel dark:text-white-offset">
+                    <h3 class="text-2xl font-semibold tracking-tight text-eerie_black-600 dark:text-seasalt-500">
                         {{ post.title }}
                     </h3>
-                    <p class="text-sm text-steel dark:text-white-offset small-caps">
+                    <p class="text-sm text-eerie_black-600 dark:text-seasalt-500 small-caps">
                         {{ post.date | date: "%B %-d, %Y" }}
                     </p>
-                    <p class="mt-6 mb-8 text-steel dark:text-white-offset">
+                    <p class="mt-6 mb-8 text-eerie_black-600 dark:text-seasalt-500">
                         {{ post.excerpt | markdownify | strip_html | truncate: 100 }}
                     </p>
                     <div class="flex flex-wrap justify-left m-auto">
                         <a href="{{ post.url | relative_url }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-secondary dark:focus:ring-primary">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true-blue-800 dark:focus:ring-primary">
                             Read more
                         </a>
                     </div>

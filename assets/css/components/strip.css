@@ -6,7 +6,7 @@
   background-color: white;
 }
 .strip-grey {
-  background-color: var(--white-offset);
+  background-color: var(--seasalt-700);
 }
 .strip-diagonal {
   transform: skewY(5deg);
@@ -17,16 +17,16 @@
   }
 }
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, var(--primary), var(--secondary));
+  background-image: linear-gradient(to right, var(--primary), var(--true_blue-700));
 }
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
+  background-image: linear-gradient(to bottom, var(--primary), var(--true_blue-700));
 }
 .strip-primary {
   background-color: var(--primary);
 }
-.strip-secondary {
-  background-color: var(--secondary);
+.strip-true_blue-700 {
+  background-color: var(--true_blue-700);
 }
 
 .strip-diagonal-right {

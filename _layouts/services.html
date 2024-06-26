@@ -6,7 +6,7 @@ bodyClass: "page-services"
 <div class="relative w-screen px-6 pt-8 isolate">
     <div class="grid w-auto grid-cols-5 pt-3 ml-28 mr-28">
         <div class="col-span-3">
-            <div class="mt-6 text-lg leading-8 prose text-steel dark:text-white-offset">
+            <div class="mt-6 text-lg leading-8 prose text-eerie_black-600 dark:text-seasalt-500">
                 {{ content }}
             </div>
         </div>
@@ -24,14 +24,14 @@ bodyClass: "page-services"
             <div class="flex flex-wrap justify-center">
                 {% for service in site.it-services %}
                 <a href="{{ service.url | relative_url }}"
-                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-white-offset hover:bg-white-offsset dark:border-white-offset dark:bg-steel dark:hover:bg-secondary">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
@@ -49,14 +49,14 @@ bodyClass: "page-services"
             <div class="flex flex-wrap justify-center">
                 {% for service in site.software-development %}
                 <a href="{{ service.url | relative_url }}"
-                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-white-offset hover:bg-white-offsset dark:border-white-offset dark:bg-steel dark:hover:bg-secondary">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
@@ -74,14 +74,14 @@ bodyClass: "page-services"
             <div class="flex flex-wrap justify-center">
                 {% for service in site.consulting %}
                 <a href="{{ service.url | relative_url }}"
-                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-white-offset hover:bg-white-offsset dark:border-white-offset dark:bg-steel dark:hover:bg-secondary">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
@@ -99,14 +99,14 @@ bodyClass: "page-services"
             <div class="flex flex-wrap justify-center">
                 {% for service in site.data-services %}
                 <a href="{{ service.url | relative_url }}"
-                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-white-offset hover:bg-white-offsset dark:border-white-offset dark:bg-steel dark:hover:bg-secondary">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>

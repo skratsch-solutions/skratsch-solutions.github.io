@@ -6,11 +6,11 @@ bodyClass: "page-home"
 <div class="relative w-screen px-6 pt-8 isolate lg:px-8">
     <div class="grid grid-cols-5 w-auto pt-3 ml-28 mr-28">
         <div class="col-span-3">
-            <h1 class="text-4xl font-semibold tracking-tight text-steel dark:text-white">Welcome to {{ site.title }}
+            <h1 class="text-4xl font-semibold tracking-tight text-eerie_black-600 dark:text-white">Welcome to {{ site.title }}
             </h1>
-            <h2 class="mt-6 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{ page.excerpt}}
+            <h2 class="mt-6 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{ page.excerpt}}
             </h2>
-            <div class="prose mt-6 text-lg leading-8 text-steel dark:text-white-offset">
+            <div class="prose mt-6 text-lg leading-8 text-eerie_black-600 dark:text-seasalt-500">
                 {{ content }}
                 {% if page.show_call_box %}
                 {% include call.html show_button=true %}
@@ -30,22 +30,22 @@ bodyClass: "page-home"
         <div class="flex flex-wrap justify-center m-auto">
             {% for feature in site.data.features %}
             <div
-                class="max-w-sm p-6 m-4 text-center drop-shadow-lg  border rounded-lg shadow border-primary dark:border dark:border-white-offset dark:bg-steel dark:shadow-white-offset">
+                class="max-w-sm p-6 m-4 text-center drop-shadow-lg  border rounded-lg shadow border-primary dark:border dark:border-seasalt-700 dark:bg-eerie_black-600 dark:shadow-seasalt-700">
                 <a class="items-center" href="{{feature.url}}">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        class="h-20 w-20 m-auto fill-steel dark:fill-white">
+                        class="h-20 w-20 m-auto fill-eerie_black-600 dark:fill-white">
                         <svg xmlns="http://www.w3.org/2000/svg" transform="matrix(.69 0 0 .69 15.5 15.5)"
                             viewBox="0 0 164 164">
                             {{feature.image.code}}
                         </svg>
                     </svg>
-                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">
                         {{feature.title}}
                     </h5>
                 </a>
-                <p class="mb-3 font-normal text-steel dark:text-white-offset">{{feature.description}}</p>
+                <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{feature.description}}</p>
                 <a href="{{feature.url}}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary focus:ring-4 focus:outline-none focus:ring-secondary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-true_blue-700">
                     Read more
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -62,21 +62,21 @@ bodyClass: "page-home"
 {% endif %}
 
 <div class="w-full mx-auto mt-6 text-center ">
-    <h2 class="text-3xl font-bold text-steel dark:text-white-offset">Business IT Services</h2>
+    <h2 class="text-3xl font-bold text-eerie_black-600 dark:text-seasalt-500">Business IT Services</h2>
     <div class="bg-no-repeat">
         <div class="container pt-6 pb-6 mx-auto sm:px-4 pb-md-10">
             <div class="flex flex-wrap justify-center">
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.it-services limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-white-offset hover:bg-white-offsset dark:border-white-offset dark:bg-steel dark:hover:bg-secondary">
+                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
@@ -84,7 +84,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "it-services" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-secondary dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true-blue-800 dark:focus:ring-primary">
                     View All IT Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -98,21 +98,21 @@ bodyClass: "page-home"
 </div>
 
 <div class="w-full mx-auto mt-6 text-center ">
-    <h2 class="text-2xl font-bold text-steel dark:text-white-offset">Software Services</h2>
+    <h2 class="text-2xl font-bold text-eerie_black-600 dark:text-seasalt-500">Software Services</h2>
     <div class="bg-no-repeat">
         <div class="container py-6 mx-auto sm:px-4 pb-md-10">
             <div class="flex flex-wrap justify-center m-auto">
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.software-development limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-white-offset hover:bg-white-offsset dark:border-white-offset dark:bg-steel dark:hover:bg-secondary">
+                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary dark:text-white-offset">{{
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-steel dark:text-white-offset">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
@@ -120,7 +120,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "software-development" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-secondary dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true-blue-800 dark:focus:ring-primary">
                     View All Software Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">

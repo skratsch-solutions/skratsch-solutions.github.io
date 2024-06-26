@@ -26,6 +26,11 @@ module.exports = {
       'white': '#ffffff',
       'white-offset': '#e8e8e8',
       'steel': '#5c5a5a',
+      'true_blue': { DEFAULT: '#3a64b2', 100: '#0b1423', 200: '#172847', 300: '#223c6a', 400: '#2e4f8e', 500: '#3a64b2', 600: '#5980c9', 700: '#82a0d7', 800: '#acbfe4', 900: '#d5dff2' }, 
+      'eerie_black': { DEFAULT: '#1e2019', 100: '#060605', 200: '#0c0d0a', 300: '#12130f', 400: '#181914', 500: '#1e2019', 600: '#4d5241', 700: '#7d8569', 800: '#a9af99', 900: '#d4d7cc' }, 
+      'rufous': { DEFAULT: '#b02e0c', 100: '#230902', 200: '#471205', 300: '#6a1b07', 400: '#8d240a', 500: '#b02e0c', 600: '#ed3c10', 700: '#f26c4b', 800: '#f79d87', 900: '#fbcec3' }, 
+      'cambridge_blue': { DEFAULT: '#89bd9e', 100: '#182a1f', 200: '#2f543e', 300: '#477d5c', 400: '#60a57c', 500: '#89bd9e', 600: '#a1cab1', 700: '#b8d7c5', 800: '#d0e5d8', 900: '#e7f2ec' }, 
+      'seasalt': { DEFAULT: '#f8f8f8', 100: '#313131', 200: '#636363', 300: '#949494', 400: '#c6c6c6', 500: '#f8f8f8', 600: '#f9f9f9', 700: '#fafafa', 800: '#fcfcfc', 900: '#fdfdfd' },
     },
     fontFamily: {
       sans: ['Helvetica', 'Arial', 'sans-serif', '-apple-system'],

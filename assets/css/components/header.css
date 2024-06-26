@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--white-offset);
+  border-bottom: 1px solid var(--seasalt-700);
   padding: 10px 0px;
   .container {
     display: flex;
