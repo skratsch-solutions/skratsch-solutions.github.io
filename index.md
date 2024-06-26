@@ -2,10 +2,10 @@
 title: Skratsch Solutions
 layout: home
 description: Skratsch Solutions is a leading provider to technology services to small and medium sized business in the Detroit metropolitan area
-intro_image: "images/illustrations/pointing.svg"
+intro_image: "images/illustrations/home-header.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 excerpt: Trusted Technology Solutions for Small and Medium-Sized Businesses
 ---
 

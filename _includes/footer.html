@@ -1,5 +1,5 @@
-<footer class="mt-6 ">
-    <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+<footer class="justify-center items-center ml-32 mr-32">
+    <div class="max-w-screen px-4 py-16 mx-auto ">
         <div class=" flex flex-col items-start gap-8">
             <div>
                 <a href="{{ site.baseurl }}" class="flex items-center mb-4 space-x-3">
@@ -11,7 +11,7 @@
             </div>
 
             <div class="grid grid-cols-10 gap-8 mt-0 gap-y-16">
-                <div class="col-span-6">
+                <div class="col-span-6 align-middle">
                     <div>
                         <h2 class="text-2xl font-bold text-black dark:text-white">Get the latest news!</h2>
 
@@ -22,10 +22,11 @@
                     </div>
                 </div>
 
-                <div class="flex items-end col-span-4">
+                <div class="flex items-end col-span-4 align-middle">
                     <form action="/subscribe" method="POST" class="w-full">
                         <label for="UserEmail" class="sr-only"> Email </label>
-                        <div class="flex items-center gap-4 p-2 border border-primary dark:border-white-offset rounded-2xl focus-within:ring">
+                        <div
+                            class="flex items-center gap-4 p-2 border border-primary dark:border-white-offset rounded-2xl focus-within:ring">
                             <input type="email" id="UserEmail" placeholder="yourname@example.com"
                                 class="h-auto w-2/3 border-none focus:border-transparent focus:ring-transparent" />
 
@@ -37,21 +38,27 @@
                     </form>
                 </div>
 
-                <div class="col-span-3">
-                    <p class="font-medium text-primary dark:text-secondary">Company</p>
-                    {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
-                    <ul class="mt-6 space-y-4 text-sm">
-                        {% for item in footermenu %}
+                <div class="col-span-2 mt-6">
+                    <ul class="space-y-4 text-sm">
                         <li>
-                            <a href="{{ item.url }}"
-                                class="text-black dark:text-white-offset transition hover:opacity-75"> {{ item.name }}
-                            </a>
+                            <span>
+                                <a href=" mailto:info@skratsch.com"
+                        class="text-steel dark:text-white-offset transition hover:opacity-75"><i
+                            class="fa fa-envelope"></i> info@skratsch.com</a>
+                        </span>
                         </li>
-                        {% endfor %}
                         <li>
-                            <div class="mt-32 items-start text-left justify-start  flex flex-row">
+                            <span>
+                                <a href="tel:3132845656"
+                                    class="text-steel dark:text-white-offset transition hover:opacity-75"><i
+                                        class="fa fa-phone"></i> 313.284.5656</a>
+                            </span>
+                        </li>
+                        <hr />
+                        <li>
+                            <div class="items-start text-left justify-start  flex flex-row">
                                 <button onclick="window.open('https://facebook.com/skratschsolutions', '_blank')"
-                                    class="mt-8 w-8 h-8 mr-2 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-steel group transition-all duration-300">
+                                    class="w-8 h-8 mr-2 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-steel group transition-all duration-300">
                                     <svg class="relative z-10 fill-steel transition-all duration-300 group-hover:fill-white-offset"
                                         xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
                                         fill="none">
@@ -63,7 +70,7 @@
                             transition-all duration-500 group-hover:top-0"></div>
                                 </button>
                                 <button onclick="window.open('https://github.com/skratsch-solutions', '_blank')"
-                                    class="mt-8 mr-2 w-8 h-8 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-steel group transition-all duration-500">
+                                    class="mr-2 w-8 h-8 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-steel group transition-all duration-500">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         class="fill-black z-10 transition-all duration-300 group-hover:fill-white-offset"
                                         fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -78,7 +85,7 @@
                                 z-0 transition-all duration-500 group-hover:top-0"></div>
                                 </button>
                                 <button onclick="window.open('https://twitter.com/iamskratsch', '_blank')"
-                                    class="mt-8 mr-2 w-8 h-8 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-steel group transition-all duration-300">
+                                    class="mr-2 w-8 h-8 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-steel group transition-all duration-300">
                                     <svg class="fill-black z-10 transition-all duration-300 group-hover:fill-white-offset"
                                         xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
                                         fill="none">
@@ -90,7 +97,7 @@
                                 transition-all duration-500 group-hover:top-0"></div>
                                 </button>
                                 <button onclick="window.open('https://www.linkedin.com/in/skaschimer/', '_blank')"
-                                    class="mt-8 mr-2 w-8 h-8 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-steel group transition-all duration-300">
+                                    class="mr-2 w-8 h-8 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-steel group transition-all duration-300">
                                     <svg class="fill-black relative z-10 transition-all duration-300 group-hover:fill-white-offset"
                                         xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
                                         fill="none">
@@ -102,7 +109,7 @@
                                 transition-all duration-500 group-hover:top-0"></div>
                                 </button>
                                 <button onclick="window.open('mailto:steve@skratsh.com', '_blank')"
-                                    class="mt-8 w-8 h-8 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-steel group transition-all duration-300">
+                                    class="w-8 h-8 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-steel group transition-all duration-300">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         class="fill-black relative z-10 transition-all duration-300 group-hover:fill-white-offset"
                                         fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -121,7 +128,33 @@
                     </ul>
                 </div>
 
-                <div class="col-span-3">
+                <div class="col-span-2 mt-6">
+                    <p class="font-medium text-primary dark:text-secondary">Company</p>
+                    {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
+                    <ul class="mt-6 space-y-4 text-sm">
+                        {% for item in footermenu %}
+                        <li>
+                            <a href="{{ item.url }}"
+                                class="text-black dark:text-white-offset transition hover:opacity-75"> {{ item.name }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-span-2 mt-6">
+                    <p class="font-medium text-primary dark:text-secondary">Consulting</p>
+                    <ul class="mt-6 space-y-4 text-sm">
+                        {% for service in site.consulting %}
+                        <li>
+                            <a href="{{ service.url | relative_url }}"
+                                class="text-black dark:text-white-offset transition hover:opacity-75"> {{ service.title
+                                }} </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="col-span-2 mt-6">
                     <p class="font-medium text-primary dark:text-secondary">IT Services</p>
                     <ul class="mt-6 space-y-4 text-sm">
                         {% for service in site.it-services %}
@@ -134,7 +167,7 @@
                     </ul>
                 </div>
 
-                <div class="col-span-3">
+                <div class="col-span-2 mt-6">
                     <p class="font-medium text-primary dark:text-secondary">Software Services</p>
                     <ul class="mt-6 space-y-4 text-sm">
                         {% for service in site.software-development %}

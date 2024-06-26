@@ -4,9 +4,10 @@ layout: page
 description: Terms and Conditions
 bodyClass: page-tnc
 hero-class: "hero-terms-conditions"
+date: 2024-06-17
 ---
 
-Last updated;: June 17, 20
+Last updated: June 17, 2024
 
 ## AGREEMENT TO OUR LEGAL TERMS
 

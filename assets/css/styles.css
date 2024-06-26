@@ -2974,6 +2974,14 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   margin-top: -40px;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
 .block {
   display: block;
 }
