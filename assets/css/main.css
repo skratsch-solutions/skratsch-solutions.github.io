@@ -4,9 +4,9 @@
   --color-secondary: #6098ff;
   --color-black: "#2f2f41";
   --color-white': '#ffffff';
-    --color-white-offset': "#fff6f8";
+  --color-white-offset': "#fff6f8";
   --color-steel': '#5c5a5a';
-    --font-family-base': "Open Sans", sans-serif;
+  --font-family-base': "Open Sans", sans-serif;
 }
 
 @import "tailwindcss/base";
@@ -112,6 +112,12 @@
   .hero-it-technology-assessment {
     @apply bg-[url('/images/hero/technology-assessment-services-hero.png')];
   }
+  .hero-it-technology-selection {
+    @apply bg-[url('/images/hero/technology-selection-hero.png')];
+  }
+  .hero-it-voip-business-phone {
+    @apply bg-[url('/images/hero/voip-business-phone-hero.png')];
+  }
   .hero-software-configuration {
     @apply bg-[url('/images/hero/software-configuration-services-hero.png')];
   }
@@ -155,7 +161,7 @@
     @apply bg-[url('/images/hero/information-security-hero.png')];
   }
   .hero-consulting-policy {
-    @apply bg-[url('/images/hero/policies-procedures-hero.png')];
+    @apply bg-[url('/images/hero/it-policies-procedures-hero.png')];
   }
   .hero-consulting-strategy {
     @apply bg-[url('/images/hero/it-strategy-hero.png')];
@@ -167,7 +173,7 @@
     @apply bg-[url('/images/hero/technology-advisor-hero.png')];
   }
   .hero-consulting-remote {
-    @apply bg-[url('/images/hero/remote-work-hero.png')];
+    @apply bg-[url('/images/hero/remote-working-hero.png')];
   }
 }
 

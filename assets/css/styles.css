@@ -4,9 +4,9 @@
   --color-secondary: #6098ff;
   --color-black: "#2f2f41";
   --color-white': '#ffffff';
-    --color-white-offset': "#fff6f8";
+  --color-white-offset': "#fff6f8";
   --color-steel': '#5c5a5a';
-    --font-family-base': "Open Sans", sans-serif;
+  --font-family-base': "Open Sans", sans-serif;
 }
 
 /*
@@ -1167,6 +1167,14 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   background-image: url('/images/hero/technology-assessment-services-hero.png');
 }
 
+.hero-it-technology-selection {
+  background-image: url('/images/hero/technology-selection-hero.png');
+}
+
+.hero-it-voip-business-phone {
+  background-image: url('/images/hero/voip-business-phone-hero.png');
+}
+
 .hero-software-configuration {
   background-image: url('/images/hero/software-configuration-services-hero.png');
 }
@@ -1205,6 +1213,42 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
 
 .hero-blog {
   background-image: url('/images/hero/blog-hero.png');
+}
+
+.hero-consulting-bc {
+  background-image: url('/images/hero/business-continuity-hero.png');
+}
+
+.hero-consulting-bp {
+  background-image: url('/images/hero/business-productivity-hero.png');
+}
+
+.hero-consulting-grow {
+  background-image: url('/images/hero/growing-businesses-hero.png');
+}
+
+.hero-consulting-is {
+  background-image: url('/images/hero/information-security-hero.png');
+}
+
+.hero-consulting-policy {
+  background-image: url('/images/hero/it-policies-procedures-hero.png');
+}
+
+.hero-consulting-strategy {
+  background-image: url('/images/hero/it-strategy-hero.png');
+}
+
+.hero-consulting-setup {
+  background-image: url('/images/hero/new-office-setup-hero.png');
+}
+
+.hero-consulting-advisor {
+  background-image: url('/images/hero/technology-advisor-hero.png');
+}
+
+.hero-consulting-remote {
+  background-image: url('/images/hero/remote-working-hero.png');
 }
 
 .container {
@@ -2786,6 +2830,22 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
   margin: auto;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -3058,6 +3118,14 @@ h6:where([data-theme="dark"], [data-theme="dark"] *) {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[640px\] {
+  width: 640px;
+}
+
+.w-\[auto\] {
+  width: auto;
 }
 
 .max-w-6xl {

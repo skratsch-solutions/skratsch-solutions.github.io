@@ -1,9 +1,9 @@
 ---
 attribution:
 date: 2024-06-17T11:36:00-05:00
-excerpt: "Move to a modern phone solution."
-hero-class: "hero-it-voip-phones"
-image: "/images/icons/outline/voip-phones.png"
+excerpt: "Move to a modern phone solution. VOIP telephones provide a professional experience for prospects and customers."
+hero-class: "hero-it-voip-business-phone"
+image: "/images/icons/outline/voip-business-phone.png"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

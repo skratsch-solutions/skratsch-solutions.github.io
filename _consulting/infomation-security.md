@@ -1,5 +1,4 @@
 ---
-attribution:
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Information security can broadly be defined as the end-to-end protection of your business information."
 hero-class: "hero-consulting-is"
@@ -11,27 +10,40 @@ title: "Information Security"
 weight: 4
 ---
 
-## Keeping your information secure
+## Ensuring Information Security for Your Business
 
-Data security, network security, cybersecurity - these security practices all fall under the umbrella of information security. Information security can broadly be defined as the end-to-end protection of your business information.
+Data security, network security, and cybersecurity—all these practices fall under the umbrella of information security. Broadly defined, information security aims to protect your business information from end to end.
 
-By taking a proactive approach to security, we can help you keep information flowing smoothly and securely in and out of your business - while preventing unauthorized access, use, and destruction of information. Our information security consulting services are designed around your needs to:
+Taking a proactive approach to security allows us to ensure smooth and secure information flow in and out of your business while preventing unauthorized access, misuse, and data destruction. Our information security consulting services are tailored to your needs:
 
-- Prevent malware attacks, data security breaches and data loss from happening.
-- Protect your customer's privacy and adding additional security layers around sensitive information like financial and health information.
-- Help you respond quickly and appropriately to any information security threat - whether that's a fired employee, a hard drive crash, or a detected security vulnerability. Preparation is key.
+1. **Preventing Threats**:
+   - We safeguard against malware attacks, data breaches, and data loss.
+   - Additional security layers protect customer privacy, especially sensitive information like financial and health data.
 
-Right now, information security is a top priority for many businesses. Cyber criminals are becoming more sophisticated. And, with so many people working remotely, long-standing security practices like geofencing your office building are no longer as effective. Don't wait until you experience a security incident. If you haven't updated your information security plan recently, let our security professionals conduct an on-site risk assessment. We can either put your mind at ease that you're well protected, or help create a information security plan.
+2. **Rapid Response**:
+   - Whether it's a fired employee, a hard drive crash, or a security vulnerability, we help you respond swiftly and effectively.
+   - Preparedness is crucial.
 
-## Our information security services and solutions
+Information security is currently a top priority for businesses. Cybercriminals are increasingly sophisticated, and traditional security practices—like geofencing office buildings—are less effective with remote work. Don't wait for a security incident. If you haven't updated your security plan recently, our professionals can conduct an on-site risk assessment. We'll either put your mind at ease or help create a robust information security plan.
 
-Pretty much everything we do involves protecting your data and systems from loss or intrusion, like:
+## Here's a brief overview of our information security services and solutions
 
-- Regularly backing up your data and testing the recovery procedures
-- Implementing security solutions like firewalls and anti-virus software
-- Networking security monitoring
-- Cloud security monitoring
-- Installing security updates and patches
-- Instituting [IT security policies and procedures](/consulting/it-policies-procedures)
-- Creating disaster recovery and business continuity plans
-- Making sure you meet any regulatory requirements
+1. **Data Protection**:
+   - Regular data backups with tested recovery procedures.
+   - Implementation of security solutions, including firewalls and anti-virus software.
+
+2. **Monitoring**:
+   - Network security monitoring.
+   - Cloud security monitoring.
+
+3. **Maintenance**:
+   - Installation of security updates and patches.
+
+4. **Policy and Planning**:
+   - Development of IT security policies and procedures.
+   - Creation of disaster recovery and business continuity plans.
+
+5. **Compliance**:
+   - Ensuring adherence to regulatory requirements.
+
+Feel free to reach out if you have any specific security needs or questions!
