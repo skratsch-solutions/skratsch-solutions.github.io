@@ -5,37 +5,34 @@ description: About
 bodyClass: page-about
 hero-class: "hero-about-us"
 ---
-## Our Promise
 
-Like a doctor or an attorney, our job is to look out for your best interests. Sure, we have our favorite brands, but we don't have vendor quotas to meet.
+## Our Commitment
 
-We work to earn your trust every day by:
+Similar to doctors or attorneys, our role is to prioritize your best interests. While we do have preferences, we don't adhere to vendor quotas.
 
-* Staying neutral and objective, putting your needs first
-* Focusing on our areas of technical expertise - and telling you when a project is outside of our skill sets
-* Doing what we say we'll do
+We earn your trust by:
 
-Our word is our bond. If we say we're going to do something, we do it. If something goes wrong, we make it right. We put our words into action.
+- Remaining neutral and objective, always prioritizing your needs
+- Focusing on our technical expertise and transparently acknowledging when a project falls outside our skill set
+- Delivering on our promises
 
-## Our Philosophy
+Our word is our bond. If we commit to something, we follow through. If issues arise, we take corrective action. Trust is at the core of our approach.
 
-We treat our clients like we want to be treated. We don't believe you have to upgrade just because the software vendor puts out a new release.
+## Our Approach
 
-When money is tight, we will help you prioritize and plan ahead to stretch your technology budget. Our technology consulting team hold certifications from Apple, Microsoft and from other software companies as well.
+At Skratsh Solutions, we adhere to a simple philosophy: treat our clients the way we want to be treated. We don't believe in upgrading just because a software vendor releases a new version. Instead, we help you prioritize and plan ahead, especially when finances are tight. Our technology consulting team boasts certifications from Apple, Microsoft, and other leading software companies. Plus, we communicate in plain English and recommend solutions that align with your technology comfort level.
 
-We speak plain English, and recommend solutions that fit your technology comfort level.
+## Our Valued Clients
 
-## Our Clients
+We pride ourselves on being a small business too. Our clients appreciate our responsiveness and personalized approach. Here's what our typical customers look like:
 
-Our clients tell us they like working with us because we're also a small business, and are responsive to their needs. Our customers typically:
+- They employ 5 to 100 staff members.
+- In-house IT support isn't their forte.
+- They handle significant data, systems, and paperwork.
+- They recognize the need for more efficient solutions.
 
-* Have 5-100 employees
-* Dont usually have a dedicated in-house IT support team
-* Are managing lots of data, systems and paper
-* Know there must be a better way!
+While many of our clients are based in South Michigan - specifically Macomb, Oakland, and Wayne Counties - we also provide remote technology consulting services to companies across the state. Even if you're out-of-state, we're here to assist you, whether remotely or on-site.
 
-Many of our customers are located in South Michigan - Macomb, Oakland & Wayne Counties - but we also do remote technology consulting work for companies who are out in other parts of the state as well. Out-of-state? We can still help, remotely or on-site if you choose.
+## The Final Stretch
 
-## The Last 20%
-
-It's tempting for small business owners, and even mid-sized business executives, to go on a never-ending hunt for the perfect set of software solutions, ending up with a patchwork quilt of software - that's never been sewn together.
+“Final Stretch,” refers to the last 20% of the journey when it comes to providing services to small and mid-sized businesses. Imagine that the process of finding suitable software is like running a race. The first 80% involves researching, evaluating options, and making initial decisions. However, that last 20% - the final stretch - can be tricky. It’s where businesses often encounter challenges such as integrating different software tools seamlessly. Just like stitching together a patchwork quilt, this phase requires careful attention to ensure that all the pieces fit together harmoniously. So, in essence, it’s about completing the puzzle and making sure your software solutions work cohesively.

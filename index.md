@@ -9,4 +9,4 @@ show_call_box: true
 excerpt: Trusted Technology Solutions for Small and Medium-Sized Businesses
 ---
 
-At Skratsch Solutions, we understand that technology is the backbone of your business. Our seasoned professionals bring over 20 years of expertise to the table, ensuring that your IT infrastructure and software run seamlessly. Whether you need ongoing support, project execution, strategic consulting, or software development, we've got you covered.
+At Skratsch Solutions, we recognize that technology serves as the backbone of your business. Our seasoned professionals bring over two decades of expertise to the table, ensuring that your IT infrastructure and software operate seamlessly. Whether you require ongoing support, project execution, strategic consulting, or custom software development, rest assured - we’ve got you covered.
