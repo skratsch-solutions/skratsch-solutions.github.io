@@ -3,7 +3,7 @@
   <ul class="flex flex-row mt-4 font-medium space-x-8">
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}" class="block text-true-blue-800 border-0 hover:text-true_blue p-0"
+      <a href="{{ item.url | relative_url }}" class="block text-true_blue-600 border-0 hover:text-true_blue p-0"
         aria-current="page">{{ item.name }}</a>
     </li>
     {% endfor %}

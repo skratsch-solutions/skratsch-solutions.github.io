@@ -1,7 +1,7 @@
 :root {
   --color-primary: "#3A64B2";
   --color-primary-dark: #c59b4d;
-  --color-true_blue-700: #6098ff;
+  --color-true_blue-600: #6098ff;
   --color-black: "#2f2f41";
   --color-white': '#ffffff';
   --color-seasalt-700': "#fff6f8";
@@ -36,7 +36,7 @@
   .prose {
     & thead {
       & tr {
-        @apply p-2  bg-true-blue border-b text-left dark:bg-true-blue-800;
+        @apply p-2  bg-true_blue border-b text-left dark:bg-true_blue-600;
         & th {
           @apply p-2 text-seasalt-500 dark:text-white;
         }
@@ -44,7 +44,7 @@
     }
     & tbody {
       & tr {
-        @apply pl-2 odd:bg-seasalt-500 odd:dark:bg-seasalt-500 even:bg-eerie_black-600 even:dark:bg-true-blue odd:text-eerie_black-600 odd:dark:text-eerie_black-600 even:text-seasalt-500 even:dark:text-seasalt-500;
+        @apply pl-2 odd:bg-seasalt-500 odd:dark:bg-seasalt-500 even:bg-eerie_black-600 even:dark:bg-true_blue odd:text-eerie_black-600 odd:dark:text-eerie_black-600 even:text-seasalt-500 even:dark:text-seasalt-500;
         & td {
           @apply p-2;
         }

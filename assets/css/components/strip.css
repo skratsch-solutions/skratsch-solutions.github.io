@@ -17,16 +17,16 @@
   }
 }
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, var(--primary), var(--true_blue-700));
+  background-image: linear-gradient(to right, var(--primary), var(--true_blue-600));
 }
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, var(--primary), var(--true_blue-700));
+  background-image: linear-gradient(to bottom, var(--primary), var(--true_blue-600));
 }
 .strip-primary {
   background-color: var(--primary);
 }
-.strip-true_blue-700 {
-  background-color: var(--true_blue-700);
+.strip-true_blue-600 {
+  background-color: var(--true_blue-600);
 }
 
 .strip-diagonal-right {

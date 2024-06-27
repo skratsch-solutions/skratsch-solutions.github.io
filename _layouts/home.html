@@ -45,7 +45,7 @@ bodyClass: "page-home"
                 </a>
                 <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{feature.description}}</p>
                 <a href="{{feature.url}}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-true_blue-700">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-true_blue-600">
                     Read more
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -69,7 +69,7 @@ bodyClass: "page-home"
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.it-services limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
+                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -84,7 +84,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "it-services" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true-blue-800 dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All IT Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -105,7 +105,7 @@ bodyClass: "page-home"
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.software-development limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true-blue-800">
+                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -120,7 +120,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "software-development" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true-blue-800 rounded-lg hover:bg-true-blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true-blue-800 dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All Software Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
