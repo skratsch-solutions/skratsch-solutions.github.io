@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/remote-work-productivity.jpg"
+image: "/images/post/remote-work-productivity.webp"
 ---
 
 The good news is that there are plenty of tools out there to help encourage employees, keep coworkers connected, and help increase the work at home productivity.  In our last post, we shared how to setup remote access to enable [employees to work from home](/business/setup-secure-remote-access-employees) . This time, we’d like to focus on how to manage people and technology in a remote environment.
@@ -34,7 +34,7 @@ Zoom is a video conferencing tool with features like:
 
 - - -
 
-![work at home productivity](/images/post/microsoft-teams-ui.jpg "Encouraging employees: 7 Work at Home Productivity Tips 2")
+![work at home productivity](/images/post/microsoft-teams-ui.webp "Encouraging employees: 7 Work at Home Productivity Tips 2")
 
 Both tools work on both PCs and mobile device. Microsoft has made [Microsoft Teams available for FREE](https://products.office.com/en-us/microsoft-teams/free).  Zoom is always free, but with limitations.
 

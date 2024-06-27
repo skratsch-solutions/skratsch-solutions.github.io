@@ -1,7 +1,7 @@
 ---
 title: "Understanding Azure Boards"
 date: 2023-09-06T12:00:00Z
-image: /images/post/azuredevops.png
+image: /images/post/azuredevops.webp
 description: "This article will dive deep into into Azure Boards, a powerful tool for Agile project management"
 categories:
     - devops

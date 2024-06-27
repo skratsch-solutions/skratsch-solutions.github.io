@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/firewalls-and-cybersecurity.jpg"
+image: "/images/post/firewalls-and-cybersecurity.webp"
 ---
 With all the news about [data security
 breaches](/security/prevent-data-security-breaches/index.html) and malware

@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "We do everything 'from the walls out' to help with the technology selection and setup of your IT environment."
 hero-class: "hero-it-technology-selection"
-image: "/images/icons/outline/technology-selection.png"
+image: "/images/icons/outline/technology-selection.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

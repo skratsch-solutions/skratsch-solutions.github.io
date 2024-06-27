@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/bring-your-own-device.jpg"
+image: "/images/post/bring-your-own-device.webp"
 ---
 Are you concerned about BYOD risks? Bring your own device (BYOD) is the
 practice of allowing employees to use their own technology for

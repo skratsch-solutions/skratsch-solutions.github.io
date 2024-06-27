@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/software-deployment-best-practices.jpg"
+image: "/images/post/software-deployment-best-practices.webp"
 ---
 ## Software rollout best practices
 

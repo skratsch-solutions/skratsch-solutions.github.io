@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/custom-software-solutions.jpg"
+image: "/images/post/custom-software-solutions.webp"
 ---
 At this point, you've looked for standard commercial off-the-shelf
 software (COTS) and you can't find software that does what you need. You
@@ -79,10 +79,10 @@ decision about how to proceed with your project.
 
 ## Weighing your options
 
-![weighing your options](/images/post/commercial-software.png)
+![weighing your options](/images/post/commercial-software.webp)
 
 
-![custom software 1](/images/post/custom-software-1.png)
+![custom software 1](/images/post/custom-software-1.webp)
 
 ## Calculating the rewards of custom software
 

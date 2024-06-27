@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/ms-365-business-apps.jpg"
+image: "/images/post/ms-365-business-apps.webp"
 ---
 
 ## Unlocking Microsoft 365: Beyond Office Basics

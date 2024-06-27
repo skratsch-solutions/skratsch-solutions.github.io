@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "We partner with the top cloud providers to make sure your application and data land in the right place for your business"
 hero-class: "hero-it-cloud-migration"
-image: "/images/icons/outline/cloud-migration-services.png"
+image: "/images/icons/outline/cloud-migration-services.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

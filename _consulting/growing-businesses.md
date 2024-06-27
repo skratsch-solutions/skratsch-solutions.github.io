@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Business productivity is the alignment of technology, process and people. We can help you thrive!"
 hero-class: "hero-consulting-grow"
-image: "/images/icons/outline/growing-businesses-services.png"
+image: "/images/icons/outline/growing-businesses-services.webp"
 layout: page
 parent-name: "Consulting"
 parent-url: "/consulting"

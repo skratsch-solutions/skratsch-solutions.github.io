@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/archiving-email.jpg"
+image: "/images/post/archiving-email.webp"
 ---
 In the digital age, our inboxes are often inundated with emails, leading to clutter and decreased productivity. To maintain an organized inbox and ensure no important communication is lost, regular email archiving is essential.
 

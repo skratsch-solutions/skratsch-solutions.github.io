@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/spam-junk.jpg"
+image: "/images/post/spam-junk.webp"
 ---
 
 Managing spam and junk emails in Outlook can be tedious and pose security risks. To maintain a clean inbox, consider these strategies:

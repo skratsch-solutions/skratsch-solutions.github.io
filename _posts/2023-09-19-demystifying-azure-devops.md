@@ -1,7 +1,7 @@
 ---
 title: "Demystifying Azure DevOps: A Beginner's Guide to Success"
 date: 2023-09-19T07:00:00Z
-image: /images/post/azuredevops.png
+image: /images/post/azuredevops.webp
 categories: 
     - devops
     - azure

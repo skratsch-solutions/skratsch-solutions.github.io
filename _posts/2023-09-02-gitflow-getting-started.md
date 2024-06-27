@@ -1,7 +1,7 @@
 ---
 title: "GitFlow - Getting Started"
 date: 2023-09-02T09:00:00Z
-image: /images/post/github_gitflow.png
+image: /images/post/github_gitflow.webp
 description: "In this article, we will walk you through the basisc of Git Flow, it's history, its pros and cons, and the basics of how to work with it in your development workflow."
 categories:
     - git

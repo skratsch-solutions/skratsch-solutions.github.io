@@ -1,7 +1,7 @@
 ---
 title: "How To Setup A Small Business VPN"
 date: 2024-06-20T07:00:00Z
-image: "/images/post/know-your-logins.jpg"
+image: "/images/post/know-your-logins.webp"
 categories:
     - security
 featured: false

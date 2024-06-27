@@ -1,7 +1,7 @@
 ---
 title: "How To Prevent Data Security Breaches"
 date: 2024-06-19T07:00:00Z
-image: "/images/post/small-business-security-breach.png"
+image: "/images/post/small-business-security-breach.webp"
 categories:
     - security
 featured: false

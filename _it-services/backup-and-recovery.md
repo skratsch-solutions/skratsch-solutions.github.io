@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Unexpected downtime occurs, even in the largest of companies. Protect your data by establishing a strong backup and recovery plan - better yet, let us do that for you!"
 hero-class: "hero-it-backup-recovery"
-image: "/images/icons/outline/backup-and-recovery-services.png"
+image: "/images/icons/outline/backup-and-recovery-services.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

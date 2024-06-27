@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/navigating-development-partners.jpg"
+image: "/images/post/navigating-development-partners.webp"
 ---
 Now it's time to find a software development company. You probably get
 solicitations all the time from offshore programmers offering to build

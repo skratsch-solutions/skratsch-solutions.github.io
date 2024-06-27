@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/code-n-cuisine.jpg"
+image: "/images/post/code-n-cuisine.webp"
 ---
 Does it matter what programming language, web framework, or database is
 used to build a custom software application?
@@ -40,7 +40,7 @@ They're like a well-seasoned cast iron skillet: easy, familiar, and open source.
 
 Need something cooked up quickly? Django's got your back. Want cross-platform compatibility? Python's like a culinary chameleon—it adapts to any kitchen (or operating system).
 
-[![python CTA 2](/images/post/python-CTA-2.png)](/assets/docs/PythonBrochure_20150309_17-56-00RZ107-DL.pdf)
+[![python CTA 2](/images/post/python-CTA-2.webp)](/assets/docs/PythonBrochure_20150309_17-56-00RZ107-DL.pdf)
 
 ## 5 reasons to use Django and Python
 

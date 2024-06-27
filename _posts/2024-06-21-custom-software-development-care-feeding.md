@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/custom-software-maintenance.jpg"
+image: "/images/post/custom-software-maintenance.webp"
 ---
 ### Effective care and feeding of custom software demand proactive maintenance, updates, and user support. Prioritizing ongoing attention ensures optimal performance and longevity of bespoke solutions.
 

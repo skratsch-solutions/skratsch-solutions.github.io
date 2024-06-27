@@ -6,7 +6,7 @@ categories:
     - business
 weblogName: Build With Skratsch
 date: 2024-06-27T10:35:59.5706698-04:00
-image: "/images/post/tech-innovations.jpg"
+image: "/images/post/tech-innovations.webp"
 featured: false
 draft: false
 parent-name: "Building With Skratsch"

@@ -12,7 +12,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/data-maze.jpg"
+image: "/images/post/data-maze.webp"
 ---
 > The cost of bad data is an astonishing 15% to 25% of revenue for most
 companies.

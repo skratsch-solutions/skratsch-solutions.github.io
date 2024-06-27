@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/email-aliases-distribution-lists.jpg"
+image: "/images/post/email-aliases-distribution-lists.webp"
 ---
 
 Setting up multiple email accounts (when a single one suffices) not only incurs unnecessary software costs but also leads to login credential complexities. Surprisingly, many business professionals remain unaware that shared mailboxes and distribution groups offer viable alternatives, each with distinct advantages. Our goal is to demystify these options

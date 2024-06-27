@@ -11,7 +11,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/disaster-recovery.jpg"
+image: "/images/post/disaster-recovery.webp"
 ---
 
 ## Disaster recovery planning is critical!

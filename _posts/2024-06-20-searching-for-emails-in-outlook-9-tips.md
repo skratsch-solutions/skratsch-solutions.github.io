@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/efficient-email-management.jpg"
+image: "/images/post/efficient-email-management.webp"
 ---
 
 Managing your email effectively is crucial in today’s fast-paced world. Whether you aim for [Inbox Zero](/business/inbox-zero-worthwhile-or-a-waste-of-time) or have a more relaxed approach, it’s common to feel overwhelmed by the volume of emails. Our latest guide provides practical tips to help you streamline your Outlook email management and enhance productivity.

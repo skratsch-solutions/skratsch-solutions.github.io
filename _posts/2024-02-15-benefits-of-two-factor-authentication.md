@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/benefits-of-2fa.jpg"
+image: "/images/post/benefits-of-2fa.webp"
 ---
 
 ## Understanding 2FA: A Security Necessity 
@@ -21,7 +21,7 @@ Two-factor authentication (2FA) is a vital security measure that combines two di
 
 A common example, in order to use a credit card online or over the phone, you may have to scan the card (#2 something orwned) and enter a PIN (debit) or a billing zip code (credit) (#1 something known). Adding a code sent to your email or mobile phone (#2 something owned) to authorize the purchase adds another level of security.
 
-![benefits of two factor authentication](/images/post/2fa-verification.png)
+![benefits of two factor authentication](/images/post/2fa-verification.webp)
 
 ## Beyond Passwords: Strengthening Data Security
 

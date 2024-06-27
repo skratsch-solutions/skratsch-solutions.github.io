@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-19T11:36:00-05:00
 excerpt: "While some employers are ready to have everyone back at the office, others are looking for mid-to-long-term plans that support employees working at home in the most productive and secure way possible."
 hero-class: "hero-consulting-remote"
-image: "/images/icons/outline/remote-working-services.png"
+image: "/images/icons/outline/remote-working-services.webp"
 layout: page
 parent-name: "Consulting"
 parent-url: "/consulting"

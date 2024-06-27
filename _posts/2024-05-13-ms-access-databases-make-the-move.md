@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/ms-access.jpg"
+image: "/images/post/ms-access.webp"
 ---
 
 _Once upon a time…_

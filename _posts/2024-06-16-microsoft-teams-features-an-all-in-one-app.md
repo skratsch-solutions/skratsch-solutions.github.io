@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/teams-features.jpg"
+image: "/images/post/teams-features.webp"
 ---
 
 Microsoft Teams has evolved as a comprehensive app within Microsoft 365, replacing Skype for Business and enhancing collaboration with features like SharePoint, OneNote, and Planner. It's a versatile platform that allows for the integration of various desktop apps, ensuring enterprise-level security to safeguard your data against cyber threats and breaches.

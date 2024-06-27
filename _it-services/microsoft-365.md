@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Increase your productivity by bring us alongside and helping you configure and manage your M365 subscription"
 hero-class: "hero-it-microsoft-365"
-image: "/images/icons/outline/microsoft-365.png"
+image: "/images/icons/outline/microsoft-365.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"
@@ -44,6 +44,6 @@ Considering a move to Microsoft 365? Let's explore why it's worth it:
 As your technology partner, we're here to support your systems and troubleshoot issues.
 
 
-[![Microsoft 365 Tips Ebook](/images/post/15-tips.png)](/docs/Office-365-Productivity-Guide.pdf)
+[![Microsoft 365 Tips Ebook](/images/post/15-tips.webp)](/docs/Office-365-Productivity-Guide.pdf)
 [Download the Office 365 Tips & Tricks Ebook](/docs/Office-365-Productivity-Guide.pdf)
 Explore how to work efficiently using lesser-known features in Microsoft 365.

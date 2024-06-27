@@ -1,7 +1,7 @@
 ---
 title: "Trunk-Based Development - Getting Started"
 date: 2023-09-03T10:00:00Z
-image: /images/post/trunkbased_treetrunk.png
+image: /images/post/trunkbased_treetrunk.webp
 description: "This article will walk you through Trunk-Based Development, it's history, it's pros and cons, and the basics of how to work with it in your development workflow."
 categories:
     - branching

@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/cloud-vs-desktop.jpg"
+image: "/images/post/cloud-vs-desktop.webp"
 ---
 Which small business software is right for you? One of the most
 fundamental options you face today is whether to buy a cloud solution or

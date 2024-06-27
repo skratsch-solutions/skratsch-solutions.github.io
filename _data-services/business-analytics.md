@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "While standard sales and financial reports provide historical information, they often lack interpretation and context. Business analytics bridges this gap by transforming raw data into actionable insights"
 hero-class: "hero-data-business-analytics"
-image: "/images/icons/outline/business-analytics-services.png"
+image: "/images/icons/outline/business-analytics-services.webp"
 layout: page
 parent-name: "Data Services"
 parent-url: "/data-services"

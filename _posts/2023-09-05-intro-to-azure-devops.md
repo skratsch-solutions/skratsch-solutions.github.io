@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Azure DevOps"
 date: 2023-09-05T12:00:00Z
-image: /images/post/azuredevops.png
+image: /images/post/azuredevops.webp
 description: "In this article, we'll familiarize you with Azure DevOps, delve into its advantages, and guide you through the process of creating your inaugural Azure DevOps account."
 categories:
     - devops
@@ -35,23 +35,23 @@ The key components of Azure DevOps are:
 
 - **Azure Boards:** A work tracking system with Kanban boards, dashboards, and reporting capabilities.
 
-    ![Azure Boards](/images/post/ado_boards.png)
+    ![Azure Boards](/images/post/ado_boards.webp)
 
 - **Azure Repos:** Provides Git repositories or Team Foundation Version Control (TFVC) for source control of your code.
 
-    ![Azure Repos](/images/post/ado_repos.png)
+    ![Azure Repos](/images/post/ado_repos.webp)
 
 - **Azure Pipelines:** A tool for creating automated builds and deployments (CI/CD pipelines).
 
-    ![Azure Piplines](/images/post/ado_pipelines.png)
+    ![Azure Piplines](/images/post/ado_pipelines.webp)
 
 - **Azure Test Plans:** A tool for managing tests and capturing data about defects.
 
-    ![Azure Test Plans](/images/post/ado_testplans.png)
+    ![Azure Test Plans](/images/post/ado_testplans.webp)
 
 - **Azure Artifacts:** A tool for sharing packages, such as NuGet or npm packages.
 
-    ![Azure Ariifacts](/images/post/ado_artifacts.png)
+    ![Azure Ariifacts](/images/post/ado_artifacts.webp)
 
 Each component is geared towards a specific aspect of the DevOps lifecycle, allowing teams to manage their project effectively. In subsequent blog posts in this series, we'll dive deeper into each of these components.
 
@@ -110,14 +110,14 @@ To start using Azure DevOps, follow these steps:
 
 1. Click the **New project** button.
 2. Enter a name, description, visibility (public or private), and version control system (Git or TFVC) for your project.
-    ![New Project](/images/post/ado_newproject.png)
+    ![New Project](/images/post/ado_newproject.webp)
 3. Click **Create**.
 
 Once you have created an organization and project, you can start using Azure DevOps to develop and deliver your software.
 
 The following screenshot shows how your dashboard might look like after creating your first project:
 
-![Azure DevOps Dashboard](/images/post/ado_dashboard.png)
+![Azure DevOps Dashboard](/images/post/ado_dashboard.webp)
 
 ## Final Thoughts
 

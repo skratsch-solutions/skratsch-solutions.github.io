@@ -4,7 +4,7 @@ date: 2024-06-17T11:36:00-05:00
 layout: page
 excerpt: "Our services help bridge the gap between your software systems. Whether you need to integrate custom-built applications or connect off-the-shelf software, our experts ensure smooth data flow and enhanced efficiency."
 hero-class: "hero-software-integration"
-image: "/images/icons/outline/software-integration-services.png"
+image: "/images/icons/outline/software-integration-services.webp"
 weight: 400
 ---
 

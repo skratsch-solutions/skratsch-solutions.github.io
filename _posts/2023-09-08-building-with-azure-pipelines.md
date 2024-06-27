@@ -1,7 +1,7 @@
 ---
 title: "Building with Azure Pipelines"
 date: 2023-09-08T15:00:00Z
-image: /images/post/azuredevops.png
+image: /images/post/azuredevops.webp
 categories: 
     - devops
     - azure
@@ -73,7 +73,7 @@ To create a build pipeline in Azure Pipelines, follow these steps:
 
 You can monitor the progress of your pipeline in the Pipelines hub. You can see the status of each task, view the logs, and download the artifacts.
 
-![Pipeline Run Result](/images/post/ado_pipelinerun.png)
+![Pipeline Run Result](/images/post/ado_pipelinerun.webp)
 
 By creating a build pipeline in Azure Pipelines, you can automate the building and testing of your code, ensuring that your code is always in a good state and ready for deployment. In the next section, we'll discuss how to manage build artifacts in Azure Pipelines.
 
@@ -97,7 +97,7 @@ To publish artifacts in your build pipeline, follow these steps:
 6. Configure the task parameters, such as the artifact name, path, and destination.
 7. Click **Save and queue** to save the pipeline and run it.
 
-![Azure Pipeline Publish](/images/post/ado_pipelinepublish.png)
+![Azure Pipeline Publish](/images/post/ado_pipelinepublish.webp)
 
 ### Consuming Artifacts
 
@@ -114,7 +114,7 @@ To consume artifacts in your release pipeline, follow these steps:
 7. Configure the task parameters, such as the artifact source, name, and destination.
 8. Click **Save** to save the pipeline.
 
-![Azure Pipelines Download Artifact](/images/post/ado_pipelinedownload.png)
+![Azure Pipelines Download Artifact](/images/post/ado_pipelinedownload.webp)
 
 By managing build artifacts in Azure Pipelines, you can ensure that your code is packaged and delivered consistently and reliably across different environments or stages. In the next section, we'll share some best practices for building with Azure Pipelines.
 

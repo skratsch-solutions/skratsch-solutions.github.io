@@ -10,7 +10,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/supply-chain-storm.jpg"
+image: "/images/post/supply-chain-storm.webp"
 ---
 This is the time of year where businesses are looking over their IT
 budgets and deciding on whether to buy new computers this year or next.

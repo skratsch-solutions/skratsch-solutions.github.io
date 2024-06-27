@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Need a new office setup? Whether it's a home office, a new branch, or a new business, we can help you setup your new office for success"
 hero-class: "hero-consulting-setup"
-image: "/images/icons/outline/office-setup-services.png"
+image: "/images/icons/outline/office-setup-services.webp"
 layout: page
 parent-name: "Consulting"
 parent-url: "/consulting"

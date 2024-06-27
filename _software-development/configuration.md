@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "At Skratsch Solutions, we specialize in tailoring software configurations to meet your unique needs. Whether you're a small business, a startup, or an enterprise, our team of experts ensures seamless integration, performance optimization, and security enhancements."
 hero-class: "hero-software-configuration"
-image: "/images/icons/outline/software-optimization-services.png"
+image: "/images/icons/outline/software-optimization-services.webp"
 layout: page
 parent-name: "Software Services"
 parent-url: "/software-development"

@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Move to a modern phone solution. VOIP telephones provide a professional experience for prospects and customers."
 hero-class: "hero-it-voip-business-phone"
-image: "/images/icons/outline/voip-business-phone.png"
+image: "/images/icons/outline/voip-business-phone.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"
@@ -44,6 +44,6 @@ With VOIP, you'll create a professional experience for both prospects and custom
 
 Remember, a reliable internet connection is essential. But isn't that a necessity anyway?
 
-![VOIP Business Phones](/images/post/Collab-from-Anywhere-GoToConnect-Product-Image.jpg)
+![VOIP Business Phones](/images/post/Collab-from-Anywhere-GoToConnect-Product-Image.webp)
 
 [Download The Data Sheet](/assets/docs/GoToConnect-Flyer-Feature-List-LMI1396_EN-US_Cobrand.pdf)

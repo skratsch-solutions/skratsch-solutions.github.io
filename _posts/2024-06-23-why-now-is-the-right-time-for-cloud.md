@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/move-into-cloud.jpg"
+image: "/images/post/move-into-cloud.webp"
 ---
 
 In the rapidly evolving digital landscape, small to medium-sized businesses (SMBs) are constantly looking for ways to stay ahead and remain competitive. One of the most significant technological shifts we are witnessing today is the move to the Cloud. But why is this happening now, and why is it especially beneficial for SMBs? Let's delve into it.

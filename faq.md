@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 layout: page
 description: FAQ
 bodyClass: page-faq
-image: "/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg"
+image: "/images/thom-holmes-Lrfw0U_o9I0-unsplash.webp"
 excerpt:
 ---
 

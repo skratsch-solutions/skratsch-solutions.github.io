@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Allow Skratsch Solutions to manage your technical infrastructure so you can focus on your core business"
 hero-class: "hero-it-technology-assessment"
-image: "/images/icons/outline/technology-assessment.png"
+image: "/images/icons/outline/technology-assessment.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

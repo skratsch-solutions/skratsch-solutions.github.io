@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Application Hosting takes the technical pressure off of your business, leaving you to focus on what matters most - your business!"
 hero-class: "hero-it-application-hosting"
-image: "/images/icons/outline/application-hosting-services.png"
+image: "/images/icons/outline/application-hosting-services.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

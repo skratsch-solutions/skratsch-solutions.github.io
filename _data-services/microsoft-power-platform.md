@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "The Microsoft Power Platform consists of five products that can be used individually or together to connect applications to create an end-to-end business workflow."
 hero-class: "hero-data-power-platform"
-image: "/images/icons/outline/microsoft-power-platform.png"
+image: "/images/icons/outline/microsoft-power-platform.webp"
 layout: page
 parent-name: "Data Services"
 parent-url: "/data-services"

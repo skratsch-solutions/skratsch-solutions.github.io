@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/scheduling-software.jpg"
+image: "/images/post/scheduling-software.webp"
 ---
 Meeting scheduling software programs are designed to cut down on
 back-and-forth emails trying to find a time when everyone can meet.
@@ -65,9 +65,9 @@ dates and times for the meeting type they requested. They'll simply
 click the date and time to book and continue. Calendly and Microsoft
 Bookings examples are shown below.
 
-![calendly vs acuity](/images/post/calendly-calender.png)
+![calendly vs acuity](/images/post/calendly-calender.webp)
 
-![calendly vs acuity](/images/post/MS-bookings-calendar.png)
+![calendly vs acuity](/images/post/MS-bookings-calendar.webp)
 
 Based on your settings, you will each receive an email with the meeting
 details and the time will be blocked off in your calendar.

@@ -11,7 +11,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/business-dashboards.jpg"
+image: "/images/post/business-dashboards.webp"
 ---
 Just like the dashboard of your car helps you navigate safely to your
 destination, your business dashboard puts your most valuable information

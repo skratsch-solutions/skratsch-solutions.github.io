@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/inbox-zero.jpg"
+image: "/images/post/inbox-zero.webp"
 ---
 
 ## Understanding Inbox Zero

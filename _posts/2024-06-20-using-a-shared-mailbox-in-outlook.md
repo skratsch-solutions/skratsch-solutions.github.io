@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/efficient-email-collaboration.jpg"
+image: "/images/post/efficient-email-collaboration.webp"
 ---
 
 ## What is a shared mailbox?

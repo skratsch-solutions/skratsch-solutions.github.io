@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/server-solutions.jpg"
+image: "/images/post/server-solutions.webp"
 ---
 Considering buying a server for your business? Before computers became
 so powerful and remote work became so popular, most businesses had at

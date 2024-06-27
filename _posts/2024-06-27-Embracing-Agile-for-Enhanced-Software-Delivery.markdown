@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/agile-methodology.jpg"
+image: "/images/post/agile-methodology.webp"
 ---
 
 The [Agile methodology](https://asana.com/resources/agile-methodology) has transformed software development by emphasizing flexibility, collaboration, and customer feedback. Agile teams work in short, iterative sprints, enabling rapid adaptation to changes. Unlike rigid plans, Agile promotes continuous learning and progress. This approach effectively addresses the unpredictable nature of software projects, ensuring alignment with user needs.

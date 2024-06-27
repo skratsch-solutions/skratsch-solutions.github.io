@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Protect your company against fire, flood, malware and other threats before they happen. We help you keep your data safe and get you back in business quickly."
 hero-class: "hero-consulting-bc"
-image: "/images/icons/outline/business-continuity-services.png"
+image: "/images/icons/outline/business-continuity-services.webp"
 layout: page
 parent-name: "Consulting"
 parent-url: "/consulting"

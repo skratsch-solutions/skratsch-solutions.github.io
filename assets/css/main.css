@@ -86,109 +86,109 @@
     }
   }
   .hero-it-application-hosting {
-    @apply bg-[url('/images/hero/application-hosting-hero.png')];
+    @apply bg-[url('/images/hero/application-hosting-hero.webp')];
   }
   .hero-it-backup-recovery {
-    @apply bg-[url('/images/hero/backup-and-recovery-services-hero.png')];
+    @apply bg-[url('/images/hero/backup-and-recovery-services-hero.webp')];
   }
   .hero-it-cloud-migration {
-    @apply bg-[url('/images/hero/cloud-migration-hero.png')];
+    @apply bg-[url('/images/hero/cloud-migration-hero.webp')];
   }
   .hero-it-email-management {
-    @apply bg-[url('/images/hero/email-management-services-hero.png')];
+    @apply bg-[url('/images/hero/email-management-services-hero.webp')];
   }
   .hero-it-staff-augmentation {
-    @apply bg-[url('/images/hero/it-staff-augmentation-hero.png')];
+    @apply bg-[url('/images/hero/it-staff-augmentation-hero.webp')];
   }
   .hero-it-support {
-    @apply bg-[url('/images/hero/it-support-services-hero.png')];
+    @apply bg-[url('/images/hero/it-support-services-hero.webp')];
   }
   .hero-it-microsoft-365 {
-    @apply bg-[url('/images/hero/microsoft-365-services-hero.png')];
+    @apply bg-[url('/images/hero/microsoft-365-services-hero.webp')];
   }
   .hero-it-network-management {
-    @apply bg-[url('/images/hero/network-management-services-hero.png')];
+    @apply bg-[url('/images/hero/network-management-services-hero.webp')];
   }
   .hero-it-technology-assessment {
-    @apply bg-[url('/images/hero/technology-assessment-services-hero.png')];
+    @apply bg-[url('/images/hero/technology-assessment-services-hero.webp')];
   }
   .hero-it-technology-selection {
-    @apply bg-[url('/images/hero/technology-selection-hero.png')];
+    @apply bg-[url('/images/hero/technology-selection-hero.webp')];
   }
   .hero-it-voip-business-phone {
-    @apply bg-[url('/images/hero/voip-business-phone-hero.png')];
+    @apply bg-[url('/images/hero/voip-business-phone-hero.webp')];
   }
   .hero-software-configuration {
-    @apply bg-[url('/images/hero/software-configuration-services-hero.png')];
+    @apply bg-[url('/images/hero/software-configuration-services-hero.webp')];
   }
   .hero-software-customization {
-    @apply bg-[url('/images/hero/software-customization-services-hero.png')];
+    @apply bg-[url('/images/hero/software-customization-services-hero.webp')];
   }
   .hero-software-development {
-    @apply bg-[url('/images/hero/software-development-services-hero.png')];
+    @apply bg-[url('/images/hero/software-development-services-hero.webp')];
   }
   .hero-software-integration {
-    @apply bg-[url('/images/hero/software-integration-services-hero.png')];
+    @apply bg-[url('/images/hero/software-integration-services-hero.webp')];
   }
   .hero-cookie-policy {
-    @apply bg-[url('/images/hero/cookie-policy-hero.png')];
+    @apply bg-[url('/images/hero/cookie-policy-hero.webp')];
   }
   .hero-privacy-policy {
-    @apply bg-[url('/images/hero/privacy-policy-hero.png')];
+    @apply bg-[url('/images/hero/privacy-policy-hero.webp')];
   }
   .hero-terms-conditions {
-    @apply bg-[url('/images/hero/terms-conditions-hero.png')];
+    @apply bg-[url('/images/hero/terms-conditions-hero.webp')];
   }
   .hero-contact-us {
-    @apply bg-[url('/images/hero/contact-us-hero.png')];
+    @apply bg-[url('/images/hero/contact-us-hero.webp')];
   }
   .hero-about-us {
-    @apply bg-[url('/images/hero/about-us-hero.png')];
+    @apply bg-[url('/images/hero/about-us-hero.webp')];
   }
   .hero-blog {
-    @apply bg-[url('/images/hero/blog-hero.png')];
+    @apply bg-[url('/images/hero/blog-hero.webp')];
   }
   .hero-consulting-bc {
-    @apply bg-[url('/images/hero/business-continuity-hero.png')];
+    @apply bg-[url('/images/hero/business-continuity-hero.webp')];
   }
   .hero-consulting-bp {
-    @apply bg-[url('/images/hero/business-productivity-hero.png')];
+    @apply bg-[url('/images/hero/business-productivity-hero.webp')];
   }
   .hero-consulting-grow {
-    @apply bg-[url('/images/hero/growing-businesses-hero.png')];
+    @apply bg-[url('/images/hero/growing-businesses-hero.webp')];
   }
   .hero-consulting-is {
-    @apply bg-[url('/images/hero/information-security-hero.png')];
+    @apply bg-[url('/images/hero/information-security-hero.webp')];
   }
   .hero-consulting-policy {
-    @apply bg-[url('/images/hero/it-policies-procedures-hero.png')];
+    @apply bg-[url('/images/hero/it-policies-procedures-hero.webp')];
   }
   .hero-consulting-strategy {
-    @apply bg-[url('/images/hero/it-strategy-hero.png')];
+    @apply bg-[url('/images/hero/it-strategy-hero.webp')];
   }
   .hero-consulting-setup {
-    @apply bg-[url('/images/hero/new-office-setup-hero.png')];
+    @apply bg-[url('/images/hero/new-office-setup-hero.webp')];
   }
   .hero-consulting-advisor {
-    @apply bg-[url('/images/hero/technology-advisor-hero.png')];
+    @apply bg-[url('/images/hero/technology-advisor-hero.webp')];
   }
   .hero-consulting-remote {
-    @apply bg-[url('/images/hero/remote-working-hero.png')];
+    @apply bg-[url('/images/hero/remote-working-hero.webp')];
   }
   .hero-data-business-analytics {
-    @apply bg-[url('/images/hero/business-analytics-hero.png')];
+    @apply bg-[url('/images/hero/business-analytics-hero.webp')];
   }
   .hero-data-data-management {
-    @apply bg-[url('/images/hero/data-management-hero.png')];
+    @apply bg-[url('/images/hero/data-management-hero.webp')];
   }
   .hero-data-dba {
-    @apply bg-[url('/images/hero/database-administration-hero.png')];
+    @apply bg-[url('/images/hero/database-administration-hero.webp')];
   }
   .hero-data-power-platform {
-    @apply bg-[url('/images/hero/microsoft-power-platform-hero.png')];
+    @apply bg-[url('/images/hero/microsoft-power-platform-hero.webp')];
   }
   .hero-data-reporting {
-    @apply bg-[url('/images/hero/reporting-dashboards-hero.png')];
+    @apply bg-[url('/images/hero/reporting-dashboards-hero.webp')];
   }
 }
 

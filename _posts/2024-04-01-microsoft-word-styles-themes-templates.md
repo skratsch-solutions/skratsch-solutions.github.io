@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/ms-word-themes-styles.jpg"
+image: "/images/post/ms-word-themes-styles.webp"
 ---
 
 ## Microsoft Word features
@@ -23,7 +23,7 @@ For example in this document, when select the "Title" text then apply the Title 
 
 From the Home Tab
 
-![Word Style Example for Title and Headers](/images/post/word-styles-sample-headers.jpg)
+![Word Style Example for Title and Headers](/images/post/word-styles-sample-headers.webp)
 
 Continue to Select Text and Apply the Heading Style
 
@@ -35,7 +35,7 @@ Header 3
 
 ### What if you want a different style?
 
-![Apply different styles in Microsoft Word](/images/post/word-styles-change-style.jpg)
+![Apply different styles in Microsoft Word](/images/post/word-styles-change-style.webp)
 
 Go to the Design Tab
 
@@ -45,19 +45,19 @@ Clicking on the Style will change the formatting throughout your document.
 
 Still on the Design Tab
 
-![Choose Microsoft Word Colors and Fonts](/images/post/word-styles-adjust-style.jpg)
+![Choose Microsoft Word Colors and Fonts](/images/post/word-styles-adjust-style.webp)
 
 You can also choose your Document Colors, Fonts, and Other Items.
 
 You can even Customize Your Options
 
-![Customize Microsoft Word Fonts](/images/post/word-styles-customize-fonts.jpg)
+![Customize Microsoft Word Fonts](/images/post/word-styles-customize-fonts.webp)
 
 Your Font and Color combinations are not restricted to Microsoft Word's pre-built options. At the bottom, you can create your own combination and give it a custom name that you'll remember.
 
 ### What if you can't find a style that works?
 
-![How to use Microsoft Word Styles](/images/post/word-styles-apply-new-style.jpg)
+![How to use Microsoft Word Styles](/images/post/word-styles-apply-new-style.webp)
 
 Once you've selected the Styles, Fonts, and Colors you like best in the Design tab, head back to the Home tab.
 
@@ -65,25 +65,25 @@ You can further customize your Style options by "right-clicking" any Style.
 
 Select Modify
 
-![Modify style](/images/post/word-styles-modify.jpg)
+![Modify style](/images/post/word-styles-modify.webp)
 
 This will modify every Style Element across your document.
 
 Click on "Format" menu
 
-![Format style](/images/post/word-styles-format-style.jpg)
+![Format style](/images/post/word-styles-format-style.webp)
 
 See even more editing choices.
 
 Choose Between Saving Styles in the Document and Template
 
-![Choices on how to save Microsoft Word Styles](/images/post/word-styles-only-in-document.jpg)
+![Choices on how to save Microsoft Word Styles](/images/post/word-styles-only-in-document.webp)
 
 You can save these settings to be consistent across this document ONLY, or you can save it in the Template, so that all future documents will have this same "look and feel."
 
 ## 2\. Using Microsoft Word themes
 
-![Microsoft Word Themes](/images/post/word-themes-save-theme.jpg)
+![Microsoft Word Themes](/images/post/word-themes-save-theme.webp)
 
 If you want to use these set Styles again and again, you can save them as a Custom Theme.
 
@@ -93,7 +93,7 @@ A Template uses the Theme "look" but also adds text that you may want to use aga
 
 ### The next time you open a document…
 
-![MS Word Theme](/images/post/word-themes-select-custom-theme.jpg)
+![MS Word Theme](/images/post/word-themes-select-custom-theme.webp)
 
 Under the Design Tab, you will now see the Custom "New Theme" you created.
 
@@ -101,19 +101,19 @@ Under the Design Tab, you will now see the Custom "New Theme" you created.
 
 ### Create your document
 
-![Microsoft Word Templates](/images/post/word-templates-letterhead.jpg)
+![Microsoft Word Templates](/images/post/word-templates-letterhead.webp)
 
 You create a Template exactly the same way you create any document.  The only difference is how you Save.
 
 Save Your Template
 
-![Microsoft Word Templates](/images/post/word-templates-save-templates.jpg)
+![Microsoft Word Templates](/images/post/word-templates-save-templates.webp)
 
 Save your document as a Template. Use the folder where Microsoft Word prompts you to save it.
 
 Using Templates
 
-![Microsoft Word Template](/images/post/word-templates-new-from-template.jpg)
+![Microsoft Word Template](/images/post/word-templates-new-from-template.webp)
 
 Use Templates when you want to save the document text, in addition to the Theme.
 

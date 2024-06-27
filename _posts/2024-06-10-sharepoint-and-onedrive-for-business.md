@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/sharepoint-onedrive.jpg"
+image: "/images/post/sharepoint-onedrive.webp"
 ---
 
 Hey there! Are you trying to wrap your head around SharePoint and OneDrive for Business? Don’t worry, you’re not the only one scratching their head. Let’s clear things up a bit.
@@ -78,7 +78,7 @@ Stay in control and protect your data effortlessly!
 
 ### Where Should You Save Your Files?
 
-[![OneDrive for Business Versus SharePoint Team Site](/images/post/OneDriveOrSPTeamSite.png)](https://sharegate.com/blog/onedrive-for-business-vs-sharepoint-team-site-infographic)
+[![OneDrive for Business Versus SharePoint Team Site](/images/post/OneDriveOrSPTeamSite.webp)](https://sharegate.com/blog/onedrive-for-business-vs-sharepoint-team-site-infographic)
 
 Crafted by: Sharegate The SIMPLEST [SharePoint and Office 365 Management](https://sharegate.com/tour) Tool
 

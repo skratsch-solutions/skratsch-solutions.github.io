@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Data reports and dashboards play a crucial role in business operations. We'll tell you what you need to know to help you make informed decisions"
 hero-class: "hero-data-reporting"
-image: "/images/icons/outline/reporting-dashboards.png"
+image: "/images/icons/outline/reporting-dashboards.webp"
 layout: page
 parent-name: "Data Services"
 parent-url: "/data-services"

@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/google-vs-microsoft.jpg"
+image: "/images/post/google-vs-microsoft.webp"
 ---
 
 ## Why Professional Email Systems Matter

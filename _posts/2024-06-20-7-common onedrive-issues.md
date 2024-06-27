@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/onedrive-issues.jpg"
+image: "/images/post/onedrive-issues.webp"
 ---
 
 At Skratsch Solutions, we've pinpointed the top 7 challenges users encounter with OneDrive. Our expertise provides effective strategies and insights to enhance OneDrive's performance, boosting productivity and efficiency in your business workflows.

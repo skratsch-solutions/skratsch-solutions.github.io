@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/digital-spring-cleaning.jpg"
+image: "/images/post/digital-spring-cleaning.webp"
 ---
 
 As our technology footprint grows, we all pick up digital clutter along

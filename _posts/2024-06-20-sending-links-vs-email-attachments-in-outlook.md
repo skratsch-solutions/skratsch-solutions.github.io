@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/no-more-attachments.jpg"
+image: "/images/post/no-more-attachments.webp"
 ---
 
 If you're like most busy professionals, you send emails with attachments every day. That's the way business has always been done. But now that online file storage has become commonplace, it may be time to consider sending links instead of email attachments, at least in some cases.

@@ -1,7 +1,7 @@
 ---
 title: "How To Prevent Data Security Breaches"
 date: 2024-06-19T07:00:00Z
-image: "/images/post/cloudflare_logo.png"
+image: "/images/post/cloudflare_logo.webp"
 categories:
     - security
 featured: false

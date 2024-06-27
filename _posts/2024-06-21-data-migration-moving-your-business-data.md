@@ -11,7 +11,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/data-migration-header.jpg"
+image: "/images/post/data-migration-header.webp"
 ---
 Whether buying a new server, new cloud storage, a new computer, or a new
 software program, you'll want to think carefully about what information
@@ -51,7 +51,7 @@ of the new application or database. Then the final step is to load it
 into the new system.
 
 
-![data migration for small business](/images/post/Data-Migration-1.jpg)
+![data migration for small business](/images/post/Data-Migration-1.webp)
 
 ## Types of Data Migrations and Their Challenges
 

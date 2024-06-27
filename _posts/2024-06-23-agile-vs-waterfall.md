@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/agile-vs-waterfall.jpg"
+image: "/images/post/agile-vs-waterfall.webp"
 ---
 
 ## Origins of Agile and Waterfall

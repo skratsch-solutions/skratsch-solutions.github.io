@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/data-migration-header-2.jpg"
+image: "/images/post/data-migration-header-2.webp"
 ---
 In a software development or software selection project, the software
 gets all the attention. Lots of effort goes into selecting, configuring,
@@ -46,7 +46,7 @@ identify the steps, resources, and risks.
 4.  Who will be doing this work and when?
 
 
-![Data migration strategic considerations](/images/post/strategy-1.png)
+![Data migration strategic considerations](/images/post/strategy-1.webp)
 
 By planning well in advance, you give yourself ample time to assess
 these risks and create a plan that will minimize disruptions to business
@@ -60,7 +60,7 @@ You may be surprised to learn that data cannot always be easily
 extracted from a business system. Even when the data can be exported, it
 has to be cleaned up before it can be used.
 
-![Data extraction considerations](/images/post/data-extraction-1.png)
+![Data extraction considerations](/images/post/data-extraction-1.webp)
 
 #### **No easy data export**
 
@@ -132,7 +132,7 @@ processes are applied to identify and rectify these issues. This
 includes removing or correcting inaccuracies, eliminating duplicates,
 and filling in missing values using predefined rules.
 
-![data transformation considerations](/images/post/data-transformation-1.png)
+![data transformation considerations](/images/post/data-transformation-1.webp)
 
 #### **Data formatting**
 
@@ -185,7 +185,7 @@ refined data from the transformation phase and placing it in the
 appropriate format within the new environment. Here are the steps
 typically involved in the data loading phase of an ETL data migration:
 
-![data loading considerations](/images/post/data-loading-1.png)
+![data loading considerations](/images/post/data-loading-1.webp)
 
 #### **Data staging**
 

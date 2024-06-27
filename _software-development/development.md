@@ -3,7 +3,7 @@ title: "Custom Software Development"
 date: 2024-06-17T11:36:00-05:00
 layout: page
 excerpt: "We create impactful custom-built software for companies across various industries. With 22 years of experience, we've honed our expertise, streamlined our processes, and turned technological solutions into growth enablers."
-image: "/images/icons/outline/software-development-services.png"
+image: "/images/icons/outline/software-development-services.webp"
 hero-class: "hero-software-development"
 attribution: "Photo by <a href='https://unsplash.com/@halacious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Hal Gatewood</a> on <a href='https://unsplash.com/photos/assorted-color-abstract-painting-tZc3vjPCk-Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>"
 weight: 700

@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Having a plan can save you plenty of money - and headaches - down the road."
 hero-class: "hero-consulting-strategy"
-image: "/images/icons/outline/it-strategy-services.png"
+image: "/images/icons/outline/it-strategy-services.webp"
 layout: page
 parent-name: "Consulting"
 parent-url: "/consulting"

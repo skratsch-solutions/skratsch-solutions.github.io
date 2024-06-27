@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Need email for your business? Or do you need help managing it? We can help!"
 hero-class: "hero-it-email-management"
-image: "/images/icons/outline/email-management-services.png"
+image: "/images/icons/outline/email-management-services.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

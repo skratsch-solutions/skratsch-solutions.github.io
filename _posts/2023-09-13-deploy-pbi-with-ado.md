@@ -1,7 +1,7 @@
 ---
 title: "Using Azure DevOps to Build and Deploy PowerBI Reports"
 date: 2023-09-13T15:00:00Z
-image: /images/post/ado_pbi.png
+image: /images/post/ado_pbi.webp
 categories: 
     - devops
     - azure

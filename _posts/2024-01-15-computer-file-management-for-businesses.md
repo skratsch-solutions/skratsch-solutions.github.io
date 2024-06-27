@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/computer-file-organization.jpg"
+image: "/images/post/computer-file-organization.webp"
 ---
 
 ## Optimizing Computer File Management: A Strategic Approach

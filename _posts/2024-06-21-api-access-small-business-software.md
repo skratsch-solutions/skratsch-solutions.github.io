@@ -12,7 +12,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/seamless-software-integration-key.jpg"
+image: "/images/post/seamless-software-integration-key.webp"
 ---
 When companies buy [small business software](/business/small-business-software-work-efficiently/index.html), they usually think about the features and functions
 they need, but quite often forget how to ask:

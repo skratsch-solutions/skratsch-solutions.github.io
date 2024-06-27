@@ -2,7 +2,7 @@
 date: 2024-06-19T11:36:00-05:00
 excerpt: "Implementing effective data management practices serves as the bedrock for running a data-driven business and enhancing productivity."
 hero-class: "hero-data-data-management"
-image: "/images/icons/outline/data-management-services.png"
+image: "/images/icons/outline/data-management-services.webp"
 layout: page
 parent-name: "Data Services"
 parent-url: "/data-services"

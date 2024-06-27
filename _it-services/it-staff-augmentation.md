@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Need technical help with a project? Hire us to augment your current IT staff."
 hero-class: "hero-it-staff-augmentation"
-image: "/images/icons/outline/it-staff-augmentation-services.png"
+image: "/images/icons/outline/it-staff-augmentation-services.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

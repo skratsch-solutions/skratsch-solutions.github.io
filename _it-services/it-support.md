@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-17T11:36:00-05:00
 excerpt: "Need to support your business with general technical help? Hire us to be your help desk."
 hero-class: "hero-it-support"
-image: "/images/icons/outline/it-support-services.png"
+image: "/images/icons/outline/it-support-services.webp"
 layout: page
 parent-name: "IT Services"
 parent-url: "/it-services"

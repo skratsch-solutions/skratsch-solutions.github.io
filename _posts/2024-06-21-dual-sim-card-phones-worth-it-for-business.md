@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/dual-sim-phone.jpg"
+image: "/images/post/dual-sim-phone.webp"
 ---
 ## Maximizing Business Connectivity: The Advantages of Dual SIM Phones
 

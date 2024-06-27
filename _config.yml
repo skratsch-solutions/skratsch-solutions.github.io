@@ -4,11 +4,11 @@ url: https://skratsch.com
 permalink: pretty
 title: 'Skratsch Solutions'
 blog-title: 'Building With Skratsch'
-blog-hero-image: '/images/hero/digital-circuit.jpg'
+blog-hero-image: '/images/hero/digital-circuit.webp'
 blog-author: 'Steve Kaschimer'
 blog-bio: 'Steve is a Software and Cloud Engineer, Content Creator, and Innovation Enthusiast. He is open to collaborating on projects that match his skills, which include .NET Framework/Core, C#, APIs, RESTful Services, SQL Databases, and Azure.'
 blog-email: 'steve@skratsch.com'
-blog-author-image: '/images/steve.png'
+blog-author-image: '/images/steve.webp'
 
 logo:
   mobile-path: "images/logo/logo-mobile.svg"

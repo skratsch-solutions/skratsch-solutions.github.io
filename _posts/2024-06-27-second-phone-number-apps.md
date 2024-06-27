@@ -6,7 +6,7 @@ categories:
     - business
 weblogName: Build With Skratsch
 date: 2024-06-27T10:35:59.5706698-04:00
-image: "/images/post/second-phone-number-apps.jpg"
+image: "/images/post/second-phone-number-apps.webp"
 featured: false
 draft: false
 parent-name: "Building With Skratsch"

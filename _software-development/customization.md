@@ -4,7 +4,7 @@ date: 2024-06-17T11:36:00-05:00
 layout: page
 excerpt: "We specialize in customizing software solutions to align perfectly with your business goals. Whether you need personalized features, integrations, or enhancements, our team of experts ensures seamless customization."
 hero-class: "hero-software-customization"
-image: "/images/icons/outline/software-configuration-services.png"
+image: "/images/icons/outline/software-configuration-services.webp"
 weight: 200
 ---
 

@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/navigating-custom-software-development.jpg"
+image: "/images/post/navigating-custom-software-development.webp"
 ---
 Is it time to consider custom software? Have you been looking for
 software to run your business, but you can't find it? Perhaps you're not
@@ -46,7 +46,7 @@ software evaluation process. Feel free to use our software search
 spreadsheet, which you can customize to meet your needs.
 
 
-[![software selection](/images/post/software-selection-CTA1.png)](/assets/docs/Software-Evaluation-Scorecard.xlsx)
+[![software selection](/images/post/software-selection-CTA1.webp)](/assets/docs/Software-Evaluation-Scorecard.xlsx)
 
 
 We STRONGLY encourage you to get an IT perspective before making a

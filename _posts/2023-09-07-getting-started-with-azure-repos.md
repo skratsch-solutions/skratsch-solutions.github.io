@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Azure Repos"
 date: 2023-09-07T12:00:00Z
-image: /images/post/azuredevops.png
+image: /images/post/azuredevops.webp
 categories: 
     - devops
     - azure

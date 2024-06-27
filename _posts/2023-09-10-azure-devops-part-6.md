@@ -1,7 +1,7 @@
 ---
 title: "Managing Code Quality with Azure Test Plans"
 date: 2023-09-10T15:00:00Z
-image: /images/post/azuredevops.png
+image: /images/post/azuredevops.webp
 categories: 
     - devops
     - azure

@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/data-breach-prevention.jpg"
+image: "/images/post/data-breach-prevention.webp"
 ---
 
 ## Strengthening Data Breach Prevention

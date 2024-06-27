@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/risks-of-cloud-storage.jpg"
+image: "/images/post/risks-of-cloud-storage.webp"
 ---
 ## The Danger of Dropbox
 

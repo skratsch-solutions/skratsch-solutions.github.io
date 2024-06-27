@@ -3,7 +3,7 @@ attribution:
 date: 2024-06-19T11:36:00-05:00
 excerpt: "As an outsourced IT services provider, we can provide a more diverse skill set at a lower cost and lower risk than hiring a full-time IT professional."
 hero-class: "hero-consulting-advisor"
-image: "/images/icons/outline/technology-advisory-services.png"
+image: "/images/icons/outline/technology-advisory-services.webp"
 layout: page
 parent-name: "Consulting"
 parent-url: "/consulting"

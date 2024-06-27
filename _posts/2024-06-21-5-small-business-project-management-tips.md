@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/efficient-project-management.jpg"
+image: "/images/post/efficient-project-management.webp"
 ---
 Small businesses don't have time to waste. Unfocused meetings and
 tedious follow up on projects can drain your energy and your bank

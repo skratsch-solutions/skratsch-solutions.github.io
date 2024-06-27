@@ -9,7 +9,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/data-silos.jpg"
+image: "/images/post/data-silos.webp"
 ---
 ## Small Business IT Strategy
 

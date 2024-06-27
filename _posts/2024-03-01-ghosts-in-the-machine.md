@@ -2,7 +2,7 @@
 title: "Securing Your Digital Realm: Effective IT Policies and Procedures for Safeguarding Data"
 excerpt: "Do you have a tight onboarding / offboarding checklist you use when hiring a new employee or consultant? If not, it's likely you have 'ghosts in the machine', that is,  people who can still access your data, even though they no longer have an affiliation with your company."
 date: 2024-06-20T07:00:00Z
-image: "/images/post/ghosts-in-the-machine.png"
+image: "/images/post/ghosts-in-the-machine.webp"
 categories:
     - security
 featured: false

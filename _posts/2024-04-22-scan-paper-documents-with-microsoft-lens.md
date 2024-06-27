@@ -2,7 +2,7 @@
 title: "Office Lens: Your Ultimate Document Scanning Solution"
 excerpt: "Unlock the full potential of your Microsoft Office 365 subscription with Office Lens, the hidden gem that transforms your phone into a powerful document scanner."
 date: 2024-06-20T07:00:00Z
-image: "/images/post/microsoft-lens.png"
+image: "/images/post/microsoft-lens.webp"
 categories:
     - business
 featured: false

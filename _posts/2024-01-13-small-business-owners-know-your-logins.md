@@ -8,7 +8,7 @@ featured: false
 draft: false
 parent-name: "Building With Skratsch"
 parent-url: "/posts"
-image: "/images/post/know-your-logins2.jpg"
+image: "/images/post/know-your-logins2.webp"
 ---
 
 **Managing IT Logins: A Crucial Responsibility for Small Business Owners**
