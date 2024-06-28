@@ -4,20 +4,20 @@ bodyClass: "page-home"
 ---
 
 <div class="relative w-screen px-6 pt-8 isolate lg:px-8">
-    <div class="grid grid-cols-5 w-auto pt-3 ml-28 mr-28">
+    <div class="grid w-auto grid-cols-5 pt-3 ml-28 mr-28">
         <div class="col-span-3">
-            <h1 class="text-4xl font-semibold tracking-tight text-eerie_black-600 dark:text-white">Welcome to {{ site.title }}
+            <h1 class="text-4xl font-semibold tracking-tight text-eerie_black-600 dark:text-seasalt-500">Welcome to {{ site.title }}
             </h1>
             <h2 class="mt-6 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{ page.excerpt}}
             </h2>
-            <div class="prose mt-6 text-lg leading-8 text-eerie_black-600 dark:text-seasalt-500">
+            <div class="mt-6 text-lg leading-8 prose text-eerie_black-600 dark:text-seasalt-500">
                 {{ content }}
                 {% if page.show_call_box %}
                 {% include call.html show_button=true %}
                 {% endif %}
             </div>
         </div>
-        <div class="col-span-2 relative order-1 w-full pl-4 pr-4">
+        <div class="relative order-1 w-full col-span-2 pl-4 pr-4">
             <img alt="{{ page.title }}" class="m-auto"
                 src="{{ page.intro_image | relURL }}" />
         </div>
@@ -30,10 +30,10 @@ bodyClass: "page-home"
         <div class="flex flex-wrap justify-center m-auto">
             {% for feature in site.data.features %}
             <div
-                class="max-w-xs p-6 m-4 text-center drop-shadow-lg  border rounded-lg shadow border-primary dark:border dark:border-seasalt-700 dark:bg-eerie_black-600 dark:shadow-seasalt-700">
+                class="max-w-xs p-6 m-4 text-center border rounded-lg shadow drop-shadow-lg border-primary dark:border dark:border-seasalt-700 dark:bg-eerie_black-600 dark:shadow-seasalt-700">
                 <a class="items-center" href="{{feature.url}}">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        class="h-20 w-20 m-auto fill-eerie_black-600 dark:fill-white">
+                        class="w-20 h-20 m-auto stroke-eerie_black-600 fill-eerie_black-600 dark:stroke-seasalt-500 dark:fill-seasalt-500">
                         <svg xmlns="http://www.w3.org/2000/svg" transform="matrix(.69 0 0 .69 15.5 15.5)"
                             viewBox="0 0 164 164">
                             {{feature.image.code}}
@@ -45,7 +45,7 @@ bodyClass: "page-home"
                 </a>
                 <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{feature.description}}</p>
                 <a href="{{feature.url}}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-true_blue-600">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-true_blue-600">
                     Read more
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -69,7 +69,7 @@ bodyClass: "page-home"
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.it-services limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -84,7 +84,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "it-services" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All IT Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -105,7 +105,7 @@ bodyClass: "page-home"
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.software-development limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -120,7 +120,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "software-development" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All Software Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -141,7 +141,7 @@ bodyClass: "page-home"
                 {% assign limit = site.home.limit_services | default: 6 %}
                 {% for service in site.data-services limit: limit %}
                 <a href="{{ service.url | relative_url }}"
-                    class="max-w-xl flex flex-row items-center m-4 border border-primary rounded-lg shadow dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
+                    class="flex flex-row items-center max-w-xl m-4 border rounded-lg shadow border-primary dark:shadow-seasalt-700 hover:bg-seasalt-offsset dark:border-seasalt-700 dark:bg-eerie_black-600 dark:hover:bg-true_blue-600">
                     <img class="object-cover h-24 rounded-t-lg" src="{{ service.image }}"
                         alt="{{ service.title }} icon">
                     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -156,7 +156,7 @@ bodyClass: "page-home"
             </div>
             <div class="flex flex-wrap justify-center m-auto">
                 <a href="{{ "data-services" | relative_url }}"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All Data Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">

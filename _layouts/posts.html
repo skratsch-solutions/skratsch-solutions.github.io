@@ -7,12 +7,12 @@ bodyClass: "page-post"
     <div class="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6 ">
         <div class="mb-12 p-12 space-y-2 text-center {{ page.hero-class }} bg-cover bg-center h-[28em]">
             <div class="flex flex-col justify-center items-center p-12">
-                <h2 class="text-3xl font-bold text-eerie_black-600 md:text-4xl dark:text-whitem sr-only"></h2>
+                <h2 class="text-3xl font-bold text-eerie_black-600 md:text-4xl dark:text-seasalt-500m sr-only"></h2>
                 <p class="prose mx-auto w-6/12 text-gray-600 dark:text-gray-300 sr-only"></p>
             </div>
         </div>
         <div class="my-6">
-            <h2 class="text-2xl font-semibold tracking-tight text-true_blue md:text-4xl dark:text-white">Latest Posts</h2>
+            <h2 class="text-2xl font-semibold tracking-tight text-true_blue md:text-4xl dark:text-seasalt-500">Latest Posts</h2>
         </div>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {% for post in site.posts %}
@@ -42,7 +42,7 @@ bodyClass: "page-post"
                     </p>
                     <div class="flex flex-wrap justify-left m-auto">
                         <a href="{{ post.url | relative_url }}"
-                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-seasalt-500 bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                             Read more
                         </a>
                     </div>

@@ -15,7 +15,7 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-semibold tracking-tight text-true_blue dark:text-white;
+    @apply text-3xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500;
   }
   h2 {
     @apply text-xl font-semibold text-true_blue dark:text-seasalt-500 tracking-tight;
@@ -38,7 +38,7 @@
       & tr {
         @apply p-2  bg-true_blue border-b text-left dark:bg-true_blue-600;
         & th {
-          @apply p-2 text-seasalt-500 dark:text-white;
+          @apply p-2 text-seasalt-500 dark:text-seasalt-500;
         }
       }
     }
@@ -57,29 +57,29 @@
       @apply text-base text-eerie_black-600 dark:text-seasalt-500;
     }
     & h1 {
-      @apply text-3xl font-semibold tracking-tight text-true_blue dark:text-white;
+      @apply text-3xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500;
     }
     & h2 {
-      @apply text-xl font-semibold text-true_blue dark:text-white tracking-tight;
+      @apply text-xl font-semibold text-true_blue dark:text-seasalt-500 tracking-tight;
     }
     & h3 {
-      @apply text-lg font-semibold text-true_blue dark:text-white tracking-tight;
+      @apply text-lg font-semibold text-true_blue dark:text-seasalt-500 tracking-tight;
     }
     & h4 {
-      @apply text-base font-semibold text-true_blue dark:text-white tracking-tight;
+      @apply text-base font-semibold text-true_blue dark:text-seasalt-500 tracking-tight;
     }
     & h5 {
-      @apply text-sm font-semibold text-true_blue dark:text-white tracking-tight;
+      @apply text-sm font-semibold text-true_blue dark:text-seasalt-500 tracking-tight;
     }
     & h6 {
-      @apply text-xs font-semibold text-true_blue dark:text-white tracking-tight;
+      @apply text-xs font-semibold text-true_blue dark:text-seasalt-500 tracking-tight;
     }
     & a {
-      @apply text-true_blue dark:text-white no-underline;
+      @apply text-true_blue dark:text-seasalt-500 no-underline;
     }
     & b,
     strong {
-      @apply font-semibold text-eerie_black-600  dark:text-white;
+      @apply font-semibold text-eerie_black-600  dark:text-seasalt-500;
     }
     & blockquote {
       @apply align-top my-4 mx-auto pt-0 border-0 bg-seasalt-500 dark:bg-eerie_black-600  text-eerie_black-600 dark:text-seasalt-500;
