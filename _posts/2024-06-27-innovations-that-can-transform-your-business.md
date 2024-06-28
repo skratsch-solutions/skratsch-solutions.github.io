@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 7 Innovations That Can Transform Your Business
-excerpt: "In today's fast-paced business world, staying ahead of the game is a must. If you're not innovating, you're falling behind. That's where technology comes into play - it's the secret sauce to accelerating business growth."
+excerpt: "In today's fast-paced business world, staying ahead of the game is a must. If you're not innovating, you're falling behind. That's where technology comes into play - it's the secret sauce to accelerating business growth achieving your goals."
 categories: 
     - business
 weblogName: Build With Skratsch

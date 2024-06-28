@@ -6,9 +6,11 @@ bodyClass: "page-home"
 <div class="relative w-screen px-6 pt-8 isolate lg:px-8">
     <div class="grid w-auto grid-cols-5 pt-3 ml-28 mr-28">
         <div class="col-span-3">
-            <h1 class="text-4xl font-semibold tracking-tight text-eerie_black-600 dark:text-seasalt-500">Welcome to {{ site.title }}
+            <h1 class="text-4xl font-semibold tracking-tight text-eerie_black-600 dark:text-seasalt-500">Welcome to {{
+                site.title }}
             </h1>
-            <h2 class="mt-6 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{ page.excerpt}}
+            <h2 class="mt-6 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{
+                page.excerpt}}
             </h2>
             <div class="mt-6 text-lg leading-8 prose text-eerie_black-600 dark:text-seasalt-500">
                 {{ content }}
@@ -18,8 +20,7 @@ bodyClass: "page-home"
             </div>
         </div>
         <div class="relative order-1 w-full col-span-2 pl-4 pr-4">
-            <img alt="{{ page.title }}" class="m-auto"
-                src="{{ page.intro_image | relURL }}" />
+            <img alt="{{ page.title }}" class="m-auto" src="{{ page.intro_image | relURL }}" />
         </div>
     </div>
 </div>
@@ -76,14 +77,15 @@ bodyClass: "page-home"
                         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt |
+                            markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
                 {% endfor %}
             </div>
             <div class="flex flex-wrap justify-center m-auto">
-                <a href="{{ "it-services" | relative_url }}"
+                <a href="{{ " it-services" | relative_url }}"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All IT Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -112,14 +114,15 @@ bodyClass: "page-home"
                         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt |
+                            markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
                 {% endfor %}
             </div>
             <div class="flex flex-wrap justify-center m-auto">
-                <a href="{{ "software-development" | relative_url }}"
+                <a href="{{ " software-development" | relative_url }}"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All Software Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -148,14 +151,15 @@ bodyClass: "page-home"
                         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-true_blue dark:text-seasalt-500">{{
                             service.title }}
                         </h5>
-                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt | markdownify |
+                        <p class="mb-3 font-normal text-eerie_black-600 dark:text-seasalt-500">{{ service.excerpt |
+                            markdownify |
                             strip_html | truncate: 100 }}</p>
                     </div>
                 </a>
                 {% endfor %}
             </div>
             <div class="flex flex-wrap justify-center m-auto">
-                <a href="{{ "data-services" | relative_url }}"
+                <a href="{{ " data-services" | relative_url }}"
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg text-seasalt-500 bg-true_blue-600 hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
                     View All Data Services
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -168,3 +172,45 @@ bodyClass: "page-home"
         </div>
     </div>
 </div>
+
+<div class="w-full mx-auto mt-6 text-center">
+    <h2 class="text-3xl font-bold text-eerie_black-600 dark:text-seasalt-500">Latest Posts</h2>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-6 mx-28">
+        {% assign limit = site.home.limit_posts | default: 3 %}
+        {% for post in site.posts limit: limit %}
+        {% if post.draft %} {% continue %} {% endif %}
+        <div
+            class="group p-6 sm:p-8 rounded-3xl bg-seasalt-500 border border-eerie_black-600 dark:shadow-none dark:border-black dark:bg-eerie_black-600 bg-opacity-50 shadow-2xl shadow-eerie_black-600">
+            <div class="relative overflow-hidden rounded-xl bg-seasalt-500 dark:white-offset">
+                {% if post.image %}
+                <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.title }} Hero"
+                        loading="lazy" width="1000" height="667"
+                        class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+                    {% else %}
+                    <a href="{{ post.url | relative_url }}"><img src="https://placehold.co/400" alt="no image"
+                            loading="lazy" width="1000" height="667"
+                            class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+                        {% endif %}
+            </div>
+            <div class="mt-6 relative">
+                <h3 class="text-2xl font-semibold tracking-tight text-eerie_black-600 dark:text-seasalt-500">
+                    {{ post.title }}
+                </h3>
+                <p class="text-sm text-eerie_black-600 dark:text-seasalt-500 small-caps">
+                    {{ post.date | date: "%B %-d, %Y" }}
+                </p>
+                <p class="mt-6 mb-8 text-eerie_black-600 dark:text-seasalt-500">
+                    {{ post.excerpt | markdownify | strip_html | truncate: 90 }}
+                </p>
+                <div class="flex flex-wrap justify-left m-auto">
+                    <a href="{{ post.url | relative_url }}"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-seasalt-500 bg-true_blue-600 rounded-lg hover:bg-true_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-true_blue-600 dark:focus:ring-primary">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<hr class="mt-6" />

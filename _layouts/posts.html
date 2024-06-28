@@ -38,7 +38,7 @@ bodyClass: "page-post"
                         {{ post.date | date: "%B %-d, %Y" }}
                     </p>
                     <p class="mt-6 mb-8 text-eerie_black-600 dark:text-seasalt-500">
-                        {{ post.excerpt | markdownify | strip_html | truncate: 100 }}
+                        {{ post.excerpt | markdownify | strip_html | truncate: 150 }}
                     </p>
                     <div class="flex flex-wrap justify-left m-auto">
                         <a href="{{ post.url | relative_url }}"

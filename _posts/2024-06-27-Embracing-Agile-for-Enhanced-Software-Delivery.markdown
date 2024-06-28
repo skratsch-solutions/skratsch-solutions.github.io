@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Embracing Agile for Enhanced Software Delivery"
-excerpt: ""
+excerpt: "Agile methodology has transformed software development by emphasizing flexibility, collaboration, and customer feedback."
 date: 2024-06-27T00:00:00.0000000-04:00
 categories:
     - software
