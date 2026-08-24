@@ -1,0 +1,48 @@
+---
+import { getCollection, render } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+
+export async function getStaticPaths() {
+  const teamEntries = await getCollection('team')
+
+  return teamEntries.map((teamEntry) => ({
+    params: { slug: teamEntry.id },
+    props: { teamEntry },
+  }))
+}
+
+const { teamEntry } = Astro.props
+const { Content } = await render(teamEntry)
+const teamImage = teamEntry.data.image?.startsWith('/') ? teamEntry.data.image : `/${teamEntry.data.image}`
+---
+
+<BaseLayout title={`${teamEntry.data.title} | Skratsch Solutions`} description={teamEntry.data.jobtitle}>
+  <article class="shell service-detail">
+    <a class="service-back-link" href="/team/">Team</a>
+    <div class="team-detail-header">
+      {teamEntry.data.image && (
+        <img
+          class="team-detail-image"
+          src={teamImage}
+          alt=""
+          loading="eager"
+          decoding="async"
+          width="360"
+          height="360"
+        />
+      )}
+      <div>
+        <div class="section-kicker">{teamEntry.data.jobtitle ?? 'Team'}</div>
+        <h1 class="section-title">{teamEntry.data.title}</h1>
+        {teamEntry.data.linkedinurl && (
+          <p class="service-hero-copy">
+            <a href={teamEntry.data.linkedinurl}>LinkedIn</a>
+          </p>
+        )}
+      </div>
+    </div>
+    <div class="prose-panel">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

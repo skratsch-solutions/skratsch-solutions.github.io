@@ -24,7 +24,7 @@ export const legacyTopLevelRoutes = [
   { sourcePath: 'faq.md', legacyUrl: '/faq/', status: 'preserve' },
   { sourcePath: 'index.md', legacyUrl: '/', status: 'preserve' },
   { sourcePath: 'it-services.md', legacyUrl: '/it-services/', status: 'preserve' },
-  { sourcePath: 'posts.md', legacyUrl: '/posts/', status: 'preserve' },
+  { sourcePath: 'posts.md', legacyUrl: '/posts/', status: 'inventory' },
   { sourcePath: 'privacy-policy.md', legacyUrl: '/privacy-policy/', status: 'preserve' },
   { sourcePath: 'software-development.md', legacyUrl: '/software-development/', status: 'preserve' },
   { sourcePath: 'team.md', legacyUrl: '/team/', status: 'preserve' },

@@ -349,6 +349,109 @@
   .prose-panel :where(ul, ol) {
     padding-inline-start: 1.5rem;
   }
+
+  .content-page {
+    padding-block: 5rem 2rem;
+  }
+
+  .content-page-header {
+    max-inline-size: 48rem;
+    padding-block-end: 2.5rem;
+    border-block-end: 1px solid var(--border-subtle);
+  }
+
+  .content-page-layout {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .contact-panel {
+    display: grid;
+    align-content: start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-subtle);
+    background: color-mix(in oklab, var(--surface-panel), transparent 18%);
+  }
+
+  .contact-panel h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+  }
+
+  .contact-panel dl {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .contact-panel dt {
+    color: var(--color-muted);
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .contact-panel dd {
+    margin: .25rem 0 0;
+  }
+
+  .contact-panel a:not(.button-primary) {
+    color: var(--color-amber);
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+
+  .team-grid {
+    display: grid;
+    gap: 1px;
+    margin-block: 2rem 4rem;
+    background: var(--border-subtle);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .team-card {
+    position: relative;
+    display: grid;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    background: color-mix(in oklab, var(--surface-panel), transparent 18%);
+  }
+
+  .team-card-image,
+  .team-detail-image {
+    aspect-ratio: 1;
+    inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+  }
+
+  .team-card-title {
+    margin: 0;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    text-wrap: balance;
+  }
+
+  .team-card-title a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  .team-card-role {
+    margin-block: .5rem 0;
+    color: var(--color-muted);
+  }
+
+  .team-detail-header {
+    display: grid;
+    gap: 1.5rem;
+    margin-block-start: 1.5rem;
+    padding-block-end: 2.5rem;
+    border-block-end: 1px solid var(--border-subtle);
+  }
 }
 
 @media (min-width: 768px) {
@@ -383,6 +486,20 @@
 
   .service-detail-header {
     grid-template-columns: 5rem minmax(0, 1fr);
+  }
+
+  .content-page-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, .45fr);
+    align-items: start;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .team-detail-header {
+    grid-template-columns: 14rem minmax(0, 1fr);
+    align-items: center;
   }
 }
 

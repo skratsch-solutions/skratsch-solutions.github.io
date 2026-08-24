@@ -26,9 +26,9 @@ export const capabilityGroups = [
 ] as const
 
 export const primaryNavigationItems = [
-  { href: '#managed-it', label: 'Managed IT' },
-  { href: '#consulting', label: 'Consulting' },
-  { href: '#software', label: 'Software & Automation' },
-  { href: '#data-ai', label: 'Data & AI' },
-  { href: '#insights', label: 'Insights' },
+  { href: '/it-services/', label: 'IT Services' },
+  { href: '/consulting/', label: 'Consulting' },
+  { href: '/software-development/', label: 'Software' },
+  { href: '/data-services/', label: 'Data' },
+  { href: '/contact/', label: 'Contact' },
 ] as const

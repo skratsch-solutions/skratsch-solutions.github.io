@@ -1,0 +1,44 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js'
+
+interface Props {
+  Content: AstroComponentFactory
+  pageEntry: CollectionEntry<'legacyPages'>
+  showContactDetails?: boolean
+}
+
+const { Content, pageEntry, showContactDetails = false } = Astro.props
+const pageDescription = pageEntry.data.excerpt ?? pageEntry.data.description
+---
+
+<article class="shell content-page">
+  <header class="content-page-header">
+    <div class="section-kicker">SKRATSCH SOLUTIONS</div>
+    <h1 class="section-title">{pageEntry.data.title}</h1>
+    {pageDescription && <p class="service-hero-copy">{pageDescription}</p>}
+  </header>
+
+  <div class="content-page-layout">
+    <div class="prose-panel">
+      <Content />
+    </div>
+
+    {showContactDetails && (
+      <aside class="contact-panel" aria-label="Contact details">
+        <h2>Contact</h2>
+        <dl>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:info@skratsch.com">info@skratsch.com</a></dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a href="tel:+13132845656">313.284.5656</a></dd>
+          </div>
+        </dl>
+        <a class="button-primary" href="mailto:info@skratsch.com">Start the conversation</a>
+      </aside>
+    )}
+  </div>
+</article>

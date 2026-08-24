@@ -1,0 +1,31 @@
+---
+import { getCollection, render } from 'astro:content'
+import TeamCard from '../../components/TeamCard.astro'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { sortByWeightAndTitle } from '../../lib/content-order'
+
+const pageEntries = await getCollection('legacyPages')
+const teamPageEntry = pageEntries.find((pageEntry) => pageEntry.id === 'team')
+
+if (!teamPageEntry) {
+  throw new Error('Missing legacy team page content')
+}
+
+const teamEntries = (await getCollection('team')).sort(sortByWeightAndTitle)
+const { Content } = await render(teamPageEntry)
+---
+
+<BaseLayout title={`${teamPageEntry.data.title} | Skratsch Solutions`} description={teamPageEntry.data.description}>
+  <section class="shell content-page">
+    <header class="content-page-header">
+      <div class="section-kicker">TEAM</div>
+      <h1 class="section-title">{teamPageEntry.data.title}</h1>
+    </header>
+    <div class="prose-panel">
+      <Content />
+    </div>
+    <div class="team-grid" aria-label="Team members">
+      {teamEntries.map((teamEntry) => <TeamCard teamEntry={teamEntry} />)}
+    </div>
+  </section>
+</BaseLayout>

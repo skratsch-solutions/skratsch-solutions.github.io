@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content'
+import LegacyContentPage from '../components/LegacyContentPage.astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+export async function getStaticPaths() {
+  const legacyPageIds = [
+    'about',
+    'consultation',
+    'contact',
+    'cookie-policy',
+    'faq',
+    'privacy-policy',
+    'terms-conditions',
+  ] as const
+  const pageEntries = await getCollection('legacyPages')
+
+  return pageEntries
+    .filter((pageEntry) => legacyPageIds.includes(pageEntry.id as (typeof legacyPageIds)[number]))
+    .map((pageEntry) => ({
+      params: { pageSlug: pageEntry.id },
+      props: { pageEntry },
+    }))
+}
+
+const { pageEntry } = Astro.props
+const { Content } = await render(pageEntry)
+const showContactDetails = pageEntry.id === 'contact' || pageEntry.id === 'consultation' || pageEntry.data.show_contact_info
+---
+
+<BaseLayout title={`${pageEntry.data.title} | Skratsch Solutions`} description={pageEntry.data.description}>
+  <LegacyContentPage Content={Content} pageEntry={pageEntry} showContactDetails={showContactDetails} />
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  teamEntry: CollectionEntry<'team'>
+}
+
+const { teamEntry } = Astro.props
+const teamImage = teamEntry.data.image?.startsWith('/') ? teamEntry.data.image : `/${teamEntry.data.image}`
+---
+
+<article class="team-card">
+  {teamEntry.data.image && (
+    <img
+      class="team-card-image"
+      src={teamImage}
+      alt=""
+      loading="lazy"
+      decoding="async"
+      width="320"
+      height="320"
+    />
+  )}
+  <div>
+    <h2 class="team-card-title"><a href={`/team/${teamEntry.id}/`}>{teamEntry.data.title}</a></h2>
+    {teamEntry.data.jobtitle && <p class="team-card-role">{teamEntry.data.jobtitle}</p>}
+  </div>
+</article>
