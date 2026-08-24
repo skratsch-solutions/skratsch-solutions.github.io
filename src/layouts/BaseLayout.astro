@@ -49,10 +49,18 @@ const organizationStructuredData = {
     <header class="shell site-header">
       <a href="/" class="site-brand">
         <img
-          src="/images/brand/skratsch-logo-horizontal-inverse.svg"
+          class="site-brand-mark"
+          src="/images/brand/skratsch-mark-inverse.svg"
+          alt=""
+          width="260"
+          height="160"
+        />
+        <img
+          class="site-brand-wordmark"
+          src="/images/brand/skratsch-wordmark-inverse.svg"
           alt="Skratsch Solutions"
-          width="880"
-          height="180"
+          width="1085"
+          height="185"
         />
       </a>
       <nav class="site-nav" aria-label="Primary">
@@ -64,7 +72,14 @@ const organizationStructuredData = {
     <main><slot /></main>
     <footer class="shell site-footer">
       <div class="site-footer-mark">
-        <img src="/images/brand/skratsch-mark.svg" alt="" loading="lazy" decoding="async" width="260" height="160" />
+        <img
+          src="/images/brand/skratsch-logo-horizontal-inverse.svg"
+          alt="Skratsch Solutions"
+          loading="lazy"
+          decoding="async"
+          width="880"
+          height="180"
+        />
         <span>{siteMetadata.copyrightText}</span>
       </div>
       <nav class="social-links" aria-label="Social links">

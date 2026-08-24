@@ -129,13 +129,22 @@
   .site-brand {
     display: flex;
     align-items: center;
-    inline-size: min(16.75rem, 56vw);
+    gap: .75rem;
+    inline-size: min(22rem, 70vw);
   }
 
   .site-brand img {
     display: block;
-    inline-size: 100%;
     block-size: auto;
+  }
+
+  .site-brand-mark {
+    inline-size: 3.4rem;
+    flex: 0 0 auto;
+  }
+
+  .site-brand-wordmark {
+    inline-size: min(16.5rem, calc(70vw - 4.15rem));
   }
 
   .site-nav {
@@ -437,12 +446,13 @@
 
   .site-footer-mark {
     display: flex;
-    align-items: center;
-    gap: .75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
 
   .site-footer-mark img {
-    inline-size: 3rem;
+    inline-size: min(24rem, 84vw);
     block-size: auto;
   }
 
