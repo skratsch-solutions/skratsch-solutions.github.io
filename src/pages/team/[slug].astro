@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
+import { hasPlaceholderMarkdown } from '../../lib/content-quality'
 
 export async function getStaticPaths() {
   const teamEntries = await getCollection('team')
@@ -14,9 +15,11 @@ export async function getStaticPaths() {
 const { teamEntry } = Astro.props
 const { Content } = await render(teamEntry)
 const teamImage = teamEntry.data.image?.startsWith('/') ? teamEntry.data.image : `/${teamEntry.data.image}`
+const shouldRenderBiography = !hasPlaceholderMarkdown(teamEntry.body)
+const teamPageDescription = shouldRenderBiography ? teamEntry.data.jobtitle : 'Team and project staffing information'
 ---
 
-<BaseLayout title={`${teamEntry.data.title} | Skratsch Solutions`} description={teamEntry.data.jobtitle} image={teamImage}>
+<BaseLayout title={`${teamEntry.data.title} | Skratsch Solutions`} description={teamPageDescription} image={teamImage}>
   <article class="shell service-detail">
     <a class="service-back-link" href="/team/">Team</a>
     <div class="team-detail-header">
@@ -32,7 +35,7 @@ const teamImage = teamEntry.data.image?.startsWith('/') ? teamEntry.data.image :
         />
       )}
       <div>
-        <div class="section-kicker">{teamEntry.data.jobtitle ?? 'Team'}</div>
+        <div class="section-kicker">{shouldRenderBiography ? teamEntry.data.jobtitle ?? 'Team' : 'Team'}</div>
         <h1 class="section-title">{teamEntry.data.title}</h1>
         {teamEntry.data.linkedinurl && (
           <p class="service-hero-copy">
@@ -41,8 +44,14 @@ const teamImage = teamEntry.data.image?.startsWith('/') ? teamEntry.data.image :
         )}
       </div>
     </div>
-    <div class="prose-panel">
-      <Content />
-    </div>
+    {shouldRenderBiography ? (
+      <div class="prose-panel">
+        <Content />
+      </div>
+    ) : (
+      <div class="prose-panel">
+        <p>Contact Skratsch Solutions for current team and project staffing information.</p>
+      </div>
+    )}
   </article>
 </BaseLayout>
