@@ -8,6 +8,7 @@
     </linearGradient>
     <style>
       .ring { fill: none; stroke: #F4F0E7; stroke-width: 10; stroke-linecap: square; }
+      .inner { fill: none; stroke: #F4F0E7; stroke-width: 4; stroke-linecap: round; }
       .steel { fill: none; stroke: #476B73; stroke-width: 5; stroke-linecap: round; }
       .amber-line { fill: none; stroke: #E4A735; stroke-width: 5; stroke-linecap: round; }
       .steel-node { fill: #476B73; }
@@ -17,18 +18,24 @@
   </defs>
   <rect width="256" height="256" rx="48" fill="url(#iconSurface)" />
   <g transform="translate(28 48)">
-    <path class="ring" d="M72 24a56 56 0 0 1 56 56" />
-    <path class="ring" d="M128 80a56 56 0 0 1-56 56" />
-    <path class="ring" d="M72 136a56 56 0 0 1-56-56" />
-    <path class="ring" d="M16 80a56 56 0 0 1 56-56" />
-    <path class="steel" d="M0 62h24l14 18h34" />
-    <path class="steel" d="M0 98h26l12-18h34" />
-    <path class="amber-line" d="M128 80h30l14-18h28" />
-    <path class="amber-line" d="M128 80h32l12 18h28" />
+    <path class="ring" d="M72 24a56 56 0 0 1 52 36" />
+    <path class="ring" d="M124 100a56 56 0 0 1-52 36" />
+    <path class="ring" d="M72 136a56 56 0 0 1-52-36" />
+    <path class="ring" d="M20 60a56 56 0 0 1 52-36" />
+    <path class="inner" d="M72 42a38 38 0 0 1 36 26" />
+    <path class="inner" d="M108 92a38 38 0 0 1-36 26" />
+    <path class="inner" d="M72 118a38 38 0 0 1-36-26" />
+    <path class="inner" d="M36 68a38 38 0 0 1 36-26" />
+    <path class="steel" d="M0 62h24l14 18h12" />
+    <path class="steel" d="M0 98h26l12-18h12" />
+    <path class="amber-line" d="M94 80h22" />
+    <path class="amber-line" d="M116 80l14-18h70" />
+    <path class="amber-line" d="M116 80l14 18h70" />
     <circle class="steel-node" cx="0" cy="62" r="6" />
     <circle class="steel-node" cx="0" cy="98" r="6" />
     <circle class="ink-node" cx="38" cy="80" r="7" />
-    <circle class="amber" cx="100" cy="80" r="22" />
+    <circle class="amber" cx="72" cy="80" r="22" />
+    <circle class="amber" cx="116" cy="80" r="7" />
     <circle class="amber" cx="200" cy="62" r="6" />
     <circle class="amber" cx="200" cy="98" r="6" />
   </g>

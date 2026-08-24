@@ -4,6 +4,7 @@
   <defs>
     <style>
       .ink { fill: none; stroke: #151817; stroke-width: 10; stroke-linecap: square; }
+      .inner { fill: none; stroke: #151817; stroke-width: 4; stroke-linecap: round; }
       .steel { fill: none; stroke: #476B73; stroke-width: 5; stroke-linecap: round; }
       .amber-line { fill: none; stroke: #E4A735; stroke-width: 5; stroke-linecap: round; }
       .steel-node { fill: #476B73; }
@@ -34,25 +35,31 @@
     </style>
   </defs>
   <g transform="translate(18 22)">
-    <path class="ink" d="M74 14a48 48 0 0 1 48 48" />
-    <path class="ink" d="M122 62a48 48 0 0 1-48 48" />
-    <path class="ink" d="M74 110a48 48 0 0 1-48-48" />
-    <path class="ink" d="M26 62a48 48 0 0 1 48-48" />
-    <path class="steel" d="M0 48h28l12 14h34" />
-    <path class="steel" d="M0 76h30l10-14h34" />
-    <path class="amber-line" d="M122 62h32l14-14h26" />
-    <path class="amber-line" d="M122 62h32l14 14h26" />
+    <path class="ink" d="M74 14a48 48 0 0 1 45 31" />
+    <path class="ink" d="M119 79a48 48 0 0 1-45 31" />
+    <path class="ink" d="M74 110a48 48 0 0 1-45-31" />
+    <path class="ink" d="M29 45a48 48 0 0 1 45-31" />
+    <path class="inner" d="M74 30a32 32 0 0 1 30 20" />
+    <path class="inner" d="M104 74a32 32 0 0 1-30 20" />
+    <path class="inner" d="M74 94a32 32 0 0 1-30-20" />
+    <path class="inner" d="M44 50a32 32 0 0 1 30-20" />
+    <path class="steel" d="M0 48h28l12 14h15" />
+    <path class="steel" d="M0 76h30l10-14h15" />
+    <path class="amber-line" d="M93 62h18" />
+    <path class="amber-line" d="M111 62l12-14h71" />
+    <path class="amber-line" d="M111 62l12 14h71" />
     <circle class="steel-node" cx="0" cy="48" r="5" />
     <circle class="steel-node" cx="0" cy="76" r="5" />
     <circle class="ink-node" cx="40" cy="62" r="6" />
-    <circle class="amber" cx="98" cy="62" r="19" />
+    <circle class="amber" cx="74" cy="62" r="19" />
+    <circle class="amber" cx="111" cy="62" r="5" />
     <circle class="amber" cx="194" cy="48" r="5" />
     <circle class="amber" cx="194" cy="76" r="5" />
   </g>
   <line class="divider" x1="246" y1="32" x2="246" y2="146" />
   <text class="wordmark" x="286" y="82">SKRATSCH</text>
   <text class="submark" x="290" y="124">SOLUTIONS</text>
-  <text class="tagline" x="516" y="124">MANAGED IT.</text>
-  <rect class="amber" x="630" y="108" width="3" height="22" />
-  <text class="tagline" x="648" y="124">CLEARER PATH.</text>
+  <text class="tagline" x="290" y="154">MANAGED IT.</text>
+  <rect class="amber" x="454" y="138" width="3" height="21" />
+  <text class="tagline" x="480" y="154">CLEARER PATH.</text>
 </svg>

@@ -4,6 +4,7 @@
   <defs>
     <style>
       .ink { fill: none; stroke: #151817; stroke-width: 10; stroke-linecap: square; }
+      .inner { fill: none; stroke: #151817; stroke-width: 4; stroke-linecap: round; }
       .steel { fill: none; stroke: #476B73; stroke-width: 5; stroke-linecap: round; }
       .amber-line { fill: none; stroke: #E4A735; stroke-width: 5; stroke-linecap: round; }
       .steel-node { fill: #476B73; }
@@ -11,18 +12,24 @@
       .amber { fill: #E4A735; }
     </style>
   </defs>
-  <path class="ink" d="M92 24a56 56 0 0 1 56 56" />
-  <path class="ink" d="M148 80a56 56 0 0 1-56 56" />
-  <path class="ink" d="M92 136a56 56 0 0 1-56-56" />
-  <path class="ink" d="M36 80a56 56 0 0 1 56-56" />
-  <path class="steel" d="M8 62h36l14 18h34" />
-  <path class="steel" d="M8 98h38l12-18h34" />
-  <path class="amber-line" d="M148 80h36l18-18h30" />
-  <path class="amber-line" d="M148 80h38l16 18h30" />
+  <path class="ink" d="M92 24a56 56 0 0 1 52 36" />
+  <path class="ink" d="M144 100a56 56 0 0 1-52 36" />
+  <path class="ink" d="M92 136a56 56 0 0 1-52-36" />
+  <path class="ink" d="M40 60a56 56 0 0 1 52-36" />
+  <path class="inner" d="M92 42a38 38 0 0 1 36 26" />
+  <path class="inner" d="M128 92a38 38 0 0 1-36 26" />
+  <path class="inner" d="M92 118a38 38 0 0 1-36-26" />
+  <path class="inner" d="M56 68a38 38 0 0 1 36-26" />
+  <path class="steel" d="M8 62h36l14 18h12" />
+  <path class="steel" d="M8 98h38l12-18h12" />
+  <path class="amber-line" d="M114 80h24" />
+  <path class="amber-line" d="M138 80l16-18h78" />
+  <path class="amber-line" d="M138 80l16 18h78" />
   <circle class="steel-node" cx="8" cy="62" r="6" />
   <circle class="steel-node" cx="8" cy="98" r="6" />
   <circle class="ink-node" cx="58" cy="80" r="7" />
-  <circle class="amber" cx="120" cy="80" r="22" />
+  <circle class="amber" cx="92" cy="80" r="22" />
+  <circle class="amber" cx="138" cy="80" r="6" />
   <circle class="amber" cx="232" cy="62" r="6" />
   <circle class="amber" cx="232" cy="98" r="6" />
 </svg>
