@@ -225,6 +225,130 @@
     align-items: center;
     gap: .75rem;
   }
+
+  .service-hero {
+    padding-block: 5rem 3rem;
+  }
+
+  .service-hero-copy {
+    max-inline-size: 48rem;
+    margin-block: 1.5rem 0;
+    color: var(--color-muted);
+    font-size: 1.125rem;
+    line-height: 1.65;
+    text-wrap: pretty;
+  }
+
+  .service-list {
+    display: grid;
+    gap: 1px;
+    margin-block-end: 4rem;
+    background: var(--border-subtle);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .service-card {
+    position: relative;
+    display: grid;
+    gap: 1.25rem;
+    min-block-size: 13rem;
+    padding: 1.5rem;
+    background: color-mix(in oklab, var(--surface-panel), transparent 18%);
+    container-type: inline-size;
+  }
+
+  .service-card-icon {
+    inline-size: 3rem;
+    block-size: 3rem;
+    object-fit: contain;
+  }
+
+  .service-card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-wrap: balance;
+  }
+
+  .service-card-title a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  .service-card-excerpt {
+    margin-block: .875rem 0;
+    color: var(--color-muted);
+    line-height: 1.6;
+    text-wrap: pretty;
+  }
+
+  .service-detail {
+    padding-block: 4rem 2rem;
+  }
+
+  .service-back-link {
+    display: inline-flex;
+    min-block-size: 2rem;
+    align-items: center;
+    color: var(--color-amber);
+    font-size: .875rem;
+    font-weight: 700;
+  }
+
+  .service-detail-header {
+    display: grid;
+    gap: 1.5rem;
+    margin-block-start: 1.5rem;
+    padding-block-end: 2.5rem;
+    border-block-end: 1px solid var(--border-subtle);
+  }
+
+  .service-detail-icon {
+    inline-size: 4rem;
+    block-size: 4rem;
+    object-fit: contain;
+  }
+
+  .prose-panel {
+    max-inline-size: 48rem;
+    padding-block: 2rem;
+    color: var(--color-paper);
+  }
+
+  .prose-panel :where(h2, h3) {
+    margin-block: 2.5rem 1rem;
+    color: var(--color-paper);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+
+  .prose-panel h2 {
+    font-size: 2rem;
+  }
+
+  .prose-panel h3 {
+    font-size: 1.5rem;
+  }
+
+  .prose-panel :where(p, li) {
+    color: var(--color-muted);
+    line-height: 1.75;
+    text-wrap: pretty;
+  }
+
+  .prose-panel a {
+    color: var(--color-amber);
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+
+  .prose-panel :where(ul, ol) {
+    padding-inline-start: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -246,6 +370,25 @@
 
   .insights-grid {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  }
+
+  .service-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-card {
+    min-block-size: 15rem;
+    padding: 2rem;
+  }
+
+  .service-detail-header {
+    grid-template-columns: 5rem minmax(0, 1fr);
+  }
+}
+
+@container (min-width: 28rem) {
+  .service-card {
+    grid-template-columns: 4rem minmax(0, 1fr);
   }
 }
 

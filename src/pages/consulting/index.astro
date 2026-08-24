@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content'
+import ServiceGroupPage from '../../components/ServiceGroupPage.astro'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { sortByWeightAndTitle } from '../../lib/content-order'
+import { serviceGroups } from '../../lib/service-groups'
+
+const serviceGroup = serviceGroups.consulting
+const serviceEntries = (await getCollection(serviceGroup.collection)).sort(sortByWeightAndTitle)
+---
+
+<BaseLayout title={`${serviceGroup.title} | Skratsch Solutions`} description={serviceGroup.description}>
+  <ServiceGroupPage serviceEntries={serviceEntries} serviceGroup={serviceGroup} />
+</BaseLayout>

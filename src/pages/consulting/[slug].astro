@@ -1,0 +1,36 @@
+---
+import { getCollection, render } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { serviceGroups } from '../../lib/service-groups'
+
+const serviceGroup = serviceGroups.consulting
+
+export async function getStaticPaths() {
+  const serviceEntries = await getCollection('consulting')
+
+  return serviceEntries.map((serviceEntry) => ({
+    params: { slug: serviceEntry.id },
+    props: { serviceEntry },
+  }))
+}
+
+const { serviceEntry } = Astro.props
+const { Content } = await render(serviceEntry)
+---
+
+<BaseLayout title={`${serviceEntry.data.title} | Skratsch Solutions`} description={serviceEntry.data.excerpt}>
+  <article class="shell service-detail">
+    <a class="service-back-link" href={serviceGroup.basePath}>{serviceGroup.title}</a>
+    <div class="service-detail-header">
+      {serviceEntry.data.image && <img class="service-detail-icon" src={serviceEntry.data.image} alt="" loading="eager" decoding="async" />}
+      <div>
+        <div class="section-kicker">{serviceGroup.kicker}</div>
+        <h1 class="section-title">{serviceEntry.data.title}</h1>
+        {serviceEntry.data.excerpt && <p class="service-hero-copy">{serviceEntry.data.excerpt}</p>}
+      </div>
+    </div>
+    <div class="prose-panel">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
