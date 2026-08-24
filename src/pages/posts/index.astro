@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content'
+import PostCard from '../../components/PostCard.astro'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { getVisiblePosts, sortPostsByDateDescending } from '../../lib/post-routes'
+
+const postEntries = getVisiblePosts(await getCollection('posts')).sort(sortPostsByDateDescending)
+---
+
+<BaseLayout title="Building With Skratsch | Skratsch Solutions" description="Engineering notes, architecture guidance, experiments, and practical lessons from Skratsch Solutions.">
+  <section class="shell posts-hero">
+    <div class="section-kicker">BUILDING WITH SKRATSCH</div>
+    <h1 class="section-title">Engineering notes from the field.</h1>
+    <p class="service-hero-copy">
+      Architecture guidance, implementation lessons, and practical ways to make business technology easier to operate.
+    </p>
+  </section>
+
+  <section class="shell post-list" aria-label="Posts">
+    {postEntries.map((postEntry) => <PostCard postEntry={postEntry} />)}
+  </section>
+</BaseLayout>
