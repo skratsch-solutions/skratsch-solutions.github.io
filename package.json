@@ -1,26 +1,21 @@
 {
+  "name": "skratsch-site-v2",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "jekyll": "bundle exec jekyll serve",
-    "tailwind": "tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css --watch",
-    "start": "npm run --parallel jekyll tailwind"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.13",
-    "autoprefixer": "^10.4.19",
-    "cssnano": "^7.0.2",
-    "flowbite-typography": "^1.0.3",
-    "postcss": "^8.4.38",
-    "postcss-import": "^16.1.0",
-    "postcss-nesting": "^12.1.5",
-    "tailwindcss": "^3.4.4"
+    "audit:routes": "node scripts/audit-route-parity.mjs",
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "check": "astro check",
+    "preview": "astro preview",
+    "verify": "npm run build && npm run audit:routes"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/forms": "^0.5.7",
-    "axios": "^1.7.2",
-    "bootstrap": "^5.3.3",
-    "node-mailjet": "^6.0.5",
-    "tailwindcss-opentype": "^1.1.0"
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.6.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "astro": "^5.13.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0"
   }
 }

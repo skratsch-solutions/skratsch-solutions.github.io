@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "./design-system.css";
+
+:root {
+  --ink: var(--color-ink);
+  --amber: var(--color-amber);
+  --steel: var(--color-steel);
+  --paper: var(--color-paper);
+  --muted: var(--color-muted);
+}

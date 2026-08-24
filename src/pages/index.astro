@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { capabilityGroups } from '../lib/site-constants';
+---
+<BaseLayout title="Skratsch Solutions | Technology that works for your business">
+  <section class="shell hero-panel">
+    <div class="hero-copy">
+      <div class="status-label">
+        <span class="status-dot"></span><span>SYSTEMS · SOFTWARE · DATA · AI</span>
+      </div>
+      <h1 class="hero-title">
+        Technology should help run your business — not become another business you have to run.
+      </h1>
+      <p class="hero-lede">
+        Skratsch Solutions helps small and midsized organizations manage, modernize, and build the technology their businesses depend on.
+      </p>
+      <div class="button-row">
+        <a href="/contact/" class="button-primary">Talk to a Technology Advisor</a>
+        <a href="#capabilities" class="button-secondary">Explore what we do</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="capabilities" class="shell capability-grid">
+    {capabilityGroups.map((capabilityGroup) => (
+      <article id={capabilityGroup.id} class="capability-card">
+        <div class="capability-kicker">{capabilityGroup.kicker}</div>
+        <h2 class="capability-title">{capabilityGroup.title}</h2>
+        <p class="capability-body">{capabilityGroup.body}</p>
+      </article>
+    ))}
+  </section>
+
+  <section id="insights" class="shell insights-panel">
+    <div class="insights-grid">
+      <div>
+        <div class="section-kicker">BUILDING WITH SKRATSCH</div>
+        <h2 class="section-title">Technical depth is part of the service.</h2>
+      </div>
+      <p class="section-copy">
+        Engineering notes, architecture guidance, experiments, and practical lessons from building and operating modern technology.
+        The existing Skratsch technical archive will migrate here without sacrificing its public URLs.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

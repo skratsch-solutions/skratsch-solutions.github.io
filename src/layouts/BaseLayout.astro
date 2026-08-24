@@ -1,0 +1,72 @@
+---
+import '../styles/global.css'
+import { primaryNavigationItems } from '../lib/site-constants'
+import { siteMetadata, socialLinks } from '../lib/site-metadata'
+
+interface Props {
+  description?: string
+  image?: string
+  title: string
+}
+
+const {
+  description = siteMetadata.defaultDescription,
+  image,
+  title,
+} = Astro.props
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
+const socialImageUrl = image ? new URL(image, Astro.site) : null
+const organizationStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteMetadata.name,
+  sameAs: socialLinks
+    .filter((socialLink) => socialLink.href.startsWith('https://'))
+    .map((socialLink) => socialLink.href),
+  url: siteMetadata.url,
+}
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.svg" />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:description" content={description} />
+    {socialImageUrl && <meta property="og:image" content={socialImageUrl} />}
+    <meta name="twitter:card" content={socialImageUrl ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:site" content={siteMetadata.twitterSite} />
+    <meta name="twitter:creator" content={siteMetadata.twitterCreator} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="shell site-header">
+      <a href="/" class="site-brand">
+        <span class="status-dot"></span>
+        <span>Skratsch Solutions</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        {primaryNavigationItems.map((navigationItem) => (
+          <a href={navigationItem.href}>{navigationItem.label}</a>
+        ))}
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="shell site-footer">
+      <div class="site-footer-mark"><span class="status-dot"></span><span>{siteMetadata.copyrightText}</span></div>
+      <nav class="social-links" aria-label="Social links">
+        {socialLinks.map((socialLink) => (
+          <a href={socialLink.href} aria-label={socialLink.label}>
+            <img src={socialLink.icon} alt="" loading="lazy" decoding="async" width="20" height="20" />
+          </a>
+        ))}
+      </nav>
+    </footer>
+  </body>
+</html>

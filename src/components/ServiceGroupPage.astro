@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import ServiceCard from './ServiceCard.astro'
+import type { ServiceGroup } from '../lib/service-groups'
+import { getServiceRoute } from '../lib/service-groups'
+
+interface Props {
+  serviceEntries: CollectionEntry<'consulting' | 'dataServices' | 'itServices' | 'softwareDevelopment'>[]
+  serviceGroup: ServiceGroup
+}
+
+const { serviceEntries, serviceGroup } = Astro.props
+---
+
+<section class="shell service-hero">
+  <div class="section-kicker">{serviceGroup.kicker}</div>
+  <h1 class="section-title">{serviceGroup.heading}</h1>
+  <p class="service-hero-copy">{serviceGroup.description}</p>
+</section>
+
+<section class="shell service-list" aria-label={`${serviceGroup.title} services`}>
+  {serviceEntries.map((serviceEntry) => (
+    <ServiceCard
+      excerpt={serviceEntry.data.excerpt}
+      href={getServiceRoute(serviceGroup, serviceEntry.id)}
+      image={serviceEntry.data.image}
+      title={serviceEntry.data.title}
+    />
+  ))}
+</section>
