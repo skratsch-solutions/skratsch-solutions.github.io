@@ -37,6 +37,18 @@
     --surface-clay: #E8CBA5;
     --text-on-paper: #16211F;
     --text-on-paper-muted: #586653;
+    --text-on-amber: #0B1110;
+    --text-on-media: #F7F1E6;
+    --background-wedge: rgba(232, 203, 165, .09);
+    --background-grid-inline: rgba(93, 135, 145, .1);
+    --background-grid-block: rgba(121, 196, 150, .065);
+    --header-accent: rgba(228, 167, 53, .06);
+    --nav-hover-background: rgba(247, 241, 230, .08);
+    --hero-overlay-block: rgba(11, 17, 16, .84);
+    --hero-overlay-inline: rgba(11, 17, 16, .44);
+    --panel-wash: rgba(232, 203, 165, .07);
+    --panel-hover-wash: rgba(228, 167, 53, .13);
+    --service-card-wash: rgba(93, 135, 145, .12);
     --border-subtle: color-mix(in oklab, var(--color-paper), transparent 84%);
     --border-paper: color-mix(in oklab, var(--text-on-paper), transparent 84%);
     --focus-ring: var(--color-amber);
@@ -45,6 +57,38 @@
     --font-display: "Space Grotesk Brand", Inter, ui-sans-serif, system-ui, sans-serif;
     --font-body: "IBM Plex Sans Brand", Inter, ui-sans-serif, system-ui, sans-serif;
     color-scheme: dark;
+  }
+
+  :root[data-theme="light"] {
+    --color-ink: #F7F1E6;
+    --color-amber: #D89920;
+    --color-steel: #3F6D78;
+    --color-paper: #0B1110;
+    --color-muted: #42524C;
+    --color-copper: #9D472F;
+    --color-circuit: #317A50;
+    --surface-panel: #FFF8EA;
+    --surface-panel-strong: #EED9B7;
+    --surface-paper: #FFFDF6;
+    --surface-clay: #E8CBA5;
+    --text-on-paper: #16211F;
+    --text-on-paper-muted: #4F5E57;
+    --text-on-amber: #0B1110;
+    --text-on-media: #F7F1E6;
+    --background-wedge: rgba(173, 83, 55, .1);
+    --background-grid-inline: rgba(63, 109, 120, .16);
+    --background-grid-block: rgba(49, 122, 80, .1);
+    --header-accent: rgba(216, 153, 32, .12);
+    --nav-hover-background: rgba(11, 17, 16, .07);
+    --hero-overlay-block: rgba(11, 17, 16, .82);
+    --hero-overlay-inline: rgba(11, 17, 16, .38);
+    --panel-wash: rgba(232, 203, 165, .28);
+    --panel-hover-wash: rgba(216, 153, 32, .18);
+    --service-card-wash: rgba(63, 109, 120, .1);
+    --border-subtle: color-mix(in oklab, var(--color-paper), transparent 82%);
+    --border-paper: color-mix(in oklab, var(--text-on-paper), transparent 84%);
+    --shadow-panel: 0 1.5rem 4rem rgba(11, 17, 16, .16);
+    color-scheme: light;
   }
 }
 
@@ -65,9 +109,9 @@
     min-block-size: 100dvb;
     margin: 0;
     background:
-      linear-gradient(135deg, rgba(232, 203, 165, .09) 0 25%, transparent 25% 100%),
-      repeating-linear-gradient(90deg, rgba(93, 135, 145, .1) 0 1px, transparent 1px 5.5rem),
-      repeating-linear-gradient(0deg, rgba(121, 196, 150, .065) 0 1px, transparent 1px 5.5rem),
+      linear-gradient(135deg, var(--background-wedge) 0 25%, transparent 25% 100%),
+      repeating-linear-gradient(90deg, var(--background-grid-inline) 0 1px, transparent 1px 5.5rem),
+      repeating-linear-gradient(0deg, var(--background-grid-block) 0 1px, transparent 1px 5.5rem),
       var(--color-ink);
     background-size: 100% 36rem, auto, auto;
   }
@@ -121,16 +165,30 @@
     padding-block: 1rem;
     border-block-end: 1px solid var(--border-subtle);
     background:
-      linear-gradient(90deg, rgba(228, 167, 53, .06), transparent 45%),
+      linear-gradient(90deg, var(--header-accent), transparent 45%),
       color-mix(in oklab, var(--color-ink), transparent 4%);
     backdrop-filter: blur(18px);
   }
 
+  .theme-logo.theme-logo-light {
+    display: none;
+  }
+
+  :root[data-theme="light"] .theme-logo-dark {
+    display: none;
+  }
+
+  :root[data-theme="light"] .theme-logo-light {
+    display: block;
+  }
+
   .site-brand {
     display: flex;
+    flex: 1 1 auto;
     align-items: center;
     gap: .65rem;
-    inline-size: min(20rem, calc(100vw - 2rem));
+    inline-size: min(17rem, calc(100vw - 6.75rem));
+    min-inline-size: 0;
   }
 
   .site-brand img {
@@ -139,13 +197,13 @@
   }
 
   .site-brand-mark {
-    inline-size: 3.2rem;
+    inline-size: 2.8rem;
     flex: 0 0 auto;
   }
 
   .site-brand-wordmark {
     min-inline-size: 0;
-    inline-size: min(15.5rem, calc(100vw - 6.5rem));
+    inline-size: min(13.25rem, calc(100vw - 10.75rem));
   }
 
   .site-nav {
@@ -168,8 +226,71 @@
   }
 
   .site-nav a:hover {
-    background: rgba(244, 240, 231, .08);
+    background: var(--nav-hover-background);
     color: var(--color-paper);
+  }
+
+  .site-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: .75rem;
+    padding-inline-end: 3.25rem;
+  }
+
+  .theme-toggle {
+    position: fixed;
+    inset-block-start: 1rem;
+    inset-inline-end: max(1rem, env(safe-area-inset-right));
+    z-index: 2;
+    display: inline-grid;
+    inline-size: 2.75rem;
+    block-size: 2.75rem;
+    place-items: center;
+    border: 1px solid color-mix(in oklab, var(--color-amber), transparent 18%);
+    border-radius: 999px;
+    background: var(--color-amber);
+    color: var(--text-on-amber);
+    cursor: pointer;
+    touch-action: manipulation;
+    transition:
+      background-color .2s ease,
+      border-color .2s ease,
+      color .2s ease,
+      transform .2s ease;
+  }
+
+  .theme-toggle:hover {
+    border-color: color-mix(in oklab, var(--color-amber), transparent 48%);
+    background: var(--surface-panel-strong);
+    transform: translateY(-1px);
+  }
+
+  .theme-toggle-icon,
+  .theme-toggle-icon svg {
+    inline-size: 1.1rem;
+    block-size: 1.1rem;
+  }
+
+  .theme-toggle-icon svg {
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+  }
+
+  .theme-toggle-moon {
+    display: none;
+  }
+
+  :root[data-theme="light"] .theme-toggle-sun {
+    display: none;
+  }
+
+  :root[data-theme="light"] .theme-toggle-moon {
+    display: block;
   }
 
   .hero-panel {
@@ -258,7 +379,7 @@
 
   .button-primary {
     background: var(--color-amber);
-    color: var(--color-ink);
+    color: var(--text-on-amber);
   }
 
   .button-secondary {
@@ -283,8 +404,8 @@
     position: absolute;
     inset: 0;
     background:
-      linear-gradient(180deg, transparent 38%, rgba(11, 17, 16, .84)),
-      linear-gradient(90deg, rgba(11, 17, 16, .44), transparent 52%);
+      linear-gradient(180deg, transparent 38%, var(--hero-overlay-block)),
+      linear-gradient(90deg, var(--hero-overlay-inline), transparent 52%);
     z-index: 1;
     pointer-events: none;
   }
@@ -314,7 +435,7 @@
   }
 
   .hero-visual figcaption strong {
-    color: var(--color-paper);
+    color: var(--text-on-media);
     font-size: 1.25rem;
     line-height: 1.2;
     text-wrap: balance;
@@ -333,7 +454,7 @@
     border-inline-end: 1px solid var(--border-subtle);
     border-block-end: 1px solid var(--border-subtle);
     background:
-      linear-gradient(135deg, rgba(232, 203, 165, .07), transparent 48%),
+      linear-gradient(135deg, var(--panel-wash), transparent 48%),
       var(--surface-panel);
     container-type: inline-size;
     transition:
@@ -343,7 +464,7 @@
 
   .capability-card:hover {
     background:
-      linear-gradient(135deg, rgba(228, 167, 53, .13), transparent 52%),
+      linear-gradient(135deg, var(--panel-hover-wash), transparent 52%),
       var(--surface-panel-strong);
   }
 
@@ -514,7 +635,7 @@
     border: 1px solid var(--border-subtle);
     border-radius: .5rem;
     background:
-      linear-gradient(135deg, rgba(93, 135, 145, .12), transparent 44%),
+      linear-gradient(135deg, var(--service-card-wash), transparent 44%),
       color-mix(in oklab, var(--surface-panel), transparent 12%);
     container-type: inline-size;
     transition:
@@ -751,23 +872,6 @@
 }
 
 @media (min-width: 768px) {
-  .site-brand {
-    gap: .8rem;
-    inline-size: min(25rem, 72vw);
-  }
-
-  .site-brand-mark {
-    inline-size: 3.9rem;
-  }
-
-  .site-brand-wordmark {
-    inline-size: min(19rem, calc(72vw - 4.7rem));
-  }
-
-  .site-nav {
-    display: flex;
-  }
-
   .hero-panel {
     grid-template-columns: minmax(0, .96fr) minmax(20rem, .74fr);
     padding-block: 7rem;
@@ -842,6 +946,30 @@
   }
 }
 
+@media (min-width: 960px) {
+  .theme-toggle {
+    position: absolute;
+    inset-inline-end: 0;
+  }
+
+  .site-brand {
+    gap: .8rem;
+    inline-size: min(25rem, 72vw);
+  }
+
+  .site-brand-mark {
+    inline-size: 3.9rem;
+  }
+
+  .site-brand-wordmark {
+    inline-size: min(19rem, calc(72vw - 4.7rem));
+  }
+
+  .site-nav {
+    display: flex;
+  }
+}
+
 @container (min-width: 28rem) {
   .service-card {
     grid-template-columns: 4rem minmax(0, 1fr);
@@ -854,14 +982,16 @@
   .capability-card,
   .service-card,
   .social-links a,
-  .site-nav a {
+  .site-nav a,
+  .theme-toggle {
     transition: none;
   }
 
   .button-primary:hover,
   .button-secondary:hover,
   .service-card:hover,
-  .social-links a:hover {
+  .social-links a:hover,
+  .theme-toggle:hover {
     transform: none;
   }
 }

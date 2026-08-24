@@ -81,7 +81,9 @@ Do not:
 
 ## Color Palette
 
-The palette should feel like warm precision: charcoal hardware, amber signal, steel interfaces, copper warmth, and off-white paper.
+The palette should feel like warm precision: charcoal hardware, amber signal, steel interfaces, copper warmth, and off-white paper. Use dark mode for a more technical, immersive feel. Use light mode when readability, documentation, or long-form content needs to lead.
+
+### Core Palette
 
 | Token | Hex | Use |
 | --- | --- | --- |
@@ -95,6 +97,19 @@ The palette should feel like warm precision: charcoal hardware, amber signal, st
 | Steel | `#5D8791` | Supporting lines, navigation, muted UI accents |
 | Signal | `#79C496` | Data/support accent, success cues |
 | Muted | `#CED8D1` | Secondary text on dark surfaces |
+
+### Light Mode Palette
+
+| Token | Hex | Use |
+| --- | --- | --- |
+| Ink Surface | `#F7F1E6` | Primary light background |
+| Paper Text | `#0B1110` | Primary text on light surfaces |
+| Light Panel | `#FFF8EA` | Cards and raised panels |
+| Light Panel Strong | `#EED9B7` | Hover states and stronger surfaces |
+| Light Muted | `#42524C` | Secondary text on light surfaces |
+| Light Steel | `#3F6D78` | Supporting lines and navigation |
+| Light Signal | `#317A50` | Data/support accent on light surfaces |
+| Light Copper | `#9D472F` | Editorial accent on light surfaces |
 
 ### Color Ratios
 
@@ -309,6 +324,17 @@ Use these tokens when wiring the brand into CSS:
   --brand-muted: #CED8D1;
   --font-display: "Space Grotesk", Inter, system-ui, sans-serif;
   --font-body: "IBM Plex Sans", Inter, system-ui, sans-serif;
+}
+
+:root[data-theme="light"] {
+  --brand-ink: #F7F1E6;
+  --brand-paper: #0B1110;
+  --brand-panel: #FFF8EA;
+  --brand-graphite: #EED9B7;
+  --brand-muted: #42524C;
+  --brand-steel: #3F6D78;
+  --brand-signal: #317A50;
+  --brand-copper: #9D472F;
 }
 ```
 
