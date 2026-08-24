@@ -117,6 +117,8 @@ Use two families:
 
 Space Grotesk gives the brand its engineered character. IBM Plex Sans keeps service copy readable and serious.
 
+Use `Orbitron` only for the fixed logo wordmark. Don't use it for page headings or body copy.
+
 Recommended CSS:
 
 ```css

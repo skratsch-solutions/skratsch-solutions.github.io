@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" role="img" aria-labelledby="title desc">
   <title id="title">Skratsch Solutions circular routing mark</title>
   <desc id="desc">A split circular mark with amber center point and routed signal lines.</desc>
   <defs>
@@ -12,24 +12,24 @@
       .amber { fill: #E4A735; }
     </style>
   </defs>
-  <path class="ink" d="M92 24a56 56 0 0 1 52 36" />
-  <path class="ink" d="M144 100a56 56 0 0 1-52 36" />
-  <path class="ink" d="M92 136a56 56 0 0 1-52-36" />
-  <path class="ink" d="M40 60a56 56 0 0 1 52-36" />
-  <path class="inner" d="M92 42a38 38 0 0 1 36 26" />
-  <path class="inner" d="M128 92a38 38 0 0 1-36 26" />
-  <path class="inner" d="M92 118a38 38 0 0 1-36-26" />
-  <path class="inner" d="M56 68a38 38 0 0 1 36-26" />
-  <path class="steel" d="M8 62h36l14 18h12" />
-  <path class="steel" d="M8 98h38l12-18h12" />
-  <path class="amber-line" d="M114 80h24" />
-  <path class="amber-line" d="M138 80l16-18h78" />
-  <path class="amber-line" d="M138 80l16 18h78" />
-  <circle class="steel-node" cx="8" cy="62" r="6" />
-  <circle class="steel-node" cx="8" cy="98" r="6" />
-  <circle class="ink-node" cx="58" cy="80" r="7" />
-  <circle class="amber" cx="92" cy="80" r="22" />
-  <circle class="amber" cx="138" cy="80" r="6" />
-  <circle class="amber" cx="232" cy="62" r="6" />
-  <circle class="amber" cx="232" cy="98" r="6" />
+  <path class="ink" d="M130 24a56 56 0 0 1 50 31" />
+  <path class="ink" d="M180 105a56 56 0 0 1-50 31" />
+  <path class="ink" d="M130 136a56 56 0 0 1-50-31" />
+  <path class="ink" d="M80 55a56 56 0 0 1 50-31" />
+  <path class="inner" d="M130 42a38 38 0 0 1 34 21" />
+  <path class="inner" d="M164 97a38 38 0 0 1-34 21" />
+  <path class="inner" d="M130 118a38 38 0 0 1-34-21" />
+  <path class="inner" d="M96 63a38 38 0 0 1 34-21" />
+  <path class="steel" d="M18 62h48l14 18h28" />
+  <path class="steel" d="M18 98h48l14-18h28" />
+  <path class="amber-line" d="M152 80h26" />
+  <path class="amber-line" d="M178 80l16-18h48" />
+  <path class="amber-line" d="M178 80l16 18h48" />
+  <circle class="steel-node" cx="18" cy="62" r="6" />
+  <circle class="steel-node" cx="18" cy="98" r="6" />
+  <circle class="ink-node" cx="80" cy="80" r="7" />
+  <circle class="amber" cx="130" cy="80" r="22" />
+  <circle class="amber" cx="178" cy="80" r="6" />
+  <circle class="amber" cx="242" cy="62" r="6" />
+  <circle class="amber" cx="242" cy="98" r="6" />
 </svg>
