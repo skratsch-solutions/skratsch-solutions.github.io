@@ -181,11 +181,25 @@ export const getLegacyCollectionUrls = () => legacyCollectionRoutes.flatMap((leg
 
 export const getLegacyTeamUrls = () => legacyTeamRoutes.map((slug) => `/team/${slug}/`)
 
-export const getLegacyPostInventory = () => legacyPostSourceSlugs.map((sourceSlug) => ({
-  sourcePath: `_posts/${sourceSlug}`,
-  legacyUrl: null,
-  status: 'inventory' as const,
-}))
+export const getLegacyPostInventory = () => legacyPostSourceSlugs.map((sourceSlug) => {
+  const datedPostMatch = /^(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<slug>.+)$/.exec(sourceSlug)
+
+  if (!datedPostMatch?.groups) {
+    return {
+      sourcePath: `_posts/${sourceSlug}`,
+      legacyUrl: null,
+      status: 'inventory' as const,
+    }
+  }
+
+  const { year, month, day, slug } = datedPostMatch.groups
+
+  return {
+    sourcePath: `_posts/${sourceSlug}`,
+    legacyUrl: `/${year}/${month}/${day}/${slug}/`,
+    status: 'inventory' as const,
+  }
+})
 
 export const legacyRouteInventory = {
   collectionUrls: getLegacyCollectionUrls(),
