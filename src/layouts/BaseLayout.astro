@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import { primaryNavigationItems } from '../lib/site-constants';
+
 interface Props { title: string; description?: string; }
 const { title, description = 'Technology that works for your business.' } = Astro.props;
 ---
@@ -13,22 +15,20 @@ const { title, description = 'Technology that works for your business.' } = Astr
     <title>{title}</title>
   </head>
   <body>
-    <header class="shell flex items-center justify-between py-7 border-b border-white/10">
-      <a href="/" class="flex items-center gap-3 font-semibold tracking-tight">
+    <header class="shell site-header">
+      <a href="/" class="site-brand">
         <span class="status-dot"></span>
         <span>Skratsch Solutions</span>
       </a>
-      <nav class="hidden md:flex gap-7 text-sm text-[var(--muted)]" aria-label="Primary">
-        <a href="#managed-it">Managed IT</a>
-        <a href="#consulting">Consulting</a>
-        <a href="#software">Software & Automation</a>
-        <a href="#data-ai">Data & AI</a>
-        <a href="#insights">Insights</a>
+      <nav class="site-nav" aria-label="Primary">
+        {primaryNavigationItems.map((navigationItem) => (
+          <a href={navigationItem.href}>{navigationItem.label}</a>
+        ))}
       </nav>
     </header>
     <main><slot /></main>
-    <footer class="shell py-10 mt-20 border-t border-white/10 text-sm text-[var(--muted)]">
-      <div class="flex items-center gap-3"><span class="status-dot"></span><span>Skratsch Solutions · Skratsch.com</span></div>
+    <footer class="shell site-footer">
+      <div class="site-footer-mark"><span class="status-dot"></span><span>Skratsch Solutions · Skratsch.com</span></div>
     </footer>
   </body>
 </html>

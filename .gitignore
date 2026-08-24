@@ -1,6 +1,8 @@
 # NPM
 node_modules
 npm-debug.log
+.astro
+dist
 
 # Jekyll
 _site
