@@ -16,7 +16,7 @@ const { Content } = await render(teamEntry)
 const teamImage = teamEntry.data.image?.startsWith('/') ? teamEntry.data.image : `/${teamEntry.data.image}`
 ---
 
-<BaseLayout title={`${teamEntry.data.title} | Skratsch Solutions`} description={teamEntry.data.jobtitle}>
+<BaseLayout title={`${teamEntry.data.title} | Skratsch Solutions`} description={teamEntry.data.jobtitle} image={teamImage}>
   <article class="shell service-detail">
     <a class="service-back-link" href="/team/">Team</a>
     <div class="team-detail-header">

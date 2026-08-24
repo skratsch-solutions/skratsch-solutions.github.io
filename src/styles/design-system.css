@@ -213,6 +213,11 @@
   }
 
   .site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
     padding-block: 2.5rem;
     margin-block-start: 5rem;
     border-block-start: 1px solid var(--border-subtle);
@@ -224,6 +229,26 @@
     display: flex;
     align-items: center;
     gap: .75rem;
+  }
+
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+
+  .social-links a {
+    display: grid;
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    place-items: center;
+    border: 1px solid var(--border-subtle);
+    background: color-mix(in oklab, var(--surface-panel), transparent 18%);
+  }
+
+  .social-links img {
+    inline-size: 1.25rem;
+    block-size: 1.25rem;
   }
 
   .service-hero {

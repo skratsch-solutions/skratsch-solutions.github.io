@@ -18,7 +18,7 @@ const { serviceEntry } = Astro.props
 const { Content } = await render(serviceEntry)
 ---
 
-<BaseLayout title={`${serviceEntry.data.title} | Skratsch Solutions`} description={serviceEntry.data.excerpt}>
+<BaseLayout title={`${serviceEntry.data.title} | Skratsch Solutions`} description={serviceEntry.data.excerpt} image={serviceEntry.data.image}>
   <article class="shell service-detail">
     <a class="service-back-link" href={serviceGroup.basePath}>{serviceGroup.title}</a>
     <div class="service-detail-header">

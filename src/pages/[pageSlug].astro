@@ -28,6 +28,6 @@ const { Content } = await render(pageEntry)
 const showContactDetails = pageEntry.id === 'contact' || pageEntry.id === 'consultation' || pageEntry.data.show_contact_info
 ---
 
-<BaseLayout title={`${pageEntry.data.title} | Skratsch Solutions`} description={pageEntry.data.description}>
+<BaseLayout title={`${pageEntry.data.title} | Skratsch Solutions`} description={pageEntry.data.description} image={pageEntry.data.image}>
   <LegacyContentPage Content={Content} pageEntry={pageEntry} showContactDetails={showContactDetails} />
 </BaseLayout>
