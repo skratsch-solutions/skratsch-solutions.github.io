@@ -24,19 +24,19 @@
   }
 
   :root {
-    --color-ink: #151817;
+    --color-ink: #0B1110;
     --color-amber: #E4A735;
-    --color-steel: #476B73;
-    --color-paper: #F4F0E7;
-    --color-muted: #BAC2BD;
-    --color-copper: #B85D3B;
-    --color-circuit: #6CA982;
-    --surface-panel: #202725;
-    --surface-panel-strong: #2D3632;
-    --surface-paper: #F4F0E7;
-    --surface-clay: #E8D6BF;
-    --text-on-paper: #202725;
-    --text-on-paper-muted: #5F675F;
+    --color-steel: #5D8791;
+    --color-paper: #F7F1E6;
+    --color-muted: #CED8D1;
+    --color-copper: #AD5337;
+    --color-circuit: #79C496;
+    --surface-panel: #13201E;
+    --surface-panel-strong: #1D2E2A;
+    --surface-paper: #F7F1E6;
+    --surface-clay: #E8CBA5;
+    --text-on-paper: #16211F;
+    --text-on-paper-muted: #586653;
     --border-subtle: color-mix(in oklab, var(--color-paper), transparent 84%);
     --border-paper: color-mix(in oklab, var(--text-on-paper), transparent 84%);
     --focus-ring: var(--color-amber);
@@ -65,9 +65,9 @@
     min-block-size: 100dvb;
     margin: 0;
     background:
-      linear-gradient(135deg, rgba(232, 214, 191, .08) 0 25%, transparent 25% 100%),
-      repeating-linear-gradient(90deg, rgba(108, 169, 130, .08) 0 1px, transparent 1px 5.5rem),
-      repeating-linear-gradient(0deg, rgba(71, 107, 115, .08) 0 1px, transparent 1px 5.5rem),
+      linear-gradient(135deg, rgba(232, 203, 165, .09) 0 25%, transparent 25% 100%),
+      repeating-linear-gradient(90deg, rgba(93, 135, 145, .1) 0 1px, transparent 1px 5.5rem),
+      repeating-linear-gradient(0deg, rgba(121, 196, 150, .065) 0 1px, transparent 1px 5.5rem),
       var(--color-ink);
     background-size: 100% 36rem, auto, auto;
   }
@@ -122,7 +122,7 @@
     border-block-end: 1px solid var(--border-subtle);
     background:
       linear-gradient(90deg, rgba(228, 167, 53, .06), transparent 45%),
-      color-mix(in oklab, var(--color-ink), transparent 6%);
+      color-mix(in oklab, var(--color-ink), transparent 4%);
     backdrop-filter: blur(18px);
   }
 
@@ -283,8 +283,8 @@
     position: absolute;
     inset: 0;
     background:
-      linear-gradient(180deg, transparent 38%, rgba(21, 24, 23, .82)),
-      linear-gradient(90deg, rgba(21, 24, 23, .4), transparent 52%);
+      linear-gradient(180deg, transparent 38%, rgba(11, 17, 16, .84)),
+      linear-gradient(90deg, rgba(11, 17, 16, .44), transparent 52%);
     z-index: 1;
     pointer-events: none;
   }
@@ -333,7 +333,7 @@
     border-inline-end: 1px solid var(--border-subtle);
     border-block-end: 1px solid var(--border-subtle);
     background:
-      linear-gradient(135deg, rgba(232, 214, 191, .05), transparent 48%),
+      linear-gradient(135deg, rgba(232, 203, 165, .07), transparent 48%),
       var(--surface-panel);
     container-type: inline-size;
     transition:
@@ -514,7 +514,7 @@
     border: 1px solid var(--border-subtle);
     border-radius: .5rem;
     background:
-      linear-gradient(135deg, rgba(108, 169, 130, .08), transparent 44%),
+      linear-gradient(135deg, rgba(93, 135, 145, .12), transparent 44%),
       color-mix(in oklab, var(--surface-panel), transparent 12%);
     container-type: inline-size;
     transition:
