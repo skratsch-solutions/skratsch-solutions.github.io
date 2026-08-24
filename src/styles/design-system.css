@@ -129,8 +129,8 @@
   .site-brand {
     display: flex;
     align-items: center;
-    gap: .75rem;
-    inline-size: min(22rem, 70vw);
+    gap: .65rem;
+    inline-size: min(20rem, calc(100vw - 2rem));
   }
 
   .site-brand img {
@@ -139,12 +139,13 @@
   }
 
   .site-brand-mark {
-    inline-size: 3.4rem;
+    inline-size: 3.2rem;
     flex: 0 0 auto;
   }
 
   .site-brand-wordmark {
-    inline-size: min(16.5rem, calc(70vw - 4.15rem));
+    min-inline-size: 0;
+    inline-size: min(15.5rem, calc(100vw - 6.5rem));
   }
 
   .site-nav {
@@ -750,6 +751,19 @@
 }
 
 @media (min-width: 768px) {
+  .site-brand {
+    gap: .8rem;
+    inline-size: min(25rem, 72vw);
+  }
+
+  .site-brand-mark {
+    inline-size: 3.9rem;
+  }
+
+  .site-brand-wordmark {
+    inline-size: min(19rem, calc(72vw - 4.7rem));
+  }
+
   .site-nav {
     display: flex;
   }
