@@ -354,6 +354,11 @@
     padding-block: 5rem 2rem;
   }
 
+  .error-page {
+    min-block-size: 55dvb;
+    padding-block: 7rem 2rem;
+  }
+
   .content-page-header {
     max-inline-size: 48rem;
     padding-block-end: 2.5rem;
