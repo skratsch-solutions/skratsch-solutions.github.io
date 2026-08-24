@@ -3,10 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "audit:routes": "node scripts/audit-route-parity.mjs",
     "dev": "astro dev",
     "build": "astro check && astro build",
+    "check": "astro check",
     "preview": "astro preview",
-    "check": "astro check"
+    "verify": "npm run build && npm run audit:routes"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
