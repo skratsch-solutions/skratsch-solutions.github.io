@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="title desc">
+  <title id="title">Skratsch Solutions circular routing mark</title>
+  <desc id="desc">A split circular mark with amber center point and routed signal lines.</desc>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #151817; stroke-width: 10; stroke-linecap: square; }
+      .steel { fill: none; stroke: #476B73; stroke-width: 5; stroke-linecap: round; }
+      .amber-line { fill: none; stroke: #E4A735; stroke-width: 5; stroke-linecap: round; }
+      .steel-node { fill: #476B73; }
+      .ink-node { fill: #151817; }
+      .amber { fill: #E4A735; }
+    </style>
+  </defs>
+  <path class="ink" d="M92 24a56 56 0 0 1 56 56" />
+  <path class="ink" d="M148 80a56 56 0 0 1-56 56" />
+  <path class="ink" d="M92 136a56 56 0 0 1-56-56" />
+  <path class="ink" d="M36 80a56 56 0 0 1 56-56" />
+  <path class="steel" d="M8 62h36l14 18h34" />
+  <path class="steel" d="M8 98h38l12-18h34" />
+  <path class="amber-line" d="M148 80h36l18-18h30" />
+  <path class="amber-line" d="M148 80h38l16 18h30" />
+  <circle class="steel-node" cx="8" cy="62" r="6" />
+  <circle class="steel-node" cx="8" cy="98" r="6" />
+  <circle class="ink-node" cx="58" cy="80" r="7" />
+  <circle class="amber" cx="120" cy="80" r="22" />
+  <circle class="amber" cx="232" cy="62" r="6" />
+  <circle class="amber" cx="232" cy="98" r="6" />
+</svg>

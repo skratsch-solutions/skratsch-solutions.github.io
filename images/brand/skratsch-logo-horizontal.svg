@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" role="img" aria-labelledby="title desc">
+  <title id="title">Skratsch Solutions horizontal logo</title>
+  <desc id="desc">The Skratsch Solutions wordmark with circular routing mark and tagline.</desc>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #151817; stroke-width: 10; stroke-linecap: square; }
+      .steel { fill: none; stroke: #476B73; stroke-width: 5; stroke-linecap: round; }
+      .amber-line { fill: none; stroke: #E4A735; stroke-width: 5; stroke-linecap: round; }
+      .steel-node { fill: #476B73; }
+      .ink-node { fill: #151817; }
+      .amber { fill: #E4A735; }
+      .divider { stroke: #476B73; stroke-width: 2; }
+      .wordmark {
+        fill: #151817;
+        font-family: "Space Grotesk", "IBM Plex Sans", Arial, sans-serif;
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: 12px;
+      }
+      .submark {
+        fill: #476B73;
+        font-family: "Space Grotesk", "IBM Plex Sans", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 14px;
+      }
+      .tagline {
+        fill: #151817;
+        font-family: "IBM Plex Sans", Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 4px;
+      }
+    </style>
+  </defs>
+  <g transform="translate(18 22)">
+    <path class="ink" d="M74 14a48 48 0 0 1 48 48" />
+    <path class="ink" d="M122 62a48 48 0 0 1-48 48" />
+    <path class="ink" d="M74 110a48 48 0 0 1-48-48" />
+    <path class="ink" d="M26 62a48 48 0 0 1 48-48" />
+    <path class="steel" d="M0 48h28l12 14h34" />
+    <path class="steel" d="M0 76h30l10-14h34" />
+    <path class="amber-line" d="M122 62h32l14-14h26" />
+    <path class="amber-line" d="M122 62h32l14 14h26" />
+    <circle class="steel-node" cx="0" cy="48" r="5" />
+    <circle class="steel-node" cx="0" cy="76" r="5" />
+    <circle class="ink-node" cx="40" cy="62" r="6" />
+    <circle class="amber" cx="98" cy="62" r="19" />
+    <circle class="amber" cx="194" cy="48" r="5" />
+    <circle class="amber" cx="194" cy="76" r="5" />
+  </g>
+  <line class="divider" x1="246" y1="32" x2="246" y2="146" />
+  <text class="wordmark" x="286" y="82">SKRATSCH</text>
+  <text class="submark" x="290" y="124">SOLUTIONS</text>
+  <text class="tagline" x="516" y="124">MANAGED IT.</text>
+  <rect class="amber" x="630" y="108" width="3" height="22" />
+  <text class="tagline" x="648" y="124">CLEARER PATH.</text>
+</svg>

@@ -1,0 +1,14 @@
+:root {
+  --brand-ink: #151817;
+  --brand-panel: #202725;
+  --brand-graphite: #2D3632;
+  --brand-paper: #F4F0E7;
+  --brand-clay: #E8D6BF;
+  --brand-amber: #E4A735;
+  --brand-copper: #B85D3B;
+  --brand-steel: #476B73;
+  --brand-signal: #6CA982;
+  --brand-muted: #BAC2BD;
+  --font-display: "Space Grotesk", Inter, system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", Inter, system-ui, sans-serif;
+}
