@@ -32,7 +32,7 @@ const organizationStructuredData = {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.svg" />
+    <link rel="icon" type="image/svg+xml" href="/images/brand/skratsch-app-icon.svg" />
     <link rel="canonical" href={canonicalUrl} />
     <meta property="og:title" content={title} />
     <meta property="og:type" content="website" />
@@ -48,8 +48,12 @@ const organizationStructuredData = {
   <body>
     <header class="shell site-header">
       <a href="/" class="site-brand">
-        <span class="status-dot"></span>
-        <span>Skratsch Solutions</span>
+        <img
+          src="/images/brand/skratsch-logo-horizontal-inverse.svg"
+          alt="Skratsch Solutions"
+          width="880"
+          height="180"
+        />
       </a>
       <nav class="site-nav" aria-label="Primary">
         {primaryNavigationItems.map((navigationItem) => (
@@ -59,7 +63,10 @@ const organizationStructuredData = {
     </header>
     <main><slot /></main>
     <footer class="shell site-footer">
-      <div class="site-footer-mark"><span class="status-dot"></span><span>{siteMetadata.copyrightText}</span></div>
+      <div class="site-footer-mark">
+        <img src="/images/brand/skratsch-mark.svg" alt="" loading="lazy" decoding="async" width="260" height="160" />
+        <span>{siteMetadata.copyrightText}</span>
+      </div>
       <nav class="social-links" aria-label="Social links">
         {socialLinks.map((socialLink) => (
           <a href={socialLink.href} aria-label={socialLink.label}>
