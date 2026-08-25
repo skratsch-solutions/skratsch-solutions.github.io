@@ -81,20 +81,35 @@ Do not:
 
 ## Color Palette
 
-The palette should feel like warm precision: charcoal hardware, amber signal, steel interfaces, copper warmth, and off-white paper.
+The palette should feel like warm precision: charcoal hardware, amber signal, steel interfaces, copper warmth, and off-white paper. Use dark mode for a more technical, immersive feel. Use light mode when readability, documentation, or long-form content needs to lead.
+
+### Core Palette
 
 | Token | Hex | Use |
 | --- | --- | --- |
-| Ink | `#151817` | Primary dark background, logo text, footer |
-| Panel | `#202725` | Dark cards, app icon background |
-| Graphite | `#2D3632` | Raised surfaces, hover states |
-| Paper | `#F4F0E7` | Light backgrounds, content bands |
-| Clay | `#E8D6BF` | Warm secondary surface |
+| Ink | `#0B1110` | Primary dark background, footer, immersive page base |
+| Panel | `#13201E` | Dark cards, app icon background |
+| Graphite | `#1D2E2A` | Raised surfaces, hover states |
+| Paper | `#F7F1E6` | Light backgrounds, content bands |
+| Clay | `#E8CBA5` | Warm secondary surface |
 | Amber | `#E4A735` | Logo center, primary CTA, focus states |
-| Copper | `#B85D3B` | Secondary accent, editorial callouts |
-| Steel | `#476B73` | Supporting lines, muted UI accents |
-| Signal | `#6CA982` | Data/support accent, success cues |
-| Muted | `#BAC2BD` | Secondary text on dark surfaces |
+| Copper | `#AD5337` | Secondary accent, editorial callouts |
+| Steel | `#5D8791` | Supporting lines, navigation, muted UI accents |
+| Signal | `#79C496` | Data/support accent, success cues |
+| Muted | `#CED8D1` | Secondary text on dark surfaces |
+
+### Light Mode Palette
+
+| Token | Hex | Use |
+| --- | --- | --- |
+| Ink Surface | `#F7F1E6` | Primary light background |
+| Paper Text | `#0B1110` | Primary text on light surfaces |
+| Light Panel | `#FFF8EA` | Cards and raised panels |
+| Light Panel Strong | `#EED9B7` | Hover states and stronger surfaces |
+| Light Muted | `#42524C` | Secondary text on light surfaces |
+| Light Steel | `#3F6D78` | Supporting lines and navigation |
+| Light Signal | `#317A50` | Data/support accent on light surfaces |
+| Light Copper | `#9D472F` | Editorial accent on light surfaces |
 
 ### Color Ratios
 
@@ -297,18 +312,29 @@ Use these tokens when wiring the brand into CSS:
 
 ```css
 :root {
-  --brand-ink: #151817;
-  --brand-panel: #202725;
-  --brand-graphite: #2D3632;
-  --brand-paper: #F4F0E7;
-  --brand-clay: #E8D6BF;
+  --brand-ink: #0B1110;
+  --brand-panel: #13201E;
+  --brand-graphite: #1D2E2A;
+  --brand-paper: #F7F1E6;
+  --brand-clay: #E8CBA5;
   --brand-amber: #E4A735;
-  --brand-copper: #B85D3B;
-  --brand-steel: #476B73;
-  --brand-signal: #6CA982;
-  --brand-muted: #BAC2BD;
+  --brand-copper: #AD5337;
+  --brand-steel: #5D8791;
+  --brand-signal: #79C496;
+  --brand-muted: #CED8D1;
   --font-display: "Space Grotesk", Inter, system-ui, sans-serif;
   --font-body: "IBM Plex Sans", Inter, system-ui, sans-serif;
+}
+
+:root[data-theme="light"] {
+  --brand-ink: #F7F1E6;
+  --brand-paper: #0B1110;
+  --brand-panel: #FFF8EA;
+  --brand-graphite: #EED9B7;
+  --brand-muted: #42524C;
+  --brand-steel: #3F6D78;
+  --brand-signal: #317A50;
+  --brand-copper: #9D472F;
 }
 ```
 

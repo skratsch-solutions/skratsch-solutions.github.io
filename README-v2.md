@@ -15,6 +15,10 @@ npm run verify
 
 `npm run verify` builds the Astro site and checks that preserved non-blog legacy URLs are emitted under `dist/`.
 
+## Codex handoff
+
+Use `docs/codex-handoff.md` as the current cross-machine continuation note for Codex agents. It records the active branch, latest brand/theme work, verification commands, and known follow-ups.
+
 ## Deployment cutover
 
 Production still runs through the guarded Jekyll Pages workflow on `main`.
