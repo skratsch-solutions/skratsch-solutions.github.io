@@ -1,0 +1,38 @@
+---
+interface Props {
+  anchor: string
+  eyebrow: string
+  headline: string
+  lede: string
+  statement: string
+}
+
+const { anchor, eyebrow, headline, lede, statement } = Astro.props
+---
+
+<section class="shell run-hero">
+  <div class="run-hero-copy">
+    <div class="status-label"><span class="status-dot"></span><span>{eyebrow}</span></div>
+    <h1>{headline}</h1>
+    <p class="run-hero-lede">{lede}</p>
+    <p class="run-anchor-statement">{statement}</p>
+    <div class="button-row">
+      <a class="button-primary" href={`#${anchor}`}>Show me what RUN covers ↓</a>
+      <a class="button-secondary" href="/contact/">Start with the problem →</a>
+    </div>
+  </div>
+  <div class="system-status-panel" aria-label="Technology environment status: identity, endpoints, Microsoft 365, network, cloud, security, backup, monitoring, and support are connected and operating normally.">
+    <div class="status-panel-heading">
+      <span>ENVIRONMENT / LIVE</span>
+      <strong><span class="system-state-dot"></span>Quiet operation</strong>
+    </div>
+    <div class="status-topology" aria-hidden="true">
+      {['Identity', 'Endpoints', 'Microsoft 365', 'Network', 'Cloud & Apps', 'Security', 'Backup', 'Monitoring', 'Support'].map((node, index) => (
+        <div class:list={['topology-node', { 'topology-node-active': index === 7 }]}>
+          <span>{String(index + 1).padStart(2, '0')}</span>
+          <strong>{node}</strong>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

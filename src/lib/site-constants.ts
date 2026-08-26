@@ -1,7 +1,7 @@
 export const capabilityGroups = [
   {
     id: 'managed-it',
-    href: '/it-services/',
+    href: '/run/',
     kicker: 'RUN',
     metric: '24/7-minded',
     title: 'Managed IT',
@@ -34,7 +34,7 @@ export const capabilityGroups = [
 ] as const
 
 export const primaryNavigationItems = [
-  { href: '/it-services/', label: 'IT Services' },
+  { href: '/run/', label: 'RUN' },
   { href: '/consulting/', label: 'Consulting' },
   { href: '/software-development/', label: 'Software' },
   { href: '/data-services/', label: 'Data' },
