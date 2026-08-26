@@ -4,13 +4,15 @@ This repo has been migrated from the original Jekyll site to an Astro static sit
 
 ## Current State
 
-- Active work branch: `codex/apply-brand-system`
-- Intended base branch: `main`
+- Active work branch: `codex/run-capability-exemplar`
+- Latest merged state: `137c012` (`Merge Skratsch brand system`)
 - Runtime: Node 22
 - Verification command: `npm run verify`
 - Production host remains GitHub Pages for `https://skratsch.com`
 
-The branch is expected to be pushed to GitHub before handoff. If another Codex agent starts on a different computer, it should fetch the repo, inspect the latest PR/branch state, and continue from the newest commit on `codex/apply-brand-system` or from `main` if the PR has already been merged.
+The `codex/apply-brand-system` branch has been merged into `main`. A Codex agent continuing on another computer should fetch the repository, fast-forward `main`, and create a new feature branch for additional changes.
+
+The current feature branch adds an additive `/run/` capability experience while retaining `/it-services/` and all legacy routes. It introduces reusable capability hero, system-diagram, and conversation-CTA components plus diagnostic signals, operating layers, outcomes, the four-capability loop, and engagement paths. Verification currently builds 51 pages and audits 50 preserved legacy URLs successfully.
 
 ## Recent Work
 
@@ -35,7 +37,7 @@ Recent commits before this handoff:
 
 ## Local Setup
 
-Use WSL and Node 22.
+Use Node 22. Windows PowerShell, WSL, macOS, and Linux are supported.
 
 ```sh
 git fetch --all --prune
@@ -45,14 +47,10 @@ npm ci
 npm run verify
 ```
 
-If continuing unmerged branch work:
+For new work:
 
 ```sh
-git fetch --all --prune
-git switch codex/apply-brand-system
-git pull
-npm ci
-npm run verify
+git switch -c codex/<feature-name>
 ```
 
 ## Validation Notes
@@ -71,7 +69,9 @@ Expected current result:
 
 ## Known Follow-Ups
 
-- The light theme is implemented and validated, but the small-screen theme toggle should be checked manually in a real browser after merge. Windows Edge headless produced inconsistent mobile captures while the DOM and desktop screenshots showed the control correctly.
+- Review `/run/` content and decide whether it should become canonical before merging; `/it-services/` remains intact in the current additive implementation.
+- Add a real, publishable proof artifact to RUN when one is approved. Do not fabricate customer claims, metrics, testimonials, or evidence.
+- The light theme and small-screen toggle are now validated in the in-app browser at 390px width.
 - The `modern-web-guidance` skill remains flaky in this environment. Prefer `web-design-guidelines` for UI/accessibility review unless the old tool has been fixed.
 - Git commit signing may fail on machines without the 1Password signing helper configured. If that happens, either configure signing or commit with `--no-gpg-sign`.
 - GitHub reports existing Dependabot vulnerabilities on the default branch during pushes. These are not from the brand/theme pass.

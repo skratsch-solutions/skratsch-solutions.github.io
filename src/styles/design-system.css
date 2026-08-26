@@ -869,6 +869,306 @@
     padding-block-end: 2.5rem;
     border-block-end: 1px solid var(--border-subtle);
   }
+
+  .run-hero {
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    padding-block: 5rem;
+  }
+
+  .run-hero-copy h1,
+  .run-section-heading h2,
+  .conversation-cta h2 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    text-wrap: balance;
+  }
+
+  .run-hero-copy h1 {
+    max-inline-size: 11ch;
+    font-size: clamp(3rem, 2.25rem + 3vw, 5.25rem);
+  }
+
+  .run-hero-lede {
+    max-inline-size: 43rem;
+    margin-block: 2rem 0;
+    color: var(--color-muted);
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+
+  .run-anchor-statement {
+    max-inline-size: 32rem;
+    margin-block: 1.5rem 0;
+    padding-inline-start: 1rem;
+    border-inline-start: 2px solid var(--color-amber);
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .system-status-panel,
+  .system-diagram {
+    border: 1px solid var(--border-subtle);
+    border-radius: .5rem;
+    background:
+      linear-gradient(var(--panel-wash), transparent),
+      var(--surface-panel);
+    box-shadow: var(--shadow-panel);
+  }
+
+  .system-status-panel {
+    padding: 1rem;
+  }
+
+  .status-panel-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block-end: 1rem;
+    border-block-end: 1px solid var(--border-subtle);
+    color: var(--color-muted);
+    font-family: var(--font-display);
+    font-size: .7rem;
+  }
+
+  .status-panel-heading strong {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--color-signal);
+  }
+
+  .system-state-dot,
+  .signal-mark {
+    inline-size: .5rem;
+    block-size: .5rem;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: var(--color-signal);
+  }
+
+  .status-topology {
+    display: grid;
+    gap: .75rem;
+    padding-block-start: 1rem;
+  }
+
+  .topology-node {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    gap: .75rem;
+    align-items: center;
+    min-block-size: 2.75rem;
+    padding-inline: .75rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: .25rem;
+    color: var(--color-muted);
+    font-size: .8rem;
+  }
+
+  .topology-node::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: -.8rem;
+    inline-size: .8rem;
+    border-block-start: 1px solid var(--color-steel);
+  }
+
+  .topology-node strong {
+    color: var(--color-paper);
+    font-family: var(--font-display);
+  }
+
+  .topology-node-active {
+    border-color: color-mix(in oklab, var(--color-amber), transparent 40%);
+  }
+
+  .topology-node-active::after {
+    content: "attention";
+    position: absolute;
+    inset-inline-end: .75rem;
+    color: var(--color-amber);
+    font-size: .65rem;
+    text-transform: uppercase;
+  }
+
+  .run-section {
+    padding-block: 5rem;
+  }
+
+  .run-section-heading {
+    max-inline-size: 56rem;
+    margin-block-end: 2.5rem;
+  }
+
+  .run-section-heading h2,
+  .conversation-cta h2 {
+    margin-block-start: 1rem;
+    font-size: clamp(2.25rem, 1.75rem + 2vw, 3.75rem);
+  }
+
+  .run-section-heading > p,
+  .conversation-cta p {
+    max-inline-size: 46rem;
+    margin-block: 1.25rem 0;
+    color: var(--color-muted);
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+
+  .signal-grid,
+  .operating-layers,
+  .outcome-grid,
+  .engagement-grid {
+    display: grid;
+    gap: 1px;
+    border: 1px solid var(--border-subtle);
+    background: var(--border-subtle);
+  }
+
+  .signal-card,
+  .operating-layer,
+  .engagement-card {
+    padding: 1.5rem;
+    background: var(--surface-panel);
+  }
+
+  .signal-card > div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--color-steel);
+    font-family: var(--font-display);
+    font-size: .7rem;
+    font-weight: 700;
+  }
+
+  .signal-card h3,
+  .operating-layer h3,
+  .engagement-card h3 {
+    margin-block: 2rem .75rem;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    line-height: 1.15;
+  }
+
+  .signal-card p,
+  .operating-layer p,
+  .engagement-card p {
+    margin: 0;
+    color: var(--color-muted);
+    line-height: 1.65;
+  }
+
+  .run-band {
+    background: var(--surface-panel);
+    border-block: 1px solid var(--border-subtle);
+  }
+
+  .operating-layer > span {
+    color: var(--color-amber);
+    font-family: var(--font-display);
+    font-size: .75rem;
+    font-weight: 700;
+  }
+
+  .system-diagram {
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  .system-diagram-track {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .system-diagram-node {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    gap: .75rem;
+    align-items: center;
+    min-block-size: 4rem;
+    padding: .75rem;
+    border: 1px solid var(--border-subtle);
+    background: var(--surface-panel-strong);
+  }
+
+  .system-diagram-node:not(:last-child)::after {
+    content: "↓";
+    position: absolute;
+    inset-block-end: -1.15rem;
+    inset-inline-start: 50%;
+    z-index: 1;
+    color: var(--color-amber);
+  }
+
+  .system-diagram-node span {
+    color: var(--color-steel);
+    font-size: .7rem;
+  }
+
+  .system-diagram-node strong {
+    font-family: var(--font-display);
+  }
+
+  .system-diagram figcaption {
+    margin-block-start: 1.5rem;
+    color: var(--color-muted);
+    line-height: 1.65;
+  }
+
+  .run-paper-band {
+    background: var(--surface-paper);
+    color: var(--text-on-paper);
+  }
+
+  .run-paper-band .section-kicker {
+    color: var(--color-copper);
+  }
+
+  .outcome-panel {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--surface-paper);
+  }
+
+  .outcome-panel span {
+    color: var(--color-copper);
+    font-family: var(--font-display);
+    font-size: .75rem;
+    font-weight: 700;
+  }
+
+  .outcome-panel p {
+    margin: 0;
+    color: var(--text-on-paper-muted);
+    line-height: 1.6;
+  }
+
+  .engagement-card a {
+    display: inline-flex;
+    margin-block-start: 1.5rem;
+    color: var(--color-amber);
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+
+  .conversation-cta {
+    display: grid;
+    gap: 2.5rem;
+    padding-block: 6rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -943,6 +1243,50 @@
   .team-detail-header {
     grid-template-columns: 14rem minmax(0, 1fr);
     align-items: center;
+  }
+
+  .run-hero {
+    grid-template-columns: minmax(0, 1.1fr) minmax(24rem, .75fr);
+    padding-block: 7rem;
+  }
+
+  .status-topology,
+  .signal-grid,
+  .outcome-grid,
+  .engagement-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .operating-layers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .signal-card,
+  .operating-layer,
+  .engagement-card {
+    padding: 2rem;
+  }
+
+  .system-diagram-track {
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  }
+
+  .system-diagram-node {
+    grid-template-columns: 1fr;
+    min-block-size: 7rem;
+    align-content: space-between;
+  }
+
+  .system-diagram-node:not(:last-child)::after {
+    content: "→";
+    inset-block: 50% auto;
+    inset-inline: auto -.7rem;
+    transform: translateY(-50%);
+  }
+
+  .conversation-cta {
+    grid-template-columns: minmax(0, 1fr) minmax(0, .8fr);
+    align-items: end;
   }
 }
 

@@ -1,0 +1,147 @@
+---
+import CapabilityHero from '../../components/CapabilityHero.astro'
+import ConversationCTA from '../../components/ConversationCTA.astro'
+import SystemDiagram from '../../components/SystemDiagram.astro'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+
+const signals = [
+  ['Recurring friction', 'People have learned workarounds for problems everyone assumes are just part of the job.'],
+  ['Unclear ownership', 'Several people or vendors can fix pieces, but nobody confidently owns the whole environment.'],
+  ['Security by accumulation', 'Licenses, settings, alerts, and products exist without a coherent operating model.'],
+  ['Recovery by assumption', 'Backups exist. Whether the right systems can be restored in the right order is less certain.'],
+  ['Organic Microsoft 365', 'Accounts, groups, Teams, permissions, devices, and policies accumulated faster than governance.'],
+  ['Reactive decisions', 'Technology gets attention only when something breaks, renews, expires, or becomes urgent.'],
+  ['Hidden technical debt', 'Old devices, stale accounts, undocumented dependencies, and temporary fixes quietly become infrastructure.'],
+  ['No useful operational picture', 'There are dashboards and alerts, but leadership still cannot answer whether the environment is healthy.'],
+]
+
+const layers = [
+  ['OPERATE', 'Keep the environment usable', 'People, endpoints, accounts, Microsoft 365, networks, cloud services, routine administration, and support.'],
+  ['PROTECT', 'Reduce preventable risk', 'Identity, access, endpoint controls, patching, configuration, backup, recovery, and operational resilience.'],
+  ['OBSERVE', 'Know what is happening', 'Health, alerts, recurring incidents, capacity, lifecycle, trends, and signals that deserve human attention.'],
+  ['IMPROVE', 'Make tomorrow quieter', 'Remove recurring friction, reduce manual effort, fix systemic causes, document reality, and prioritize change.'],
+]
+
+const outcomes = [
+  'Recurring issues decrease instead of becoming accepted background noise.',
+  'People know where to go when something fails.',
+  'Ownership and escalation paths are clear.',
+  'Access reflects who should have it now—not organizational history.',
+  'Important systems are documented well enough to operate and recover.',
+  'Recovery is tested, not merely licensed.',
+  'Security controls are intentional and explainable.',
+  'Leadership can understand technology health without reading a monitoring console.',
+]
+
+const engagements = [
+  ['Operational Health Review', 'Understand the environment before assuming the answer is outsourcing.'],
+  ['RUN Relationship', 'Ongoing operational ownership, support, observation, protection, and continuous improvement.'],
+  ['Focused Stabilization', 'Address a bounded concern such as Microsoft 365, recovery, identity, endpoints, security, or infrastructure.'],
+  ['Talk Through the Problem', 'Start with the situation when it does not fit neatly into a package yet.'],
+]
+---
+
+<BaseLayout
+  title="RUN | Operational Technology | Skratsch Solutions"
+  description="RUN gives small and midsized organizations operational ownership across support, Microsoft 365, security, backup, recovery, cloud, networks, and continuous improvement."
+>
+  <CapabilityHero
+    anchor="signals"
+    eyebrow="RUN / Operational Technology"
+    headline="Your technology should be quietly working."
+    lede="When support requests pile up, security is uncertain, backups are assumed to work, Microsoft 365 has grown organically, and nobody quite owns the whole system, technology starts consuming attention it shouldn't."
+    statement="RUN is how we make the operational layer boring again."
+  />
+
+  <section id="signals" class="shell run-section">
+    <div class="run-section-heading">
+      <div class="section-kicker">01 / RECOGNIZE THE SIGNALS</div>
+      <h2>Technology rarely announces that the operating model is the problem.</h2>
+      <p>It usually shows up as small, recurring signals.</p>
+    </div>
+    <div class="signal-grid">
+      {signals.map(([title, body], index) => (
+        <article class="signal-card">
+          <div><span class="signal-mark"></span><span>SIGNAL {String(index + 1).padStart(2, '0')}</span></div>
+          <h3>{title}</h3>
+          <p>{body}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="run-band">
+    <div class="shell run-section">
+      <div class="run-section-heading">
+        <div class="section-kicker">02 / REFRAME THE WORK</div>
+        <h2>Support is part of RUN. Operational ownership is the product.</h2>
+        <p>Tickets are events emitted by a larger system. Resolving tickets without improving the system creates an endless queue.</p>
+      </div>
+      <div class="operating-layers">
+        {layers.map(([label, title, body], index) => (
+          <article class="operating-layer">
+            <span>{String(index + 1).padStart(2, '0')} / {label}</span>
+            <h3>{title}</h3>
+            <p>{body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="shell run-section">
+    <div class="run-section-heading">
+      <div class="section-kicker">03 / SEE THE ENVIRONMENT</div>
+      <h2>One environment. Not ten unrelated services.</h2>
+      <p>RUN follows dependencies and operational state across the systems people rely on.</p>
+    </div>
+    <SystemDiagram
+      nodes={['People', 'Devices', 'Identity', 'Microsoft 365', 'Cloud & Apps', 'Network', 'Security', 'Backup & Recovery', 'Monitoring', 'Human Operations']}
+      description="People depend on devices and identity; those connect productivity, cloud, applications, and networks. Security, recovery, monitoring, and human operations protect and operate the complete environment."
+    />
+  </section>
+
+  <section class="run-paper-band">
+    <div class="shell run-section">
+      <div class="run-section-heading">
+        <div class="section-kicker">04 / DEFINE HEALTH</div>
+        <h2>Healthy operations are visible in the absence of drama.</h2>
+      </div>
+      <div class="outcome-grid">
+        {outcomes.map((outcome, index) => (
+          <div class="outcome-panel"><span>{String(index + 1).padStart(2, '0')}</span><p>{outcome}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="shell run-section">
+    <div class="run-section-heading">
+      <div class="section-kicker">05 / FOLLOW THE SIGNAL</div>
+      <h2>Operations create signals. Good partners know what to do with them.</h2>
+    </div>
+    <SystemDiagram
+      nodes={['RUN', 'IMPROVE', 'BUILD', 'UNDERSTAND', 'RUN']}
+      description="RUN reveals friction. IMPROVE diagnoses change. BUILD creates or integrates capability. UNDERSTAND makes resulting data useful. What is learned returns to operations."
+    />
+  </section>
+
+  <section class="run-band">
+    <div class="shell run-section">
+      <div class="run-section-heading">
+        <div class="section-kicker">06 / CHOOSE A STARTING POINT</div>
+        <h2>You don't need to know which service to buy.</h2>
+      </div>
+      <div class="engagement-grid">
+        {engagements.map(([title, body]) => (
+          <article class="engagement-card"><h3>{title}</h3><p>{body}</p><a href="/contact/">Start a conversation →</a></article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ConversationCTA
+    headline="Not sure what needs fixing? Good."
+    copy="Tell us what's frustrating you, what's worrying you, what keeps recurring, or what you wish worked better. You don't need to diagnose the technology before talking to us."
+  />
+</BaseLayout>

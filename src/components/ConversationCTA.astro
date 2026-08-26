@@ -1,0 +1,19 @@
+---
+interface Props {
+  headline: string
+  copy: string
+}
+
+const { headline, copy } = Astro.props
+---
+
+<section class="shell conversation-cta">
+  <div>
+    <div class="section-kicker">START WITH REALITY</div>
+    <h2>{headline}</h2>
+  </div>
+  <div>
+    <p>{copy}</p>
+    <a class="button-primary" href="/contact/">Start with the problem →</a>
+  </div>
+</section>
