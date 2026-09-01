@@ -1,0 +1,218 @@
+---
+import '../styles/global.css'
+import { primaryNavigationItems } from '../lib/site-constants'
+import { siteMetadata, socialLinks } from '../lib/site-metadata'
+
+interface Props {
+  description?: string
+  image?: string
+  title: string
+}
+
+const {
+  description = siteMetadata.defaultDescription,
+  image,
+  title,
+} = Astro.props
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
+const socialImageUrl = image ? new URL(image, Astro.site) : null
+const organizationStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteMetadata.name,
+  sameAs: socialLinks
+    .filter((socialLink) => socialLink.href.startsWith('https://'))
+    .map((socialLink) => socialLink.href),
+  url: siteMetadata.url,
+}
+
+const themeScript = `
+(() => {
+  const themeStorageKey = 'skratsch-theme'
+  const darkThemeColor = '#0B1110'
+  const lightThemeColor = '#F7F1E6'
+  const requestedTheme = new URLSearchParams(window.location.search).get('theme')
+  const storedTheme = (() => {
+    try {
+      return localStorage.getItem(themeStorageKey)
+    } catch {
+      return null
+    }
+  })()
+  const prefersLightTheme = window.matchMedia('(prefers-color-scheme: light)').matches
+  const activeTheme = requestedTheme === 'light' || requestedTheme === 'dark'
+    ? requestedTheme
+    : storedTheme === 'light' || storedTheme === 'dark'
+    ? storedTheme
+    : prefersLightTheme
+      ? 'light'
+      : 'dark'
+
+  document.documentElement.dataset.theme = activeTheme
+  document.documentElement.style.colorScheme = activeTheme
+
+  const themeColorMeta = document.querySelector('meta[name="theme-color"]')
+  themeColorMeta?.setAttribute('content', activeTheme === 'light' ? lightThemeColor : darkThemeColor)
+})()
+`
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#0B1110" />
+    <script is:inline set:html={themeScript} />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/images/brand/skratsch-app-icon.svg" />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:description" content={description} />
+    {socialImageUrl && <meta property="og:image" content={socialImageUrl} />}
+    <meta name="twitter:card" content={socialImageUrl ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:site" content={siteMetadata.twitterSite} />
+    <meta name="twitter:creator" content={siteMetadata.twitterCreator} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="shell site-header">
+      <a href="/" class="site-brand" aria-label="Skratsch Solutions home">
+        <img
+          class="site-brand-mark theme-logo theme-logo-dark"
+          src="/images/brand/skratsch-mark-inverse.svg"
+          alt=""
+          width="260"
+          height="160"
+        />
+        <img
+          class="site-brand-mark theme-logo theme-logo-light"
+          src="/images/brand/skratsch-mark.svg"
+          alt=""
+          width="260"
+          height="160"
+        />
+        <img
+          class="site-brand-wordmark theme-logo theme-logo-dark"
+          src="/images/brand/skratsch-header-wordmark-inverse.svg"
+          alt=""
+          width="1085"
+          height="115"
+        />
+        <img
+          class="site-brand-wordmark theme-logo theme-logo-light"
+          src="/images/brand/skratsch-header-wordmark.svg"
+          alt=""
+          width="1085"
+          height="115"
+        />
+      </a>
+      <div class="site-actions">
+        <nav class="site-nav" aria-label="Primary">
+          {primaryNavigationItems.map((navigationItem) => (
+            <a href={navigationItem.href}>{navigationItem.label}</a>
+          ))}
+        </nav>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to light mode"
+          aria-pressed="false"
+          data-theme-toggle
+          title="Switch to light mode"
+        >
+          <span class="theme-toggle-icon theme-toggle-sun" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M12 4V2M12 22v-2M4 12H2M22 12h-2M5.64 5.64 4.22 4.22M19.78 19.78l-1.42-1.42M18.36 5.64l1.42-1.42M4.22 19.78l1.42-1.42" />
+              <circle cx="12" cy="12" r="4" />
+            </svg>
+          </span>
+          <span class="theme-toggle-icon theme-toggle-moon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M20.5 14.2A7.8 7.8 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z" />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </header>
+    <main><slot /></main>
+    <footer class="shell site-footer">
+      <div class="site-footer-mark">
+        <img
+          class="theme-logo theme-logo-dark"
+          src="/images/brand/skratsch-logo-horizontal-inverse.svg"
+          alt="Skratsch Solutions"
+          loading="lazy"
+          decoding="async"
+          width="880"
+          height="180"
+        />
+        <img
+          class="theme-logo theme-logo-light"
+          src="/images/brand/skratsch-logo-horizontal.svg"
+          alt="Skratsch Solutions"
+          loading="lazy"
+          decoding="async"
+          width="880"
+          height="180"
+        />
+        <span>{siteMetadata.copyrightText}</span>
+      </div>
+      <nav class="social-links" aria-label="Social links">
+        {socialLinks.map((socialLink) => (
+          <a href={socialLink.href} aria-label={socialLink.label}>
+            <img src={socialLink.icon} alt="" loading="lazy" decoding="async" width="20" height="20" />
+          </a>
+        ))}
+      </nav>
+    </footer>
+    <script is:inline>
+      const themeStorageKey = 'skratsch-theme'
+      const darkThemeColor = '#0B1110'
+      const lightThemeColor = '#F7F1E6'
+      const themeToggle = document.querySelector('[data-theme-toggle]')
+      const themeColorMeta = document.querySelector('meta[name="theme-color"]')
+      const requestedTheme = new URLSearchParams(window.location.search).get('theme')
+      const getStoredTheme = () => {
+        try {
+          return localStorage.getItem(themeStorageKey)
+        } catch {
+          return null
+        }
+      }
+
+      const storeTheme = (themeName) => {
+        try {
+          localStorage.setItem(themeStorageKey, themeName)
+        } catch {
+          return
+        }
+      }
+
+      const setTheme = (themeName) => {
+        const isLightTheme = themeName === 'light'
+
+        document.documentElement.dataset.theme = themeName
+        document.documentElement.style.colorScheme = themeName
+        themeToggle?.setAttribute('aria-pressed', String(isLightTheme))
+        themeToggle?.setAttribute('aria-label', isLightTheme ? 'Switch to dark mode' : 'Switch to light mode')
+        themeToggle?.setAttribute('title', isLightTheme ? 'Switch to dark mode' : 'Switch to light mode')
+        themeColorMeta?.setAttribute('content', isLightTheme ? lightThemeColor : darkThemeColor)
+      }
+
+      const storedTheme = getStoredTheme()
+      const startingTheme = document.documentElement.dataset.theme
+        || (requestedTheme === 'light' || requestedTheme === 'dark' ? requestedTheme : null)
+        || (storedTheme === 'light' ? 'light' : 'dark')
+      setTheme(startingTheme)
+
+      themeToggle?.addEventListener('click', () => {
+        const nextTheme = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light'
+        storeTheme(nextTheme)
+        setTheme(nextTheme)
+      })
+    </script>
+  </body>
+</html>

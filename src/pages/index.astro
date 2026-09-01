@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { capabilityGroups } from '../lib/site-constants'
+---
+<BaseLayout title="Skratsch Solutions | Technology that works for your business">
+  <section class="shell hero-panel">
+    <div class="hero-copy">
+      <div class="status-label">
+        <span class="status-dot"></span><span>SYSTEMS · SOFTWARE · DATA · AI</span>
+      </div>
+      <h1 class="hero-title">
+        Technology should help run your business — not become another business you have to run.
+      </h1>
+      <p class="hero-lede">
+        Skratsch Solutions helps small and midsized organizations manage, modernize, and build the technology their businesses depend on.
+      </p>
+      <div class="button-row">
+        <a href="/contact/" class="button-primary">Talk to a Technology Advisor</a>
+        <a href="#capabilities" class="button-secondary">Explore what we do</a>
+      </div>
+      <div class="hero-brand-strip" aria-label="Skratsch Solutions operating model">
+        <img src="/images/brand/skratsch-mark.svg" alt="" width="260" height="160" />
+        <span>Managed IT.</span>
+        <span>Software.</span>
+        <span>Data.</span>
+        <span>Clearer path.</span>
+      </div>
+    </div>
+    <figure class="hero-visual">
+      <img
+        src="/images/hero/technology-advisor-hero.webp"
+        alt=""
+        fetchpriority="high"
+        decoding="async"
+        width="1030"
+        height="687"
+      />
+      <figcaption>
+        <span>Focus</span>
+        <strong>Systems, software, data, and support working from the same plan.</strong>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section id="capabilities" class="shell capability-grid">
+    {capabilityGroups.map((capabilityGroup) => (
+      <article id={capabilityGroup.id} class="capability-card">
+        <a href={capabilityGroup.href}>
+          <div class="capability-meta">
+            <span class="capability-kicker">{capabilityGroup.kicker}</span>
+            <span class="capability-metric">{capabilityGroup.metric}</span>
+          </div>
+          <h2 class="capability-title">{capabilityGroup.title}</h2>
+          <p class="capability-body">{capabilityGroup.body}</p>
+        </a>
+      </article>
+    ))}
+  </section>
+
+  <section id="insights" class="shell insights-panel">
+    <div class="insights-grid">
+      <div>
+        <div class="section-kicker">BUILDING WITH SKRATSCH</div>
+        <h2 class="section-title">Technical depth is part of the service.</h2>
+      </div>
+      <p class="section-copy">
+        Engineering notes, architecture guidance, experiments, and practical lessons from building and operating modern technology.
+        The existing Skratsch technical archive will migrate here without sacrificing its public URLs.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
