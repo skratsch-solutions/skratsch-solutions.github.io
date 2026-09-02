@@ -1,0 +1,26 @@
+name: Review packet readiness
+
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, labeled, unlabeled, ready_for_review]
+  issue_comment:
+    types: [created, edited, deleted]
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+jobs:
+  review-packet:
+    if: github.event_name != 'issue_comment' || github.event.issue.pull_request != null
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify SHA-bound solo-maintainer review packet
+        uses: skratsch-solutions/.github/actions/solo-review@6db8120e97ec31b5e98002e5ef4319aa4c104d56
+        with:
+          github-token: ${{ github.token }}
+          maintainer-user-ids: '[98485953]'
+          evidence-hosts: '["app.notion.com"]'
+          max-api-pages: '20'
