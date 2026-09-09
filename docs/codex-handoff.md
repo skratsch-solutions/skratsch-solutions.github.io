@@ -3,13 +3,13 @@
 ## Current state
 
 - Production branch: `main`
-- Current feature branch: `codex/improve-capability-exemplar`
-- Baseline commit: `785c8dc608114bb8766d966c394fc84edb15ad18`
+- Current feature branch: `codex/align-capability-indicators`
+- Baseline commit: `3a24962b435c04bb7c277cb8fdb0b604f86c0b95`
 - Runtime: Node 22
 - Verification command: `npm run verify`
 - Production host: GitHub Pages at `https://skratsch.com`
 
-The Astro migration, refreshed brand system, light/dark themes, canonical `/run/` experience, four-pillar navigation, capability icons, and Astro-native design-system reference are merged into `main`. The current feature branch rebuilds `/consulting/` as the IMPROVE capability exemplar without removing any legacy consulting routes.
+The Astro migration, refreshed brand system, light/dark themes, canonical RUN and IMPROVE experiences, four-pillar navigation, capability icons, and Astro-native design-system reference are merged into `main`. The current feature branch aligns the remaining legacy capability-page indicators with the amber-dot status-label contract.
 
 ## Accepted direction
 
@@ -24,10 +24,10 @@ The matching Notion decision records and project pages were updated before imple
 
 ## Current feature branch
 
-- Replaces the legacy consulting card index at `/consulting/` with an outcome-led IMPROVE narrative patterned after RUN.
-- Generalizes `CapabilityHero` so each pillar can provide its own decision/status model while RUN retains its existing defaults.
-- Preserves all existing `/consulting/*` detail routes for later explicit KEEP, REWRITE, MERGE, or REDIRECT decisions.
-- Makes no new customer, metric, testimonial, or delivery-capability claims.
+- Replaces the plain text kicker on legacy capability indexes with the shared amber-dot status label.
+- Brings BUILD and UNDERSTAND into visual alignment with RUN and IMPROVE through the same display scale, line height, measure, and first-viewport spacing while allowing their internal structures to remain distinct.
+- Also keeps the legacy `/it-services/` index aligned because it shares the same service-group component.
+- Changes no routes, service copy, claims, or assets.
 
 ## Validation
 
