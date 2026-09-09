@@ -2,7 +2,7 @@
 
 ## Current state
 
-The Astro migration, refreshed visual design, brand system, and light/dark theme support are merged into `main`.
+The Astro migration, refreshed visual design, brand system, light/dark themes, and canonical RUN experience are merged into `main`.
 
 - Production branch: `main`
 - Runtime: Node 22
@@ -10,6 +10,9 @@ The Astro migration, refreshed visual design, brand system, and light/dark theme
 - Canonical URL: `https://skratsch.com`
 - Hosting: GitHub Pages
 - Verification: `npm run verify`
+- Public capability model: RUN · IMPROVE · BUILD · UNDERSTAND
+- Managed-operations canonical route: `/run/`
+- Design-system reference: `/design-system/`
 
 The original Jekyll content remains in the repository as migration source material. Do not discard it unless a separate cleanup is explicitly approved.
 
@@ -28,23 +31,37 @@ Do not force-push or reset shared branches. Do not modify GitHub Pages deploymen
 - Preserve existing public URLs or add deliberate permanent redirects.
 - Keep `https://skratsch.com` canonical.
 - Keep brand assets in `images/brand/`.
+- Keep capability icons in `public/images/icons/capabilities/`.
 - Update `docs/brand-book.md` when changing brand tokens or lockups.
-- Keep the theme preference and `?theme=light` / `?theme=dark` preview overrides working.
-- Treat legacy Jekyll content as recoverable source material during the migration.
+- Use `docs/service-taxonomy.md` for content classification and `docs/imagery-matrix.md` for visual selection.
+- Keep theme preference and `?theme=light` / `?theme=dark` preview overrides working.
+- Treat legacy Jekyll content as recoverable source material during migration.
+
+## Design-system approach
+
+Use the Astro-native `/design-system/` reference while Skratsch.com is a single, mostly static application. It renders the production CSS, components, fonts, assets, responsive behavior, and deployment path directly.
+
+Reconsider Storybook when:
+
+- UI components are shared across more than one application.
+- State matrices or interaction tests become difficult to review on the reference page.
+- Automated visual-regression coverage needs a dedicated component harness.
+- The component catalog requires independent release or ownership.
 
 ## Verification
 
-Use Node 22 on Windows, WSL, macOS, or Linux:
+Use Node 22:
 
 ```sh
 npm ci
 npm run verify
 ```
 
-`npm run verify` performs Astro diagnostics, builds the static site, and audits the generated output for all preserved legacy URLs. The expected route-parity result is 50 emitted URLs.
+`npm run verify` performs Astro diagnostics, builds the static site, audits generated output for preserved public URLs, and checks static assets.
 
-Existing informational TypeScript hints in `tailwind.config.js` and `assets/js/scripts.js` are legacy cleanup items and do not currently fail verification.
+## Content and evidence guardrails
 
-## Known follow-up
-
-Manually confirm the theme toggle at small-screen widths in a real browser. Previous Windows Edge headless captures were inconsistent even though the DOM and desktop behavior were correct.
+- Lead with client outcomes, then service detail.
+- Keep RUN canonical for managed operations.
+- Do not invent proof, customers, metrics, testimonials, or screenshots.
+- Keep “Managed IT. Clearer path.” until a later messaging review explicitly replaces it.

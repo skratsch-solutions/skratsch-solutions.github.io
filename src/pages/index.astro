@@ -46,9 +46,21 @@ import { capabilityGroups } from '../lib/site-constants'
     {capabilityGroups.map((capabilityGroup) => (
       <article id={capabilityGroup.id} class="capability-card">
         <a href={capabilityGroup.href}>
-          <div class="capability-meta">
-            <span class="capability-kicker">{capabilityGroup.kicker}</span>
-            <span class="capability-metric">{capabilityGroup.metric}</span>
+          <div class="capability-heading">
+            <img
+              class="capability-icon"
+              src={capabilityGroup.icon}
+              alt=""
+              aria-hidden="true"
+              width="48"
+              height="48"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="capability-meta">
+              <span class="capability-kicker">{capabilityGroup.kicker}</span>
+              <span class="capability-metric">{capabilityGroup.metric}</span>
+            </div>
           </div>
           <h2 class="capability-title">{capabilityGroup.title}</h2>
           <p class="capability-body">{capabilityGroup.body}</p>
@@ -70,3 +82,17 @@ import { capabilityGroups } from '../lib/site-constants'
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .capability-heading {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .capability-icon {
+    inline-size: 3rem;
+    block-size: 3rem;
+  }
+</style>

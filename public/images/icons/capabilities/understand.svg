@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">UNDERSTAND capability</title>
+  <desc id="desc">Data signals converging into one clear amber insight.</desc>
+  <g fill="none" stroke="#5D8791" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 12h8l8 12M8 24h16M8 36h8l8-12"/>
+    <circle cx="8" cy="12" r="2.5"/>
+    <circle cx="8" cy="24" r="2.5"/>
+    <circle cx="8" cy="36" r="2.5"/>
+    <path d="M27 24h13M35 19l5 5-5 5"/>
+  </g>
+  <circle cx="24" cy="24" r="3.2" fill="#E4A735"/>
+</svg>
