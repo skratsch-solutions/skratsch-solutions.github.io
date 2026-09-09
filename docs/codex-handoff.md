@@ -1,84 +1,51 @@
 # Codex Handoff
 
-This repo has been migrated from the original Jekyll site to an Astro static site, then extended with the new Skratsch brand system.
+## Current state
 
-## Current State
-
-- Active work branch: `codex/run-capability-exemplar`
-- Latest merged state: `137c012` (`Merge Skratsch brand system`)
+- Production branch: `main`
+- Current feature branch: `codex/canonical-capabilities-design-system`
+- Baseline commit: `7ebb3e38fd9573bca199c414edecbd8f6ae9d4f9`
 - Runtime: Node 22
 - Verification command: `npm run verify`
-- Production host remains GitHub Pages for `https://skratsch.com`
+- Production host: GitHub Pages at `https://skratsch.com`
 
-The `codex/apply-brand-system` branch has been merged into `main`. A Codex agent continuing on another computer should fetch the repository, fast-forward `main`, and create a new feature branch for additional changes.
+The Astro migration, refreshed brand system, light/dark themes, and canonical `/run/` experience are merged into `main`. The current feature branch implements the accepted 2026-09-09 decisions without removing legacy routes.
 
-The current feature branch adds an additive `/run/` capability experience while retaining `/it-services/` and all legacy routes. It introduces reusable capability hero, system-diagram, and conversation-CTA components plus diagnostic signals, operating layers, outcomes, the four-capability loop, and engagement paths. Verification currently builds 51 pages and audits 50 preserved legacy URLs successfully.
+## Accepted direction
 
-## Recent Work
+- Primary navigation: RUN · IMPROVE · BUILD · UNDERSTAND.
+- `/run/` is canonical for the managed-operations experience.
+- Use an Astro-native design-system reference for this site.
+- Revisit Storybook when components are shared across applications or state, interaction, and visual-regression testing need a dedicated harness.
+- Use a controlled hybrid imagery system.
+- Keep “Managed IT. Clearer path.” as provisional messaging.
 
-The latest branch work includes:
+The matching Notion decision records and project pages were updated before implementation.
 
-- Astro site shell and route parity for preserved legacy URLs.
-- Brand system assets under `images/brand/`.
-- Brand book at `docs/brand-book.md`.
-- Header mark plus `SKRATSCH` wordmark treatment.
-- Footer full lockup treatment.
-- Warm dark palette and light palette.
-- Theme toggle with persisted `localStorage` preference.
-- `?theme=light` and `?theme=dark` preview overrides.
+## This branch
 
-Recent commits before this handoff:
+- Aligns primary navigation labels with the four-capability model while retaining current destination URLs.
+- Adds `/design-system/`, a production-native reference for tokens, type, actions, states, capability language, evidence surfaces, imagery, and Storybook adoption triggers.
+- Adds four custom routed SVG capability icons and applies them to homepage capability cards.
+- Adds `docs/service-taxonomy.md` and `docs/imagery-matrix.md`.
+- Leaves the existing homepage hero and legacy routes intact.
 
-- `e95981c feat(ui): apply brand system to site shell`
-- `2381cf8 refactor(ui): simplify header brand lockup`
-- `92d3432 refactor(ui): strengthen header wordmark`
-- `6820031 refactor(ui): warm brand color system`
-- `dbde14a feat(ui): add light theme switcher`
+## Validation
 
-## Local Setup
-
-Use Node 22. Windows PowerShell, WSL, macOS, and Linux are supported.
+Run:
 
 ```sh
-git fetch --all --prune
-git switch main
-git pull
 npm ci
 npm run verify
 ```
 
-For new work:
-
-```sh
-git switch -c codex/<feature-name>
-```
-
-## Validation Notes
-
-`npm run verify` runs:
-
-- `astro check`
-- `astro build`
-- `node scripts/audit-route-parity.mjs`
-
-Expected current result:
-
-- Build succeeds.
-- Route parity audit passes with 50 preserved legacy URLs emitted.
-- Existing TypeScript hints remain in `tailwind.config.js` and `assets/js/scripts.js`; these are legacy hints, not introduced by the brand/theme work.
-
-## Known Follow-Ups
-
-- Review `/run/` content and decide whether it should become canonical before merging; `/it-services/` remains intact in the current additive implementation.
-- Add a real, publishable proof artifact to RUN when one is approved. Do not fabricate customer claims, metrics, testimonials, or evidence.
-- The light theme and small-screen toggle are now validated in the in-app browser at 390px width.
-- The `modern-web-guidance` skill remains flaky in this environment. Prefer `web-design-guidelines` for UI/accessibility review unless the old tool has been fixed.
-- Git commit signing may fail on machines without the 1Password signing helper configured. If that happens, either configure signing or commit with `--no-gpg-sign`.
-- GitHub reports existing Dependabot vulnerabilities on the default branch during pushes. These are not from the brand/theme pass.
+`npm run verify` performs Astro diagnostics, builds the static site, audits preserved routes, and checks static assets. Also review `/design-system/` and the homepage in both themes and at mobile and desktop widths.
 
 ## Guardrails
 
 - Do not force-push or reset shared branches.
-- Do not modify deployment settings unless Steve explicitly asks.
-- Keep existing public URL behavior intact; use `npm run verify` after route or content changes.
-- Keep brand assets in `images/brand/` and update `docs/brand-book.md` when changing tokens or lockups.
+- Do not modify GitHub Pages deployment settings unless Steve explicitly asks.
+- Do not merge this branch without review and explicit authority.
+- Preserve public URLs until rewrite and redirect decisions are reviewed together.
+- Do not fabricate customer claims, metrics, testimonials, screenshots, or evidence.
+- Update Notion and repository documentation together when accepted direction changes.

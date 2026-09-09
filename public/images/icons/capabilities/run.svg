@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">RUN capability</title>
+  <desc id="desc">A routed operating loop around a focused amber status point.</desc>
+  <g fill="none" stroke="#5D8791" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 12a16 16 0 1 1-4.5 11"/>
+    <path d="M8 15h9V6"/>
+    <path d="M24 15v7l5 3"/>
+    <circle cx="24" cy="24" r="10"/>
+  </g>
+  <circle cx="24" cy="24" r="3.2" fill="#E4A735"/>
+</svg>

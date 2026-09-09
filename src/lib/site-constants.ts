@@ -2,6 +2,7 @@ export const capabilityGroups = [
   {
     id: 'managed-it',
     href: '/run/',
+    icon: '/images/icons/capabilities/run.svg',
     kicker: 'RUN',
     metric: '24/7-minded',
     title: 'Managed IT',
@@ -10,6 +11,7 @@ export const capabilityGroups = [
   {
     id: 'consulting',
     href: '/consulting/',
+    icon: '/images/icons/capabilities/improve.svg',
     kicker: 'IMPROVE',
     metric: '5-100 staff',
     title: 'Technology Consulting',
@@ -18,6 +20,7 @@ export const capabilityGroups = [
   {
     id: 'software',
     href: '/software-development/',
+    icon: '/images/icons/capabilities/build.svg',
     kicker: 'BUILD',
     metric: 'Custom fit',
     title: 'Software & Automation',
@@ -26,6 +29,7 @@ export const capabilityGroups = [
   {
     id: 'data-ai',
     href: '/data-services/',
+    icon: '/images/icons/capabilities/understand.svg',
     kicker: 'UNDERSTAND',
     metric: 'Clean signal',
     title: 'Data & AI',
@@ -35,8 +39,8 @@ export const capabilityGroups = [
 
 export const primaryNavigationItems = [
   { href: '/run/', label: 'RUN' },
-  { href: '/consulting/', label: 'Consulting' },
-  { href: '/software-development/', label: 'Software' },
-  { href: '/data-services/', label: 'Data' },
+  { href: '/consulting/', label: 'IMPROVE' },
+  { href: '/software-development/', label: 'BUILD' },
+  { href: '/data-services/', label: 'UNDERSTAND' },
   { href: '/contact/', label: 'Contact' },
 ] as const
