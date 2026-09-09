@@ -611,9 +611,16 @@
     padding-block: 5rem 3rem;
   }
 
+  .service-hero .section-title {
+    max-inline-size: 11ch;
+    margin-block: 0;
+    font-size: clamp(3rem, 2.25rem + 3vw, 5.25rem);
+    line-height: 1;
+  }
+
   .service-hero-copy {
-    max-inline-size: 48rem;
-    margin-block: 1.5rem 0;
+    max-inline-size: 43rem;
+    margin-block: 2rem 0;
     color: var(--color-muted);
     font-size: 1.125rem;
     line-height: 1.65;
@@ -1248,6 +1255,10 @@
   .run-hero {
     grid-template-columns: minmax(0, 1.1fr) minmax(24rem, .75fr);
     padding-block: 7rem;
+  }
+
+  .service-hero {
+    padding-block: 7rem 4rem;
   }
 
   .status-topology,

@@ -25,7 +25,7 @@ The matching Notion decision records and project pages were updated before imple
 ## Current feature branch
 
 - Replaces the plain text kicker on legacy capability indexes with the shared amber-dot status label.
-- Brings BUILD and UNDERSTAND into visual alignment with RUN and IMPROVE before their full narrative rebuilds.
+- Brings BUILD and UNDERSTAND into visual alignment with RUN and IMPROVE through the same display scale, line height, measure, and first-viewport spacing while allowing their internal structures to remain distinct.
 - Also keeps the legacy `/it-services/` index aligned because it shares the same service-group component.
 - Changes no routes, service copy, claims, or assets.
 
