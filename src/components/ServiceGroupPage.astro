@@ -13,7 +13,10 @@ const { serviceEntries, serviceGroup } = Astro.props
 ---
 
 <section class="shell service-hero">
-  <div class="section-kicker">{serviceGroup.kicker}</div>
+  <div class="status-label">
+    <span class="status-dot" aria-hidden="true"></span>
+    <span>{serviceGroup.kicker}</span>
+  </div>
   <h1 class="section-title">{serviceGroup.heading}</h1>
   <p class="service-hero-copy">{serviceGroup.description}</p>
 </section>
