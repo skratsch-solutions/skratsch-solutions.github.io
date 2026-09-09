@@ -1,13 +1,31 @@
 ---
 interface Props {
   anchor: string
+  activeNodeIndex?: number
   eyebrow: string
   headline: string
   lede: string
+  panelDescription?: string
+  panelLabel?: string
+  panelNodes?: string[]
+  panelState?: string
+  primaryLabel?: string
   statement: string
 }
 
-const { anchor, eyebrow, headline, lede, statement } = Astro.props
+const {
+  anchor,
+  activeNodeIndex = 7,
+  eyebrow,
+  headline,
+  lede,
+  panelDescription = 'Technology environment status: identity, endpoints, Microsoft 365, network, cloud, security, backup, monitoring, and support are connected and operating normally.',
+  panelLabel = 'ENVIRONMENT / LIVE',
+  panelNodes = ['Identity', 'Endpoints', 'Microsoft 365', 'Network', 'Cloud & Apps', 'Security', 'Backup', 'Monitoring', 'Support'],
+  panelState = 'Quiet operation',
+  primaryLabel = 'Show me what RUN covers ↓',
+  statement,
+} = Astro.props
 ---
 
 <section class="shell run-hero">
@@ -17,18 +35,18 @@ const { anchor, eyebrow, headline, lede, statement } = Astro.props
     <p class="run-hero-lede">{lede}</p>
     <p class="run-anchor-statement">{statement}</p>
     <div class="button-row">
-      <a class="button-primary" href={`#${anchor}`}>Show me what RUN covers ↓</a>
+      <a class="button-primary" href={`#${anchor}`}>{primaryLabel}</a>
       <a class="button-secondary" href="/contact/">Start with the problem →</a>
     </div>
   </div>
-  <div class="system-status-panel" aria-label="Technology environment status: identity, endpoints, Microsoft 365, network, cloud, security, backup, monitoring, and support are connected and operating normally.">
+  <div class="system-status-panel" aria-label={panelDescription}>
     <div class="status-panel-heading">
-      <span>ENVIRONMENT / LIVE</span>
-      <strong><span class="system-state-dot"></span>Quiet operation</strong>
+      <span>{panelLabel}</span>
+      <strong><span class="system-state-dot"></span>{panelState}</strong>
     </div>
     <div class="status-topology" aria-hidden="true">
-      {['Identity', 'Endpoints', 'Microsoft 365', 'Network', 'Cloud & Apps', 'Security', 'Backup', 'Monitoring', 'Support'].map((node, index) => (
-        <div class:list={['topology-node', { 'topology-node-active': index === 7 }]}>
+      {panelNodes.map((node, index) => (
+        <div class:list={['topology-node', { 'topology-node-active': index === activeNodeIndex }]}>
           <span>{String(index + 1).padStart(2, '0')}</span>
           <strong>{node}</strong>
         </div>
