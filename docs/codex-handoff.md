@@ -3,13 +3,13 @@
 ## Current state
 
 - Production branch: `main`
-- Current feature branch: `codex/canonical-capabilities-design-system`
-- Baseline commit: `7ebb3e38fd9573bca199c414edecbd8f6ae9d4f9`
+- Current feature branch: `codex/improve-capability-exemplar`
+- Baseline commit: `785c8dc608114bb8766d966c394fc84edb15ad18`
 - Runtime: Node 22
 - Verification command: `npm run verify`
 - Production host: GitHub Pages at `https://skratsch.com`
 
-The Astro migration, refreshed brand system, light/dark themes, and canonical `/run/` experience are merged into `main`. The current feature branch implements the accepted 2026-09-09 decisions without removing legacy routes.
+The Astro migration, refreshed brand system, light/dark themes, canonical `/run/` experience, four-pillar navigation, capability icons, and Astro-native design-system reference are merged into `main`. The current feature branch rebuilds `/consulting/` as the IMPROVE capability exemplar without removing any legacy consulting routes.
 
 ## Accepted direction
 
@@ -22,13 +22,12 @@ The Astro migration, refreshed brand system, light/dark themes, and canonical `/
 
 The matching Notion decision records and project pages were updated before implementation.
 
-## This branch
+## Current feature branch
 
-- Aligns primary navigation labels with the four-capability model while retaining current destination URLs.
-- Adds `/design-system/`, a production-native reference for tokens, type, actions, states, capability language, evidence surfaces, imagery, and Storybook adoption triggers.
-- Adds four custom routed SVG capability icons and applies them to homepage capability cards.
-- Adds `docs/service-taxonomy.md` and `docs/imagery-matrix.md`.
-- Leaves the existing homepage hero and legacy routes intact.
+- Replaces the legacy consulting card index at `/consulting/` with an outcome-led IMPROVE narrative patterned after RUN.
+- Generalizes `CapabilityHero` so each pillar can provide its own decision/status model while RUN retains its existing defaults.
+- Preserves all existing `/consulting/*` detail routes for later explicit KEEP, REWRITE, MERGE, or REDIRECT decisions.
+- Makes no new customer, metric, testimonial, or delivery-capability claims.
 
 ## Validation
 

@@ -1,14 +1,155 @@
 ---
-import { getCollection } from 'astro:content'
-import ServiceGroupPage from '../../components/ServiceGroupPage.astro'
+import CapabilityHero from '../../components/CapabilityHero.astro'
+import ConversationCTA from '../../components/ConversationCTA.astro'
+import SystemDiagram from '../../components/SystemDiagram.astro'
 import BaseLayout from '../../layouts/BaseLayout.astro'
-import { sortByWeightAndTitle } from '../../lib/content-order'
-import { serviceGroups } from '../../lib/service-groups'
 
-const serviceGroup = serviceGroups.consulting
-const serviceEntries = (await getCollection(serviceGroup.collection)).sort(sortByWeightAndTitle)
+const signals = [
+  ['Competing priorities', 'Every department has a reasonable technology request, but there is no shared way to decide what should happen first.'],
+  ['Renewals driving strategy', 'Vendor dates, aging equipment, and expiring contracts force decisions before the business has agreed on direction.'],
+  ['Recurring workarounds', 'People bridge gaps with spreadsheets, duplicate entry, inbox processes, and knowledge that lives with one person.'],
+  ['Growth outrunning the model', 'New people, locations, services, or customers expose decisions that worked at a smaller scale.'],
+  ['Security without context', 'The organization knows risk matters but cannot connect controls, continuity, cost, and practical priorities.'],
+  ['Systems that no longer fit', 'Important software still runs, yet makes change slower and requires more effort than the business can justify.'],
+  ['Decisions without an owner', 'Vendors explain products and internal teams explain needs, but nobody holds the complete decision frame.'],
+  ['A roadmap without sequence', 'The destination sounds right, but dependencies, trade-offs, ownership, and the first safe move remain unclear.'],
+]
+
+const phases = [
+  ['LISTEN', 'Start with the operating reality', 'Understand the goals, friction, constraints, risks, people, and decisions already in motion.'],
+  ['MAP', 'Make the whole system visible', 'Connect business processes, information, platforms, vendors, ownership, cost, and technical dependencies.'],
+  ['PRIORITIZE', 'Turn options into decisions', 'Compare value, risk, effort, timing, reversibility, and the cost of leaving things as they are.'],
+  ['MOVE', 'Create an executable path', 'Define the sequence, owners, checkpoints, evidence, and next decision without pretending the plan cannot change.'],
+]
+
+const outcomes = [
+  'Technology work is tied to a business constraint or outcome.',
+  'Leadership can see the trade-offs behind major decisions.',
+  'The next move is clear enough to assign and begin.',
+  'Dependencies and migration risks appear before commitments are made.',
+  'Vendors are evaluated against an agreed decision frame.',
+  'Security and continuity priorities reflect actual exposure and impact.',
+  'The roadmap distinguishes urgent stabilization from valuable improvement.',
+  'The plan can adapt without losing its purpose or decision history.',
+]
+
+const engagements = [
+  ['Technology Assessment & Roadmap', 'Build a practical view of the current environment, the desired direction, and a sequenced path between them.'],
+  ['Security & Continuity Posture', 'Connect business impact, information risk, recovery expectations, controls, and the decisions that deserve attention.'],
+  ['Architecture & Modernization', 'Evaluate how applications, cloud services, integrations, infrastructure, and operating constraints should evolve together.'],
+  ['Vendor & Platform Selection', 'Create the decision frame, compare viable options, and keep the business requirements in control of the evaluation.'],
+  ['Process & Workflow Improvement', 'Find avoidable friction across people, process, systems, and information before choosing what to automate or rebuild.'],
+  ['Fractional Technology Leadership', 'Provide a continuing decision partner when the organization needs senior technology judgment without a full-time role.'],
+]
 ---
 
-<BaseLayout title={`${serviceGroup.title} | Skratsch Solutions`} description={serviceGroup.description}>
-  <ServiceGroupPage serviceEntries={serviceEntries} serviceGroup={serviceGroup} />
+<BaseLayout
+  title="IMPROVE | Technology Consulting | Skratsch Solutions"
+  description="IMPROVE turns technology friction, risk, and competing priorities into an evidence-led roadmap with clear decisions, owners, and next moves."
+>
+  <CapabilityHero
+    anchor="signals"
+    activeNodeIndex={6}
+    eyebrow="IMPROVE / Technology Consulting"
+    headline="Better technology starts with a better decision frame."
+    lede="When priorities compete, systems stop fitting, renewals force the calendar, and every option comes with a vendor attached, the hardest part is rarely finding more technology. It is deciding what should change, why, and in what order."
+    statement="IMPROVE turns a crowded field of choices into a practical path forward."
+    primaryLabel="Show me how IMPROVE works ↓"
+    panelLabel="DECISION FRAME / ACTIVE"
+    panelState="Path clarified"
+    panelNodes={['Goals', 'Friction', 'People', 'Process', 'Systems', 'Risk', 'Priorities', 'Roadmap', 'Owners']}
+    panelDescription="Decision frame status: business goals, operating friction, people, process, systems, risk, priorities, roadmap, and owners are connected into a practical path forward."
+  />
+
+  <section id="signals" class="shell run-section">
+    <div class="run-section-heading">
+      <div class="section-kicker">01 / RECOGNIZE THE SIGNALS</div>
+      <h2>The need for consulting usually appears before the project has a name.</h2>
+      <p>It shows up as decisions that keep returning without becoming easier.</p>
+    </div>
+    <div class="signal-grid">
+      {signals.map(([title, body], index) => (
+        <article class="signal-card">
+          <div><span class="signal-mark"></span><span>SIGNAL {String(index + 1).padStart(2, '0')}</span></div>
+          <h3>{title}</h3>
+          <p>{body}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="run-band">
+    <div class="shell run-section">
+      <div class="run-section-heading">
+        <div class="section-kicker">02 / FRAME THE DECISION</div>
+        <h2>A recommendation is useful only when the reasoning survives it.</h2>
+        <p>IMPROVE makes goals, constraints, risks, and trade-offs visible enough to support a decision—not just a slide deck.</p>
+      </div>
+      <div class="operating-layers">
+        {phases.map(([label, title, body], index) => (
+          <article class="operating-layer">
+            <span>{String(index + 1).padStart(2, '0')} / {label}</span>
+            <h3>{title}</h3>
+            <p>{body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="shell run-section">
+    <div class="run-section-heading">
+      <div class="section-kicker">03 / SEE THE DECISION SYSTEM</div>
+      <h2>One roadmap. Every constraint that can change it.</h2>
+      <p>Good planning connects the operating reality to the decision instead of evaluating technologies in isolation.</p>
+    </div>
+    <SystemDiagram
+      nodes={['Business Goals', 'People & Process', 'Information', 'Current Systems', 'Risk & Continuity', 'Constraints', 'Options', 'Roadmap', 'Owners & Evidence']}
+      description="Business goals, people, process, information, current systems, risk, and constraints shape the viable options. Those options become a sequenced roadmap with explicit owners and evidence."
+    />
+  </section>
+
+  <section class="run-paper-band">
+    <div class="shell run-section">
+      <div class="run-section-heading">
+        <div class="section-kicker">04 / DEFINE A USEFUL PLAN</div>
+        <h2>A roadmap should reduce uncertainty enough to move.</h2>
+      </div>
+      <div class="outcome-grid">
+        {outcomes.map((outcome, index) => (
+          <div class="outcome-panel"><span>{String(index + 1).padStart(2, '0')}</span><p>{outcome}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="shell run-section">
+    <div class="run-section-heading">
+      <div class="section-kicker">05 / CONNECT THE CAPABILITIES</div>
+      <h2>Planning earns its value in what happens next.</h2>
+    </div>
+    <SystemDiagram
+      nodes={['RUN', 'IMPROVE', 'BUILD', 'UNDERSTAND', 'RUN']}
+      description="RUN reveals operational signals. IMPROVE frames and prioritizes change. BUILD creates or connects capability. UNDERSTAND makes the evidence useful. What is learned improves operations and the next decision."
+    />
+  </section>
+
+  <section class="run-band">
+    <div class="shell run-section">
+      <div class="run-section-heading">
+        <div class="section-kicker">06 / CHOOSE A STARTING POINT</div>
+        <h2>Start with the decision that is difficult to make well.</h2>
+      </div>
+      <div class="engagement-grid">
+        {engagements.map(([title, body]) => (
+          <article class="engagement-card"><h3>{title}</h3><p>{body}</p><a href="/contact/">Start a conversation →</a></article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ConversationCTA
+    headline="You do not need a finished requirements document."
+    copy="Tell us which decision keeps returning, what feels stuck, what changed around it, or what must be true when the work is done. We can start by making the problem and its constraints visible."
+  />
 </BaseLayout>
