@@ -42,5 +42,5 @@ export const primaryNavigationItems = [
   { href: '/consulting/', label: 'IMPROVE' },
   { href: '/software-development/', label: 'BUILD' },
   { href: '/data-services/', label: 'UNDERSTAND' },
-  { href: '/contact/', label: 'Contact' },
+  { href: '/contact/', label: 'CONTACT' },
 ] as const
