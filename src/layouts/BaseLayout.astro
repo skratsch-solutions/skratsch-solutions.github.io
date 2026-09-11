@@ -16,6 +16,10 @@ const {
 } = Astro.props
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
 const socialImageUrl = image ? new URL(image, Astro.site) : null
+const isCurrentNavigationItem = (href: string) =>
+  href === '/'
+    ? Astro.url.pathname === href
+    : Astro.url.pathname === href || Astro.url.pathname.startsWith(href)
 const organizationStructuredData = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -112,7 +116,13 @@ const themeScript = `
       <div class="site-actions">
         <nav class="site-nav" aria-label="Primary">
           {primaryNavigationItems.map((navigationItem) => (
-            <a href={navigationItem.href}>{navigationItem.label}</a>
+            <a
+              class:list={{ 'is-active': isCurrentNavigationItem(navigationItem.href) }}
+              href={navigationItem.href}
+              aria-current={isCurrentNavigationItem(navigationItem.href) ? 'page' : undefined}
+            >
+              {navigationItem.label}
+            </a>
           ))}
         </nav>
         <button
