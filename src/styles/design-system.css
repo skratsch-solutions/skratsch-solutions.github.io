@@ -230,6 +230,12 @@
     color: var(--color-paper);
   }
 
+  .site-nav a.is-active {
+    background: var(--nav-hover-background);
+    color: var(--color-paper);
+    box-shadow: inset 0 -2px var(--color-amber);
+  }
+
   .site-actions {
     display: flex;
     flex: 0 0 auto;
@@ -801,6 +807,69 @@
     font-family: var(--font-display);
     font-size: 1.5rem;
     letter-spacing: 0;
+  }
+
+  .contact-panel-kicker {
+    color: var(--color-amber);
+    font-family: var(--font-display);
+    font-size: .7rem;
+    font-weight: 700;
+  }
+
+  .contact-panel-intro,
+  .contact-panel-note {
+    margin: 0;
+    color: var(--color-muted);
+    line-height: 1.65;
+  }
+
+  .contact-panel-note {
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--border-subtle);
+    font-size: .875rem;
+  }
+
+  .contact-panel-note strong {
+    color: var(--color-paper);
+    font-family: var(--font-display);
+  }
+
+  .contact-page {
+    padding-block-start: 4rem;
+  }
+
+  .contact-page .content-page-header {
+    max-inline-size: 58rem;
+  }
+
+  .contact-page .content-page-header .section-title {
+    max-inline-size: 11ch;
+    font-size: clamp(3rem, 2.25rem + 3vw, 5.25rem);
+    line-height: 1;
+  }
+
+  .contact-page .content-page-layout {
+    gap: 3rem;
+    padding-block: 1rem 3rem;
+  }
+
+  .contact-page .contact-panel {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem;
+    background:
+      linear-gradient(135deg, var(--panel-hover-wash), transparent 48%),
+      var(--surface-panel);
+    box-shadow: var(--shadow-panel);
+  }
+
+  .contact-page .contact-panel::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    inline-size: .25rem;
+    background: var(--color-amber);
   }
 
   .contact-panel dl {

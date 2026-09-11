@@ -10,11 +10,16 @@ interface Props {
 
 const { Content, pageEntry, showContactDetails = false } = Astro.props
 const pageDescription = pageEntry.data.excerpt ?? pageEntry.data.description
+const isContactPage = pageEntry.id === 'contact'
 ---
 
-<article class="shell content-page">
+<article class:list={['shell', 'content-page', { 'contact-page': isContactPage }]}>
   <header class="content-page-header">
-    <div class="section-kicker">SKRATSCH SOLUTIONS</div>
+    {isContactPage ? (
+      <div class="status-label"><span class="status-dot"></span><span>CONTACT / START HERE</span></div>
+    ) : (
+      <div class="section-kicker">SKRATSCH SOLUTIONS</div>
+    )}
     <h1 class="section-title">{pageEntry.data.title}</h1>
     {pageDescription && <p class="service-hero-copy">{pageDescription}</p>}
   </header>
@@ -26,7 +31,11 @@ const pageDescription = pageEntry.data.excerpt ?? pageEntry.data.description
 
     {showContactDetails && (
       <aside class="contact-panel" aria-label="Contact details">
-        <h2>Contact</h2>
+        {isContactPage && <div class="contact-panel-kicker">DIRECT LINE / HUMAN RESPONSE</div>}
+        <h2>{isContactPage ? 'Tell me what is not working.' : 'Contact'}</h2>
+        {isContactPage && (
+          <p class="contact-panel-intro">No polished brief required. Start with the situation, who it affects, and what needs to happen next.</p>
+        )}
         <dl>
           <div>
             <dt>Email</dt>
@@ -37,7 +46,8 @@ const pageDescription = pageEntry.data.excerpt ?? pageEntry.data.description
             <dd><a href="tel:+13132845656">313.284.5656</a></dd>
           </div>
         </dl>
-        <a class="button-primary" href="mailto:info@skratsch.com">Start the conversation</a>
+        <a class="button-primary" href="mailto:info@skratsch.com?subject=Start%20with%20the%20problem">Start the conversation →</a>
+        {isContactPage && <p class="contact-panel-note">For urgent work, put <strong>URGENT</strong> in the subject line and include the business deadline.</p>}
       </aside>
     )}
   </div>
